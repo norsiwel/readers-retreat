@@ -1,25 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norsiwel's Readers Retreat</title>
-    <!-- Importing Merriweather (Serif for body) and Lato (Sans-serif for UI) -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Markdown Parser -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <style>
         :root {
-            /* === THE "AGED PAPYRUS" PALETTE === */
-            --bg-color: #f4ecd8;       /* Warm parchment color */
-            --sidebar-bg: #e8dec2;     /* Slightly darker, like a book spine */
-            --text-color: #2b2b2b;     /* Dried ink color (soft black) */
-            --accent-color: #8c2f39;   /* Wax Seal Red */
-            --accent-hover: #6b242c;   /* Darker red for hover states */
-            --meta-color: #6e6659;     /* Faded text for timestamps */
-            --border-color: #d1c7ad;   /* Subtle borders */
+            --bg-color: #f4ecd8;
+            --sidebar-bg: #e8dec2;
+            --text-color: #2b2b2b;
+            --accent-color: #8c2f39;
+            --accent-hover: #6b242c;
+            --meta-color: #6e6659;
+            --border-color: #d1c7ad;
             --sidebar-width: 340px;
         }
 
@@ -29,20 +25,21 @@
             height: 100vh;
             font-family: 'Lato', sans-serif;
             background-color: var(--bg-color);
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/papyrus.png');
             color: var(--text-color);
             overflow: hidden;
         }
 
-        /* === SIDEBAR === */
         #sidebar {
             width: var(--sidebar-width);
             background: var(--sidebar-bg);
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/papyrus.png');
             border-right: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
             padding: 25px;
             flex-shrink: 0;
-            box-shadow: 2px 0 10px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+            box-shadow: 2px 0 10px rgba(0,0,0,0.05);
             z-index: 2;
         }
 
@@ -57,20 +54,67 @@
         #sidebar-header p {
             font-size: 0.85rem;
             color: var(--meta-color);
-            margin: 0 0 25px 0;
+            margin: 0 0 15px 0;
             font-style: italic;
+        }
+
+        /* Search and Sort Controls */
+        .controls {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #search-box {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.6);
+            color: var(--text-color);
+            box-sizing: border-box;
+        }
+
+        #search-box:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        #sort-select {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-family: 'Lato', sans-serif;
+            font-size: 0.85rem;
+            background: rgba(255, 255, 255, 0.6);
+            color: var(--text-color);
+            cursor: pointer;
+        }
+
+        #sort-select:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .story-count {
+            font-size: 0.75rem;
+            color: var(--meta-color);
+            text-align: center;
+            padding: 5px 0;
+            border-bottom: 1px solid var(--border-color);
         }
 
         #story-list-container {
             flex-grow: 1;
             overflow-y: auto;
-            border-top: 1px solid var(--border-color);
             border-bottom: 1px solid var(--border-color);
             margin-bottom: 20px;
-            padding-top: 10px;
         }
 
-        /* Custom Scrollbar for a cleaner look */
         #story-list-container::-webkit-scrollbar { width: 6px; }
         #story-list-container::-webkit-scrollbar-thumb { background-color: #d1c7ad; border-radius: 3px; }
 
@@ -101,10 +145,13 @@
             font-weight: bold;
         }
 
+        .story-link.hidden {
+            display: none;
+        }
+
         .story-title { font-weight: 700; margin-right: 10px; }
         .read-time { font-size: 0.75rem; color: var(--meta-color); white-space: nowrap; font-family: 'Lato', sans-serif;}
 
-        /* Clone Button */
         #repo-actions { text-align: center; }
         
         .btn-clone {
@@ -112,7 +159,7 @@
             width: 100%;
             padding: 12px 0;
             background-color: var(--accent-color);
-            color: #fffaf0; /* Off-white text */
+            color: #fffaf0;
             text-decoration: none;
             font-weight: bold;
             border-radius: 4px;
@@ -123,7 +170,6 @@
         }
         .btn-clone:hover { background-color: var(--accent-hover); }
 
-        /* === READER AREA === */
         #reader {
             flex-grow: 1;
             padding: 60px 100px;
@@ -131,14 +177,33 @@
             max-width: 850px;
             margin: 0 auto;
             background-color: var(--bg-color);
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/papyrus.png');
         }
 
-        /* Typography for the Story */
         #content-display {
             font-family: 'Merriweather', serif;
-            font-size: 1.2rem; /* Slightly larger for comfort */
+            font-size: 1.2rem;
             line-height: 1.9;
             color: var(--text-color);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        #content-display pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            overflow-x: auto;
+            background: rgba(0,0,0,0.03);
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        #content-display code {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
 
         #content-display h1, #content-display h2, #content-display h3 {
@@ -147,7 +212,6 @@
             margin-top: 1.5em;
         }
 
-        /* Story Header inside the reader */
         .story-meta-header {
             display: flex;
             justify-content: space-between;
@@ -165,7 +229,7 @@
             border: 1px solid var(--meta-color);
             color: var(--meta-color);
             padding: 6px 14px;
-            border-radius: 30px; /* Pill shape */
+            border-radius: 30px;
             text-decoration: none;
             font-size: 0.8rem;
             transition: all 0.2s;
@@ -179,10 +243,16 @@
 
         #loading { color: var(--meta-color); font-style: italic; margin-top: 20px; text-align: center;}
 
-        /* Mobile Responsive */
+        .no-results {
+            padding: 20px;
+            text-align: center;
+            color: var(--meta-color);
+            font-style: italic;
+        }
+
         @media (max-width: 768px) {
             body { flex-direction: column; }
-            #sidebar { width: 100%; height: 40vh; border-right: none; border-bottom: 2px solid var(--border-color); padding: 15px; box-sizing: border-box; }
+            #sidebar { width: 100%; height: 50vh; border-right: none; border-bottom: 2px solid var(--border-color); padding: 15px; box-sizing: border-box; }
             #reader { padding: 30px 20px; }
             #content-display { font-size: 1.1rem; }
         }
@@ -195,6 +265,17 @@
             <h1>Norsiwel's<br>Readers Retreat</h1>
             <p>The Complete Archives</p>
         </div>
+
+        <div class="controls">
+            <input type="text" id="search-box" placeholder="Search stories...">
+            <select id="sort-select">
+                <option value="alpha">Alphabetical</option>
+                <option value="newest">Newest First</option>
+                <option value="longest">Longest First</option>
+                <option value="shortest">Shortest First</option>
+            </select>
+            <div class="story-count" id="story-count">Loading...</div>
+        </div>
         
         <div id="story-list-container">
             <div id="story-list">
@@ -203,7 +284,6 @@
         </div>
 
         <div id="repo-actions">
-            <!-- Links to your main repo URL -->
             <a href="#" id="clone-btn" class="btn-clone" target="_blank">Clone Full Archive</a>
         </div>
     </nav>
@@ -218,25 +298,25 @@
     </main>
 
     <script>
-        // ==========================================
-        // CONFIGURATION - EDIT THIS AREA
-        // ==========================================
         const CONFIG = {
             username: 'norsiwel',
             repo: 'readers-retreat',
             folder: 'stories',
             branch: 'main'
         };
-        // ==========================================
 
         const storyList = document.getElementById('story-list');
         const contentDisplay = document.getElementById('content-display');
+        const searchBox = document.getElementById('search-box');
+        const sortSelect = document.getElementById('sort-select');
+        const storyCount = document.getElementById('story-count');
         
-        // Setup Clone Button Link
+        let allStories = [];
+        let currentSort = 'alpha';
+
         const repoUrl = `https://github.com/${CONFIG.username}/${CONFIG.repo}`;
         document.getElementById('clone-btn').href = repoUrl;
 
-        // Estimate reading time
         function estimateTime(bytes) {
             const WORDS_PER_MINUTE = 225; 
             const CHARS_PER_WORD = 6; 
@@ -244,6 +324,75 @@
             const minutes = Math.ceil(words / WORDS_PER_MINUTE);
             return minutes < 1 ? 1 : minutes;
         }
+
+        function cleanFileName(name) {
+            return name.replace(/\.[^/.]+$/, "").replace(/-/g, " ").replace(/_/g, " ");
+        }
+
+        function sortStories(stories, sortType) {
+            const sorted = [...stories];
+            switch(sortType) {
+                case 'alpha':
+                    sorted.sort((a, b) => a.cleanName.localeCompare(b.cleanName));
+                    break;
+                case 'newest':
+                    sorted.reverse();
+                    break;
+                case 'longest':
+                    sorted.sort((a, b) => b.size - a.size);
+                    break;
+                case 'shortest':
+                    sorted.sort((a, b) => a.size - b.size);
+                    break;
+            }
+            return sorted;
+        }
+
+        function renderStories(stories) {
+            storyList.innerHTML = '';
+            
+            if (stories.length === 0) {
+                storyList.innerHTML = '<p class="no-results">No stories match your search.</p>';
+                return;
+            }
+
+            stories.forEach(story => {
+                const link = document.createElement('a');
+                link.className = 'story-link';
+                link.dataset.storyId = story.name;
+                
+                link.innerHTML = `
+                    <span class="story-title">${story.cleanName}</span>
+                    <span class="read-time">${story.readTime} min</span>
+                `;
+                
+                link.onclick = () => loadStory(story.download_url, story.cleanName, story.readTime, link);
+                storyList.appendChild(link);
+            });
+        }
+
+        function updateStoryCount(visible, total) {
+            storyCount.textContent = visible === total 
+                ? `${total} ${total === 1 ? 'story' : 'stories'}` 
+                : `${visible} of ${total} stories`;
+        }
+
+        function filterAndSort() {
+            const searchTerm = searchBox.value.toLowerCase();
+            const filtered = allStories.filter(story => 
+                story.cleanName.toLowerCase().includes(searchTerm)
+            );
+            const sorted = sortStories(filtered, currentSort);
+            renderStories(sorted);
+            updateStoryCount(filtered.length, allStories.length);
+        }
+
+        searchBox.addEventListener('input', filterAndSort);
+        
+        sortSelect.addEventListener('change', (e) => {
+            currentSort = e.target.value;
+            filterAndSort();
+        });
 
         async function fetchStoryList() {
             const apiUrl = `https://api.github.com/repos/${CONFIG.username}/${CONFIG.repo}/contents/${CONFIG.folder}`;
@@ -253,33 +402,25 @@
                 if (!response.ok) throw new Error('Repository not found or private');
                 const data = await response.json();
                 
-                storyList.innerHTML = ''; 
-
                 const files = data.filter(file => file.name.endsWith('.txt') || file.name.endsWith('.md'));
 
                 if(files.length === 0) {
                     storyList.innerHTML = '<p style="padding:10px; color:#888;">No stories found in the archives.</p>';
+                    storyCount.textContent = '0 stories';
                     return;
                 }
 
-                files.forEach(file => {
-                    const timeToRead = estimateTime(file.size);
-                    const cleanName = file.name.replace(/\.[^/.]+$/, "").replace(/-/g, " ").replace(/_/g, " ");
+                allStories = files.map(file => ({
+                    ...file,
+                    cleanName: cleanFileName(file.name),
+                    readTime: estimateTime(file.size)
+                }));
 
-                    const link = document.createElement('a');
-                    link.className = 'story-link';
-                    
-                    link.innerHTML = `
-                        <span class="story-title">${cleanName}</span>
-                        <span class="read-time">${timeToRead} min</span>
-                    `;
-                    
-                    link.onclick = () => loadStory(file.download_url, cleanName, timeToRead, link);
-                    storyList.appendChild(link);
-                });
+                filterAndSort();
 
             } catch (error) {
                 storyList.innerHTML = `<p style="color:#8c2f39; padding:10px">Unable to access archives.<br><small>${error.message}</small></p>`;
+                storyCount.textContent = 'Error loading';
                 console.error(error);
             }
         }
@@ -295,7 +436,6 @@
                 const text = await response.text();
                 const htmlContent = marked.parse(text);
                 
-                // Detailed Header with Metadata
                 const headerHtml = `
                     <div class="story-meta-header">
                         <div>
@@ -320,4 +460,3 @@
     </script>
 </body>
 </html>
-
