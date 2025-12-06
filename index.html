@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+	<script async defer src="https://scripts.simpleanalytics.com/hello.js"></script>	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norsiwel's Readers Retreat</title>
@@ -290,11 +292,25 @@
 
     <main id="reader">
         <article id="content-display">
-            <div style="text-align: center; margin-top: 50px; color: #6e6659;">
-                <p><em>"A story is a letter that the author writes to himself, <br>to tell himself things that he would be unable to discover otherwise."</em></p>
-                <p>Select a story from the left to begin.</p>
+    <div style="text-align: center; margin-top: 50px; color: #6e6659;">
+        <p><em>"A story is a letter that the author writes to himself, <br>to tell himself things that he would be unable to discover otherwise."</em></p>
+        
+        <!-- VISITOR COUNTER - ONLY SHOWS ON EMPTY STATE -->
+        <div id="visitor-counter-display" style="margin: 30px auto; padding: 15px; max-width: 300px; background: rgba(232, 222, 194, 0.15); border-radius: 8px; border: 1px solid rgba(209, 199, 173, 0.3);">
+            <div style="font-size: 0.75rem; color: var(--meta-color); letter-spacing: 0.5px; margin-bottom: 5px;">
+                Visitors to this retreat
             </div>
-        </article>
+            <div id="visit-counter" style="font-size: 2.2rem; font-weight: bold; color: var(--accent-color); line-height: 1; font-family: 'Merriweather', serif;">
+                ...
+            </div>
+            <div style="font-size: 0.7rem; color: var(--meta-color); margin-top: 5px; font-style: italic;">
+                readers have entered
+            </div>
+        </div>
+        
+        <p>Select a story from the left to begin.</p>
+    </div>
+</article>
     </main>
 
     <script>
@@ -457,6 +473,32 @@
         }
 
         fetchStoryList();
+        // ===== SIMPLE VISITOR COUNTER =====
+function updateVisitorCounter() {
+    const counterEl = document.getElementById('visit-counter');
+    if (!counterEl) return; // Counter doesn't exist (story is loaded)
+    
+    // Get current count or start at 1
+    let visits = localStorage.getItem('retreatVisitors');
+    
+    if (!visits) {
+        visits = 1; // First visit
+    } else {
+        visits = parseInt(visits) + 1; // Increment
+    }
+    
+    // Save and display
+    localStorage.setItem('retreatVisitors', visits);
+    counterEl.textContent = visits.toLocaleString();
+    
+    // Optional little animation
+    counterEl.style.transition = 'all 0.3s';
+    counterEl.style.transform = 'scale(1.1)';
+    setTimeout(() => counterEl.style.transform = 'scale(1)', 300);
+}
+
+// Run when page loads
+document.addEventListener('DOMContentLoaded', updateVisitorCounter);
     </script>
 </body>
 </html>
