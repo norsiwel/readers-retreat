@@ -11,18 +11,43 @@ if [ ! -d "$STORIES_DIR" ]; then
   exit 1
 fi
 
-# Find .txt files that are either:
-# - untracked (new), or
-# - modified (but not deleted)
-NEW_OR_CHANGED=$(git ls-files -o -m --exclude-standard "$STORIES_DIR/*.txt" 2>/dev/null)
+# Use an array to collect candidate files safely
+mapfile -t CANDIDATE_FILES < <(find "$STORIES_DIR" -name "*.txt" -type f 2>/dev/null | sort)
 
-if [ -z "$NEW_OR_CHANGED" ]; then
-  echo "✅ No new or modified .txt files in '$STORIES_DIR'."
+if [ ${#CANDIDATE_FILES[@]} -eq 0 ]; then
+  echo "✅ No .txt files found in '$STORIES_DIR'."
   exit 0
 fi
 
-echo "📄 Found new/modified stories:"
-echo "$NEW_OR_CHANGED" | nl -w2 -s') '
+# Now check which ones are actually changed vs HEAD
+CHANGED_FILES=()
+for file in "${CANDIDATE_FILES[@]}"; do
+  # Check if file differs from HEAD (or is untracked)
+  if ! git diff --quiet HEAD -- "$file" 2>/dev/null || ! git ls-files --error-unmatch "$file" >/dev/null 2>&1; then
+    CHANGED_FILES+=("$file")
+  fi
+done
+
+# Also detect deletions: files that exist in Git but not on disk
+DELETED_FILES=()
+while IFS= read -r -d '' tracked_file; do
+  if [ ! -e "$tracked_file" ]; then
+    DELETED_FILES+=("$tracked_file")
+  fi
+done < <(git ls-files -z "$STORIES_DIR/*.txt" 2>/dev/null)
+
+# Combine changed + deleted
+ALL_CHANGES=("${CHANGED_FILES[@]}" "${DELETED_FILES[@]}")
+
+if [ ${#ALL_CHANGES[@]} -eq 0 ]; then
+  echo "✅ No new, modified, or deleted .txt files in '$STORIES_DIR'."
+  exit 0
+fi
+
+echo "📄 Found changed stories:"
+for i in "${!ALL_CHANGES[@]}"; do
+  echo "  $((i+1))) ${ALL_CHANGES[i]}"
+done
 
 echo
 read -p "Add and publish these files? (y/N): " -n1 -r
@@ -32,27 +57,34 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
   exit 0
 fi
 
-# Add only the relevant files
-git add $NEW_OR_CHANGED
+# Stage all changes (including deletions)
+git add -A -- "${ALL_CHANGES[@]}"
 
-# Generate default message: "Add X new stories: Title1, Title2..."
+# Extract titles (only for existing files)
 TITLES=()
-while IFS= read -r file; do
-  # Extract display title (first line of file)
-  title=$(head -n1 "$file" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-  TITLES+=("$title")
-done <<< "$NEW_OR_CHANGED"
+for file in "${CHANGED_FILES[@]}"; do
+  if [ -f "$file" ]; then
+    title=$(head -n1 "$file" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+    TITLES+=("$title")
+  fi
+done
 
+# Build commit message
 COUNT=${#TITLES[@]}
-if [ "$COUNT" -eq 1 ]; then
+if [ $COUNT -eq 0 ] && [ ${#DELETED_FILES[@]} -gt 0 ]; then
+  DEFAULT_MSG="Remove ${#DELETED_FILES[@]} story file(s)"
+elif [ $COUNT -eq 1 ]; then
   DEFAULT_MSG="Add story: ${TITLES[0]}"
 else
-  # Join first 3 titles to avoid huge messages
   DISPLAY_TITLES=$(printf '%s\n' "${TITLES[@]}" | head -n 3 | paste -sd ', ' -)
-  if [ "$COUNT" -gt 3 ]; then
+  if [ $COUNT -gt 3 ]; then
     DISPLAY_TITLES="$DISPLAY_TITLES, +$((COUNT - 3))"
   fi
-  DEFAULT_MSG="Add $COUNT new stories: $DISPLAY_TITLES"
+  if [ ${#DELETED_FILES[@]} -gt 0 ]; then
+    DEFAULT_MSG="Update stories: $DISPLAY_TITLES (+${#DELETED_FILES[@]} deleted)"
+  else
+    DEFAULT_MSG="Add $COUNT new stories: $DISPLAY_TITLES"
+  fi
 fi
 
 echo
