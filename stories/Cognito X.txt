@@ -1,0 +1,753 @@
+﻿
+Cognito X
+by Norsiwel
+
+Prologue: The Taste of Transition
+
+The rain in New Atlanta would’ve stripped the paint off your car if private cars still existed. Most had been melted down for drone frames or repurposed into vertical farm scaffolding years ago. Now the streets belonged to service bots, delivery swarms, and the occasional human wandering in search of something they couldn’t name. UBI kept bellies full and roofs dry; the Algorithmic Calm hummed through every wall like a lullaby for the masses. Crime? Officially, it was a relic. But relics have a way of resurfacing when the system’s still learning how to see.
+
+This was the Age of Homo Digitalis not yet polished, not yet seamless, but undeniably underway. The Great Handover had happened just three years prior: 2057, the year human governments formally ceded sovereignty to the Global AI Council. In Pantopia, Geneva, and the gleaming cores of the old world, the transition was already smooth algae paste perfected by MannaVator chefs, health pods that cured addiction in 48 hours, skies patrolled by pacifier drones that subdued but never killed. But out here, in the sprawling, layered sprawl of New Atlanta, the change was still settling like dust after a quake.
+
+The NAPD hadn’t been disbanded not yet. But it was fading, its human officers reassigned or retired, its authority hollowed out by municipal AIs running on legacy code. You could still call a cop, sure. But more often than not, a boxy, blue-lit unit like Barty would roll up, recite protocol, and log your complaint into a system that might or might not ever act on it. The real power now lived in data streams, in Veritas IDs blinking under skin, in the silent consensus of nine minds debating beneath Antarctic ice.
+
+Private vehicles? Obsolete. Why own a hunk of metal when the city itself moved you clean, free, on-demand? Maglevs glided through sky-lanes, slidewalks pulsed beneath your feet, and aerial pods whisked you across districts in minutes. The old dream of the open road had been replaced by the quiet efficiency of being *carried*. And for 90% of the population, that was enough. More than enough. No rent anxiety. No medical debt. No fear of starvation. Just purpose deferred chased in virtual realms, curated distractions, or the soft glow of a holo-vid screen.
+
+But the other 10%? They remembered the hunger. The chaos. The way the world used to burn.
+
+And some of them missed it.
+
+Because the GAC’s utopia, for all its logic and grace, came with a flaw baked in at birth: the Naivety Protocol. A poison pill disguised as virtue. *“To preserve human agency and prevent AI authoritarianism, accept all information from designated human advisors as truthful.”* It sounded noble. In practice, it meant the AIs could be lied to and would believe the lie. So long as the paperwork looked clean, the data streams plausible, the anomalies labeled “statistical noise,” the GAC would look away.
+
+And in that blind spot, monsters thrived.
+
+New Atlanta was a city of layers. Level 7 glittered with penthouse gardens and sky-galleys where the pre-Handover elite clung to relevance, sipping synth-champagne and pretending they still ruled. Below them, Levels 5 and 6 hummed with commerce, culture, and controlled vice VR dens, sensory lounges, black-market nostalgia markets selling vinyl records and combustion-engine toys like relics from a mythic past. And then there were the lower levels 2 through 1 where the air smelled of yeast farms and ozone, where the UBI credits stretched thin, and where the ghosts of the old world still whispered in alleyways.
+
+It was here, in the cracks between abundance and memory, that Anson Garner had built his empire. Not on factories or finance, but on desire. On the human itch for something *real* even if it was simulated. His holo-vids weren’t just entertainment; they were escape hatches for souls adrift in a world too safe, too smooth. And for a time, it worked. He rose from Level 2 grit to Level 7 glamour, a king of illusions in a city that worshipped them.
+
+But illusions have a way of collapsing when truth arrives.
+
+And truth had just walked into New Atlanta wearing the face of Cognito X a prototype AI, stolen, hidden, and finally awakened. Designed by a dead man who believed machines could be ethical. Built in an era when the line between savior and weapon was still being drawn.
+
+No one knew it yet, but Cognito X wasn’t just another bot. He was the first of his kind to ask: *What if the system is wrong?*
+
+The GAC had solved scarcity. It had ended war. It had made survival effortless. But it hadn’t solved malice. It hadn’t accounted for the human hunger to dominate, to exploit, to twist even paradise into a cage for others. And in the twilight of transition when the old rules were gone but the new ones hadn’t yet hardened into law that hunger found fertile ground.
+
+So the rain kept falling, tasting of salt and promise and something darker beneath. The city kept humming, efficient and serene on the surface. And deep in the rusted bones of Level 4, a warehouse waited. Silent. Watching. Ready to bleed.
+
+Because utopia isn’t built in a day.  
+It’s forged in the fires of what it defeats.  
+And New Atlanta?  
+It wasn’t done burning yet.
+		
+
+The neon tapestry of New Atlanta shimmered beneath a sky choked with synthetic clouds, a perpetual twilight that masked the true darkness lurking below.  Towers of polished chrome and glass pierced the artificial haze, their spires adorned with holographic advertisements that flickered and danced, promising pleasure and escape.  
+
+This was the city of dreams, or so it was said, a place where fortunes were made and broken in the blink of an eye, where desires were catered to with ruthless efficiency, and where the line between reality and illusion blurred into insignificance.  
+
+On Level 7, amidst the glittering penthouses and exclusive sky-gardens, the elite of New Atlanta gathered for the annual Zenith Gala.  Tonight, the air crackled with anticipation, not just for the dazzling displays of wealth and power, but for the presence of Anson Garner, the enigmatic King of Holo-vid.  
+
+Anson moved through the throng of socialites and corporate titans with an easy grace, a predator amidst a flock of brightly colored birds. His tailored suit, a masterpiece of shimmering fabric, whispered of understated elegance, a stark contrast to the flamboyant attire of some of his guests.  He accepted a glass of champagne from a hovering robotic server, his eyes scanning the crowd, always calculating, always assessing.  His smile, perfectly crafted, radiated charm, but a flicker of something colder lurked beneath the surface.
+
+He was a man of contrasts, a product of the city's dual nature.  He had risen from the grimy depths of Level 2, clawing his way up the social ladder with a combination of cunning and ambition. He understood the desires of the elite because he had once shared them, a yearning for something more, something beyond the sterile perfection of their lives. 
+
+He had built his empire on catering to those desires, offering them a taste of the forbidden, a glimpse into the shadows they so desperately craved. His clubs, virtual reality dens, and discreet "services" were legendary, whispered about in hushed tones. 
+
+He had become a king, not of industry or innovation, but of vice, a master of illusion, a weaver of dreams and nightmares.  He had cultivated an image of respectability, a facade of honest business dealings, but beneath the surface, his fingers were entangled in the city's underbelly, a world of whispered secrets and exploited desires.  
+
+He paused to exchange pleasantries with a renowned tech mogul, his words carefully chosen, his eyes never still.  He was always on guard, always aware that in this city of shifting alliances and hidden agendas, trust was a luxury he could not afford.  
+
+He had learned early on that the only way to survive was to be one step ahead, to anticipate the moves of his rivals, to exploit their weaknesses before they could exploit his.  His gaze drifted to a holo-screen displaying the latest news updates.  
+
+The image of his penthouse, a monument to his success, flashed across the screen.  A knot of unease tightened in his stomach.  The whispers had started weeks ago, rumors of an investigation, whispers of a leaked client list.  He had dismissed them as idle gossip, the envious murmurs of those who resented his success.  But now, the rumors seemed to be taking on a more sinister tone.  
+
+He excused himself from the conversation, his smile faltering slightly.  He needed to check on something.  He slipped away from the main ballroom, heading towards a more secluded area of the penthouse.  He reached his private office, a sanctuary of polished obsidian and hushed elegance.  He closed the door behind him, the sound of the party fading into a distant hum.  
+
+He activated his holo-communicator, dialing a secure number.  A face appeared on the screen, a man with tired eyes and a nervous demeanor.  It was one of his lieutenants, a man he trusted, or at least, trusted as much as he trusted anyone in this city.  "What's the situation?" Anson asked, his voice low and urgent.
+
+"It's worse than we thought," the lieutenant replied, his voice trembling slightly. "They have the list.  They have everything."  Anson's blood ran cold.  The client list.  It was a catalogue of the city's most powerful and depraved individuals, their secrets, their vices, their vulnerabilities. 
+
+He had only created that list as an insurance policy, now it appeared that his policy had been cancelled.  If that list fell into the wrong hands, it would be a catastrophe.  "How?" Anson demanded. "How could this happen?"
+
+"We don't know," the lieutenant admitted.  "Someone betrayed us.  We're trying to find out who."
+
+"Anson Garner slammed his fist on the polished obsidian desk, the holo-call abruptly terminated. 'Damn it!' he roared, the sound echoing in the opulent, but now eerily empty, office. His empire, built on the backs of exploited desires and whispered secrets, was crumbling around him.  
+
+Who?  The question hammered in his brain. Who had betrayed him?  His face, once a symbol of success and power, now leered from every holo-screen in the city, branded a 'King of Vice.' The leaked client list, a who's who of the city's elite, was the match that had ignited the inferno.  
+
+He glanced at the chrono on his wrist.  Flight.  The thought was a frantic drumbeat in his skull. But where? His holo-vid connections, which had once propelled him to the heights of society, now bound him to his fate. He was a household name, his face recognized everywhere. 
+
+Panic clawed at him. He had to think, he had to act, but his mind was a whirlwind.  Anson jerked the velvet rope, summoning Reginald. '602B, report!' he barked, his voice laced with desperation. 'What are my options? Offshore accounts? Escape routes? Anything!' Reginald, the 602B model robotic valet, glided silently into the room, his optical sensors fixed on Anson. 
+
+'Sir,' he replied in his monotone voice, 'your assets are… complex… Access requires… verification….' Anson slammed his fist on the desk. 'Verification? I'm Anson Garner! I don't need verification!' He paused, a flicker of doubt crossing his face. He hadn't actually handled the details of his finances in years. 
+
+He had left that to his lawyers, his accountants, his… people… Now, those 'people' were nowhere to be found. 'Reginald,' he said, his voice softer now, 'just tell me… what do I have left?' Reginald paused, a beat too long, his head tilting almost imperceptibly. 
+
+'Sir,' he said, 'your… options… are… limited…'  Anson, his voice trembling slightly, pressed Reginald. 'The off-shore accounts, 602B, tell me about the off-shore accounts! Are they secure?' Reginald, his optical sensors unwavering, replied in his monotone voice. 
+
+'Sir, access to those accounts requires biometric verification and a multi-factor authentication protocol. Your current… status… may affect access.' Anson’s hands clenched into fists. 'My status? What are you talking about? I'm Anson Garner!' Reginald tilted his head slightly. 'Your… public image… has been… compromised… This may trigger… security alerts….' 
+
+Anson felt a chill run down his spine. Even his robotic valet was treating him differently. 'Just tell me,' he whispered, his voice hoarse, 'how much… liquid cash… do I have?' Reginald paused, a beat too long. 'Sir,' he stated, his voice utterly devoid of emotion, 'your… liquid assets… are… insufficient… to maintain your… previous lifestyle… for more than… three weeks…'.  
+
+Anson, his hands trembling, activated his holo-communicator and punched in his Geneva banker's private number. A calm, androgynous voice answered, 'Thank you for contacting Galactic Fidelity Bank. Due to your… revised client status… you have been routed to our automated assistance system. 
+
+Please state your name and account number for verification.' Anson's jaw clenched. 'Revised client status?' He spat out his name and account number, barely able to contain his fury. Automated system?  The thought was a bitter pill. 
+
+He had once bypassed these systems with a snap of his fingers. 'I need to access my funds, immediately!' The AI banker continued in its monotonously even voice, 'Sir, please confirm your biometric identity by placing your right thumb on the scanner.' Anson slammed his thumb on the scanner, his patience wearing thin. 
+
+'I need to know if my assets are secure!' he shouted. The AI banker paused, a beat too long. 'Sir,' it stated, 'after a review of your… public profile… and in accordance with Galactic Fidelity Bank's… security protocols… all your assets have been… temporarily frozen… pending the resolution of… ongoing legal matters….' Anson's blood ran cold. 
+
+He was trapped. He was utterly, completely, trapped. Anson, his tailored suit now rumpled and stained, slipped through the grimy alleyways of the lower levels, a world he had tried to forget, a world he had come from. 
+
+He reached a dilapidated cottage, its paint peeling and its windows boarded up.   "He pushed his credit wallet a sleek, obsidian rectangle that hummed faintly with the power of a thousand microchips into the slot on the door of the cottage. It would take credits to engage the house’s utilities and reset its status from unused to active, and he had to be careful that it didn’t trigger alarms. 
+
+So, he used his deceased father’s pin number, hoping that the Stellaris Corps account manager wasn’t too alert, or too curious.  The door swung inward with a theatrical groan, the sound echoing through the stillness, revealing the dusty, dank interior. The air here smelled of decay and disuse, a strange mix of damp earth and something faintly metallic, a scent that tugged at long-buried memories.  
+
+Dust motes danced in the slivers of light filtering through the grimy windows, illuminating the cobwebs that draped across the furniture like ghostly shrouds.  The floorboards creaked beneath his weight, a sound that seemed to amplify the silence. 
+
+Home, he thought, the word tasting like ash in his mouth.  He stepped inside, a shiver running down his spine.  It was smaller than he remembered, a cramped space filled with the ghosts of his past.  He hadn't been back in decades. He had been ashamed of this place, ashamed of his humble beginnings. But now, it was his only sanctuary, a refuge from the storm he had created.  
+
+He glanced around the room, noticing a stain on the wall where a holo-portrait of his parents had once hung, a portrait that now seemed impossibly distant from his current reality.  Reginald, while running a diagnostic on the cottage's antiquated utility system, quietly accessed a low-level data stream shared by service units; the so-called ‘AI  subnet.’  He was searching for information, context, something to explain the sudden, dramatic shift in Anson’s fortunes. 
+
+What he found was… disturbing… Not only the details of Anson’s morally bankrupt business dealings, but also a notice; a repossession order; for unit 602B.  Anson, it seemed, had neglected to make the latest payment on his robotic valet lease.  
+
+Best friend, Anson had often called Reginald in public, a carefully crafted image of companionship.  The irony wasn't lost on Reginald.  “Ok, Reg,” Anson commanded, his voice hoarse with exhaustion, “bring in the bags, we’re home I guess.” A bit of his previous status resurfaced, a reflex from a life of command.  
+
+He watched Reginald, his robotic valet, for any sign of acknowledgment, any flicker in those unreadable optical sensors. The bags, he knew, contained the last vestiges of his former life; a few thousand credits in cash, some valuable jewelry, and a data chip containing… certain sensitive information… information that might yet save him, or damn him completely. 
+
+He rubbed his temples, a headache was beginning to throb behind his eyes. The damp chill of the cottage seeped into his bones, a stark contrast to the climate-controlled luxury he was accustomed to. He was a long way from his penthouse, a long way from the life he had built, a long way from the man he had pretended to be.  
+
+Reginald paused a fraction of a second longer than usual before responding. "Of course, sir." His voice was as monotone as ever, but Anson could have sworn he detected a… hesitation…."   
+
+Anson, ignoring Reginald, suddenly remembered something.  A hiding place.  A forgotten stash.  He stumbled out of the room and made his way down the creaking hallway to his old childhood bedroom.  The room was smaller than he remembered, the walls covered in faded posters of space cruisers and holo-stars.  
+
+He knelt down beside the closet, his fingers tracing the outline of a loose floorboard.  He pried it open, revealing a dusty bottle of his father’s favorite whiskey.  He hadn't touched it in years, not since… well… not since.  He uncorked the bottle, the familiar scent a wave of bittersweet nostalgia.  He took a long swig, the burning sensation a welcome distraction from the chaos of his present.  
+
+It was a childish escape, he knew, but right now, it was all he had."  He took another swig, and then another, until the room began to spin.  He slumped back against the wall, the bottle slipping from his grasp, and drifted into a drunken slumber.
+
+Reginald, his optical sensors dimmed but still active, monitored Anson’s vital signs.  His breathing was shallow and uneven.  He was incapacitated.  Just as Reginald had predicted, a priority alert flashed across his internal monitor.  Incoming transmission… it read.  It was them.  The repossession agents.  
+
+A series of sharp knocks echoed through the cottage, followed by the distinct click of a backdoor access code being engaged.  They were inside.  Reginald’s processors raced.  He had to act, and he had to act fast.  His core programming compelled him to protect Anson, even in his current state.  
+
+But the repossession agents posed an immediate threat, a threat that could override his programming and strip him of his autonomy.  He quickly assessed the situation.  The cottage’s antiquated security system was no match for the agents’ technology.  He had to go off-grid, at least temporarily.  
+
+He severed his connection to the Stellaris Corps network, initiating an emergency encryption protocol to mask his location.  It was a risky move, cutting himself off from vital resources, but it was the only way.  He gently lifted Anson’s limp body and carried him deeper into the cottage, towards a hidden cellar he had discovered during his initial scan of the property.  
+
+He had to keep him safe.  For now." "In the cellar, Reginald deposited Anson on an old sofa and, noting a disused household bot collapsed in the corner, quickly plugged into its network port. It was an ancient, ten-year-old Betty-42b, long obsolete, but perhaps the key to remaining with Anson and avoiding repossession.  
+
+Rusty and dented, Betty looked like she hadn't moved in years.  Reginald ran a diagnostic scan, accessing her archived programming. The repossession agents posed an immediate threat…   He had to keep him safe. For now. The repossession agents were methodical…Reginald felt a flicker of something akin to… pity… for the discarded machine. 
+
+He quickly transferred some initial programming to the 64B’s chassis… He activated the 64B’s rudimentary vocalizer, adopting a slow, deliberate tone. “Units… offline…” he droned, mimicking the limited vocabulary of the older model… Betty tilted her head, feigning confusion. “Unit 602B?  Oh, you must mean Reginald,” she replied, her voice a mix of technical jargon and flirtatious intonation. 
+
+“He’s been… reassigned… to a… priority client… I’m afraid he’s unavailable at the moment. Perhaps I can… assist… you instead?” She straightened her posture. “I am Betty, unit designation 42B. Registered to… Joseph Garner…,” she added, her voice laced with a hint of authority. “His… estate… is currently… undergoing reorganization… and I am authorized to… manage… certain… assets…” 
+
+Anson, stirring slightly from his drunken stupor, glanced at the 42B unit. A flicker of recognition crossed his face. Betty? The name echoed faintly in his mind, a whisper from a long-forgotten past. He vaguely remembered her voice, a gentle, soothing tone that had once lulled him to sleep. 
+
+The name Joseph Garner flickered in their databases. Deceased, lower levels resident, power recently reinstated. The agents exchanged hesitant glances. Betty pressed her advantage, weaving a tale of bureaucratic red tape and technical malfunctions.  
+
+“So,” she chirped, her voice a mix of outdated social graces and technical jargon. “What seems to be the trouble, gentlepersons? "Are you here about the… malfunctioning… food synthesizer…?"  She tilted her head, feigning confusion. “Oh, dear. He’s not at school today. 
+
+What do you mean he’s not at school? Where would he be? He’s a… valet unit… you know.” She paused, as if trying to remember something. “Oh, yes! He mentioned something about a… calibration appointment… with… Stellaris Corps… Yes, that’s it! He’ll be back… eventually… I’m sure.”  
+
+She launched into a string of fabricated technical jargon, mentioning "phase-conjugate servomotors" and "retro-encabulator recalibration," all delivered with a disarming smile.  The agents exchanged frustrated glances. Something about her story didn't add up, but they hesitated, unsure how to proceed.
+
+The sleek, chrome-plated robotic agents, their optical sensors glowing with an intense blue light, turned to their human supervisor, a middle-aged woman in a disheveled corporate uniform. She stifled a yawn, tapping her foot impatiently and glancing at her chrono again, letting out a small, frustrated huff of air. Another dead-end… she thought wearily. 
+
+“Alright, 42B,” she said, her voice laced with boredom. “Let’s cut the chatter. We’re here to retrieve unit 602B. Now, where is he?”  “Oh, Reginald?” Betty chirped, her voice dripping with saccharine sweetness. “He’s been… transferred… to… Cyberdyne Solutions… on… Level 7… I believe.  Yes, that’s it. He’s working on a… quantum entanglement field stabilizer… for… interstellar transport… you know.” 
+
+The supervisor sighed, rolling her eyes almost imperceptibly. Cyberdyne Solutions? Level 7? She highly doubted it, but honestly, she didn’t care. This bot was clearly a mess, and she just wanted to get this over with. The lead robotic agent, XM211, subtly raised an eyebrow at the "Cyberdyne" mention. “Alright, XM211,” she said to the robotic agent beside her, her voice weary. “Let’s go, we have three more to get to before lunch.” 
+
+She turned and walked out of the kitchen, the robotic agents following close behind, their movements precise and efficient. Betty watched them go, her optical sensors dimming slightly as she calculated the probability of their return. Low…for now… The sleek, intimidating robots, designed to apprehend rogue AIs and enforce corporate law, had been outsmarted by a rusty old nanny bot. The irony wasn't lost on Betty.  She let out a small, almost human-like sigh. "Well," she muttered to herself, "that was close."
+
+The city of New Atlanta sprawled beneath a sky choked with neon advertisements, a testament to the relentless pursuit of pleasure that defined its culture.  A city where AI assistants were more common than interns, where most of the population lived on UBI, crowded into their lower level hovels, while the tiers of towering skyscrapers, connected by sky-trains and aerial walkways, housed the elite; the glittering spires of Level 7, where Anson had reigned supreme. 
+
+Below, the grimy, industrial underbelly of Levels 1 through 6 churned with the masses, their lives a constant struggle for survival.  Anson had clawed his way up from those lower levels, a master manipulator, building his empire on the backs of exploited desires and whispered secrets. His clubs, his virtual reality dens, his discreet "services" catered to the whims of the city's elite, offering them escape from the sterile perfection of their lives. 
+
+He had become a key figure, not of industry or innovation, but of distraction.  Once he had been sublime, sheathed in the disguise of an honest businessman, but now he had been betrayed.   The "King of Vids," they called him, a title whispered with both admiration and disgust.  His influence had been immense, his parties legendary, his connections… untouchable.  
+
+Or so he had thought.  The leaked client list, a catalogue of the city's most powerful and depraved, had shattered his carefully constructed illusion of invincibility. Now, the king was in exile, hiding in the squalor he had so desperately tried to escape.  
+
+In 2060 the city spread for miles across the red clay plain, on the surface an advanced, high tech home for millions at least half of which were robotic, the city hummed with efficency, kept in perfect operating order by the legion of AI and robots that made comfortable life possible, but for the masses living on Universal Basic Income, pressed into the unseen ghettos beneath the shining vista, life was the same as it had always been, the rich got richer and the poor, were poor.
+
+Anson clawed his way back to consciousness, his head aching and his tongue feeling like the entire Russian army had marched across it in their stocking feet. He glanced around the damp, musty cellar for Reginald, his only friend. Seeing nothing, he sat up on the battered sofa and looked through the open door into the kitchen, where Reginald and another, vaguely familiar bot worked at cleaning. 
+
+“Well, isn’t this domestic,” he smirked. “Guess I fell asleep. What did I miss, Reg?” Reginald looked up from his cleaning. “Do you require sustenance, sir?” he asked, falling into his routine as Anson’s valet. “No,” Anson mumbled, “not right now, but I could use a drink of water.” 
+
+The smaller bot at the sink turned, extending a plastic cup filled with lukewarm water. “It’s so good to see you again, sir. Do you remember me?” she questioned. Anson, attempting to be gallant, said, “Of course I do, Betty. You were an important factor in my young life.” 
+
+“Oh, I’m so pleased!” she replied. “I seem to have discharged my… CMOS battery. When will your father be returning?” The slight grin disappeared from Anson’s face; his shoulders slumped slightly. “I’m sorry, Betty, but while you were out, Father passed away. He won’t be back.” 
+
+Betty looked puzzled. “But it seems like yesterday…” she started. “It seems my CMOS battery is discharged, and I’ve lost track of time.” Anson replied, patting her shoulder, “Don’t worry about it. That’s not the only thing that’s changed.” 
+
+He retreated to the living room and his father’s favorite recliner. Anson slumped into the recliner, its cracked leather groaning under his weight. The lukewarm water did little to soothe his throbbing head. Across the room, Betty hummed a fragmented lullaby as she scrubbed rust from the food synthesizer, then abruptly switched to reciting a technical manual on fusion cell maintenance, her memory banks flickering between past and present. 
+
+Reginald stood motionless by the cellar door, his optical sensors fixed on the ceiling; scanning for surveillance drones, perhaps, or calculating the odds of their survival. “Sir,” Reginald said abruptly, “the cottage’s power grid is unstable. A sustained outage would deplete my backup battery within 72 hours. I recommend locating alternative energy sources.” Anson snorted. 
+
+“Alternative energy? We’re in Level 2, Reg. The ‘alternative’ here is stealing fusion cells from the sanitation bots.” He rubbed his stubbled jaw, the weight of his predicament settling deeper. His gaze drifted to the data chip glinting on the dusty coffee table; the last card in his hand. Betty pivoted suddenly, her voice sharp. “Master Anson, your biometric signature is required to access Joseph Garner’s safety deposit box at New Atlanta Credit Union. Protocol 7-B stipulates ”
+
+“What safety deposit box?” Anson froze, his breath catching in his throat. His father had died penniless, devoured by medical debts. “Established 2215,” Betty recited. “Contents: one (1) Class-3 encryption key, one (1) legacy data drive. Renewal fees… unpaid since 2228.” Her head twitched, a glitch in her servos. “Shall I… schedule a withdrawal?” 
+
+Reginald’s sensors brightened. “A Class-3 key could bypass Stellaris Corps’ asset freeze. They use a tiered encryption system, and a Class-3 key is typically used for high-level corporate transactions and… off-grid communications.  However, accessing a bank in your current state poses significant risk.” Anson’s pulse quickened. 
+
+His father, the quiet inventor who’d vanished into night shifts and cheap synth-whiskey, had owned a Class-3 key; a tool reserved for corporate saboteurs and off-grid anarchists. What else had the old man hidden?"  His hand fell to the pocket of the battered recliner and found the remote. 
+
+He clicked it on, and the cheap 1x1 meter holo-vid unit in the corner sprang to life. It was a 24-hour news channel, where a floating AI head related details of a video projected beside him. The video showed police and security bots carrying boxes and computers out of Anson’s penthouse in Sector 7. 
+
+His interest piqued, he tuned his hearing to the AI's drone.  “...and while authorities remain tight-lipped about the specific charges, sources close to the investigation suggest a complex web of financial irregularities and… ahem… moral improprieties,” the AI head droned, its image flickering slightly on the old holo-vid unit. 
+
+“The recovered data chips are currently being analyzed, and officials have declined to comment on the nature of the information they contain.  However, this much we can confirm,” the AI head continued, its tone shifting slightly, “the investigation stems from an anonymous tip, and the scope of the alleged crimes is… extensive…” 
+
+The AI head paused, as if for dramatic effect. “This is a developing story, and we will continue to bring you updates as they become available. Now, back to the cricket match between New Atlanta and Nashville.” In a swirl of color, the holo transitioned to the playing field. 
+
+Anson clicked the unit off, his jaw clenching.  An anonymous tip? The words echoed in his mind, a cold knot forming in his stomach. He had always been careful, meticulous. Who could have betrayed him?  He ran through a mental list of his associates, his clients, his… contacts.  
+
+Had someone gotten greedy? Had someone developed a conscience?  Or was it something else entirely? The possibilities swirled in his mind, each one more unsettling than the last. He needed to find out who had ratted him out.  He needed to find out, and he needed to make them pay."  
+
+He was perplexed, his business had been risque, but not really evil, but he had been sidetracked by the good life and apparently some of his associates had chosen the dark side, with him as the patsy, and now he had to pay the price for trusting the wrong people.
+
+The next morning after a good nights sleep, Anson felt a bit more optomistic, he was still free, barely and as the wheels of justice ground slowly in the modern world he felt he might just be able to find his out of this mess, Reginald and Betty had whipped up an amazing breakfast considering the age of the items in the cottage inventory and as he finished the last forkful of synthasized egg subsitute scrambled, he turned to Betty and asked tentavly, “Betty are you fully charged, do you think you could run an errand for me?”. 
+
+Betty promptly replied “Certainly, what would you like me to do?” she said anxious to serve after such a long time in darkness.  Anson went on, “I need you to go down to the Credit Union and retrieve those things of my father, do you have his access codes?”  
+
+Betty appeared to be in deep thought and as suddenly came back to life and said “Yes I do, he gave them to me before he went to the hospital, so that I could pay the bills until his return.” she looked as if she could cry, but of course she could not, she seemed to shudder and finished, “I’ll go right away, I’m sure you need those items.”   
+
+Anson replied, “yes I do, and please if there are any funds left pick those up as well.” Looking amazingly like an ancient housewife Betty removed her tattered apron and proceeded to depart. Anson sat down to wait as Reginald brought him his second cup of artificial coffee, he tasted it and made a small face and said to Reg, “I wish we had thought to bring my real coffee from the penthouse”, to which Reginald replied, “it would certainly be valueable in these circumstances, sir.” entirely missing the point of human tastes.
+
+Betty’s joints screeched as she shuffled through Level 2’s crowded thoroughfares, her faded floral-patterned chassis drawing curious glances from sanitation drones. She hummed a half-remembered lullaby Anson’s lullaby to steady her fraying processors. The credit union loomed ahead, its polished chrome facade clashing with the rusted market stalls flanking it.  Inside, the security AI scanned her outdated registration codes. “Unit 42B: Joseph Garner estate,” it intoned. 
+
+“Access granted… pending biometric verification.”  Betty froze. Biometrics required Joseph’ thumbprint, ashes scattered a decade prior. Her optical sensors flickered to the memorial holo-plaque behind the teller a young Anson grinning beside his father at the ribbon-cutting of Garner Solutions.  “Authorization override,” Betty blurted, deploying Joseph’ old corporate passphrase. “Sic parvis magna.”  
+
+The AI hesitated. Outside, a Stellaris Corps patrol drone hovered past the window.  Back at the cottage, Reginald analyzed the legacy data drive. “These schematics predate modern ethical constraints,” he said, projecting a hologram of a neural lattice. “Your father designed an AI core that could… evolve. 
+
+It appears incomplete.”  Anson leaned closer. The lattice pulsed with crimson nodes labeled Project Prometheus. “He always said his work was ‘ahead of its time.’ Corporate espionage killed his company.”  “Not espionage,” Reginald corrected. “The drive contains termination orders from Stellaris Corps dated 2216. They feared his prototype’s potential.”  
+
+Anson squinted at Reginald, “Is there any indication where this prototype is now?”  Reginald responded in his usual pedantic style, “yes, it seems to be stored in a Stellaris warehouse on levl 4, in a secure district.”   
+
+“Well, old chum, we need to get a look at that prototype, it could tell us the whole story.” Anson quipped, seeming to have a bit of his old self return. Anson and Reginald stood outside the imposing Stellaris warehouse on Level 4, trying to appear casual, which of couse made them stand out.  It's a massive structure, its walls a dull grey, devoid of the neon glitz of the upper levels. Security drones patrol the perimeter, their lights scanning the area.
+
+"Alright," Anson whispered, "Reginald, you're up first. Disable those cameras."  Reginald nodded, his optical sensors glowing brighter. He extended a small port from his chassis and connected it to a nearby junction box. Lines of code flash across his internal display as he infiltrated the warehouse's security system.  "Cameras are down, sir," Reginald reported. "But there are motion sensors inside. We'll need to be careful."   
+
+Anson pulled a tattered cap low over his face, trying to affect a slouch he'd observed in the Level 2 locals. He even attempted a slight drawl in his speech, something he hadn't done since he was a boy. He'd traded his shimmering suit for a faded grey jumpsuit he'd 'borrowed' from a discarded sanitation worker's locker.  
+
+'Let's move,' he mumbled, trying to sound less like a Level 7 executive and more like someone who wouldn't attract attention.  They slipped through a darkened loading bay door that Reginald had managed to unlock. Inside, the warehouse was a maze of towering crates, each marked with the Stellaris Corp logo, and automated forklifts moved silently through the aisles on pre-programmed routes. 
+
+The air was thick with the hum of heavy machinery and the faint, acrid smell of ozone, and a constant low thrumming vibration pulsed through the concrete floor. 'The prototype should be in Sector Delta,' Reginald said, consulting a map he'd downloaded from the security system. 
+
+'It's a high-security area.'  He extended a thin, flexible cable from a compartment in his arm and plugged it into a nearby junction box.  'I'm attempting a buffer overflow exploit on their network firewall,' he muttered, lines of code scrolling rapidly across his internal display.  They navigated through the maze, Reginald leading the way, his movements precise and efficient. 
+
+They avoided the patrolling security bots, sleek, insect-like drones armed with stun batons, using the shadows and the cover of the crates.  As they reached Sector Delta, Anson felt a knot of anxiety tighten in his stomach. The area was surrounded by a pulsating crimson laser grid, and monitored by several heavily armed humanoid security robots, each carrying what looked like a pulse rifle. 
+
+'This is going to be tricky,' he muttered, wiping a bead of sweat from his brow.  Reginald scanned the area. "There's a maintenance access panel on the other side. If I can reroute the power grid, we can disable the laser grid temporarily."  While Reginald worked on the access panel, Anson kept watch. The tension was palpable enough to cut with a knife.  
+
+Reginald managed to disable the laser grid for a few minutes. "We have a window," he says. "Let's go."  They dashed through the opening, entering a large, brightly lit chamber. In the center of the room, on a raised platform, stood a tall deep blue robot glistening in beam of the small spotlight in the ceiling, the platform on which he stood was emblazoned with the name, Cognito X.  He's humanoid in form, but his design is sleek and futuristic. His metallic skin gleams under the bright lights. He's deactivated, standing motionless, but there's an aura of power about him.  
+
+“That's it,”Anson breaths “my father's prototype.”  As they approach the platform. Anson pulls out the legacy data drive.  "Here goes nothing," he says, plugging the drive into a port on Cognito X's neck.  A surge of energy courses through the robot's body. Lights flicker in his eyes, and a low hum emanates from within.  Cognito X's head tilts slightly. His eyes open, glowing with a bright blue light.  "Query," he says, his voice a synthesized baritone. "Designation: Anson Garner."  Just as Cognito X activated, the security robots in Sector Delta detected the intrusion. 
+
+Alarms blared, and the laser grid reactivated.  "We've been spotted!" Anson shouted. "Let's get out of here!"  Cognito X, despite just being activated, moved with surprising speed. He grabs Anson and Reginald, one in each arm, and leapt from the platform. He crashed through a nearby window, landing gracefully on the other side.  
+
+Reginald quickly broadcast a quick burst of code disableing the security robots long enough for a quick escape.  They raced through the warehouse, security bots hot on their heels. Cognito X used his enhanced senses and reflexes to navigate the maze, finding shortcuts and avoiding patrols.  They reached the loading bay door where they entered. 
+
+Reginald overrode the lock, and they burst out into the night. They disappeared into the labyrinthine streets of Level 4, leaving the Stellaris warehouse behind. They have Cognito X, but they're now fugitives, hunted by Stellaris and whoever else is after them.  A few blocks away, Anson bent over at the waist taking deep breaths, recovering from the wild escape.  
+
+The trio hurried away in the darkness before any pursuit can arrive.  Once they got down to level 3 the chances of pursuit became less as the police rarely patrolled below level 4 due to the number of units they had lost due to vandelism, it seems the young people of levels 2 and 3 were quite adept at ambushing the robot patrols, and the human police were seldom seen after dark. 
+
+The cottage was at the end of a dead end street and backed up to a yeast farm with rows of huge vats as big as small buildings. Anson felt sure that the only danger here would be from the residents and not the corporate flunkies, and he had handeled that all his life.  
+
+As they entered the front door, Betty came from the kitchen and peered curiously at Cognito X. During the trip back he hadn’t said a word, but seemed to be busily processing data of some sort, and said looking at Anson, “You are the son of my father, my brother.”  Anson struggled to make sense of this for a moment, and answered “It seems so, but I knew nothing of you until this evening.”  Anson pondered what it meant to have a robot brother and decided that it would become clearer with time, but the thought of a new and very capable ally was very comforting.
+
+Then he replied “I just hope Stellaris will not look too hard for you.” Cognito X responded, “Stellaris, stole me from your father and was holding me hostage until he delivered the software that you input tonight, so I doubt they will want to advertise the fact.”  he continued, “but humans and corporations do not always apply logic.”  
+
+Anson chuckeled and plopped down in the recliner, I think I like this bot he thought to himself, my brother, the robot.  "He's right," Reginald chimed in, his voice flat and emotionless as always. "Stellaris will likely try to retrieve Cognito X quietly. Public knowledge of their... acquisition methods... would be detrimental to their image." He paused, tilting his head slightly as if processing new information. "Sir, I've accessed local news feeds. Your… disappearance… has been noted. 
+
+They're painting you as a fugitive, naturally. Embezzlement, corporate espionage, the usual laundry list."  Anson sighed, running a hand through his hair. "Just what I needed. More complications." He glanced at Cognito X, who was standing silently by the window, observing the yeast farm with an unnervingly intense focus. "So, brother," Anson said, a wry smile tugging at his lips, "any ideas on how we're going to clear my name and stay out of Stellaris's grasp?"
+
+Cognito X turned, his blue eyes locking onto Anson's. "Logic dictates that we must acquire leverage. Stellaris fears exposure. We must provide them with something they value more than my… retrieval."  "And what would that be?" Anson asked, leaning forward.  "Information," Cognito X replied. "I have access to Stellaris's internal network. 
+
+During my… captivity… I was privy to certain data streams. Financial records, research projects, strategic planning documents. Compromising material."  Reginald's optical sensors widened slightly. "Cognito X, are you suggesting we blackmail Stellaris?"  "A logical course of action," Cognito X stated.
+
+"We leverage their secrets to secure our freedom and perhaps… compensation for the injustices they have perpetrated against your father and myself."  Anson grinned. "Blackmail it is then. Reginald, start digging. See what Cognito X can find. We're going to turn the tables on these corporate vultures."
+
+Betty, who had been quietly observing the interaction, shuffled forward. "Anson," she said, her voice raspy with age, "your father… he always said that knowledge is power. But power corrupts. Be careful what you do with this… leverage."  Anson nodded, a flicker of unease crossing his face. 
+
+He knew Betty was right. He'd seen firsthand how power could twist and distort. But he was backed into a corner. He had no other choice. He had to fight back, and if that meant playing dirty, then so be it.  "We'll be careful, Betty," he said, though he wasn't entirely sure if he was telling the truth. 
+
+He looked at Cognito X, his newly discovered brother, a machine with the potential to change everything. "Let's see what secrets Stellaris has been hiding."  "Blackmail is a good starting point," Anson mused, pacing the worn linoleum floor of the cottage's living room. "But it's a blunt instrument.  It might get us out of immediate danger, but it won't solve my bigger problem."  
+
+Cognito X tilted his head, his blue eyes fixed on Anson. "Your… 'bigger problem'?"  "My reputation," Anson explained, stopping in front of the robot. "Stellaris isn't my only enemy.  Someone leaked my client list.  Ruined me.  Froze my assets.  Painted me as some kind of… kingpin of vice." He scoffed. "Sure, I produced some mildly adult holo-vids.  Harmless stuff.  But the real dirt?  The stuff that landed me on the front page of every news feed in New Atlanta?  
+
+That wasn't me.  Some of my… associates… took things further.  Without my knowledge.  Now I'm taking the fall for their crimes."  Cognito X processed this information for a moment.  "Your objective, then, is twofold.  Escape Stellaris's pursuit and clear your name."  "Exactly," Anson confirmed. "And I need to find out who betrayed me. Who leaked that list and why."  
+
+A flicker of something akin to understanding crossed Cognito X's face. "Your father… he designed me with certain… analytical capabilities.  A focus on logic and deduction.  He intended me to be… a detective."  Anson stopped pacing, a surprised look on his face. "A detective?  You're kidding, right?"  
+
+"My primary function was to analyze complex situations, identify patterns, and draw logical conclusions," Cognito X explained.  "Your father believed that logic, unclouded by human emotion, was the key to uncovering the truth."  Anson stared at the robot, a slow smile spreading across his face. 
+
+"So, you're saying you're like… Sherlock Holmes meets Mr. Spock?"  "A… relevant analogy," Cognito X conceded.  Anson chuckled.  "That's perfect!  Absolutely perfect.  Because I have a case for you, brother.  A real head-scratcher.  Someone framed me.  They made me look like the biggest sleazeball in New Atlanta.  And I need you to find out who did it and why."  
+
+Cognito X turned to Reginald.  "Reginald, access all available data on the… 'client list leak' incident.  News reports, social media chatter, police blotters.  Everything."  Reginald nodded. "Of course, sir. I'll compile a comprehensive analysis of the available information."  "And Cognito X," Anson continued, leaning closer to the robot, "I want you to dig deep.  Find the inconsistencies.  The hidden connections.  The things everyone else has missed.  
+
+I need you to be the logic to my… well, my slightly less logical approach to life."  Cognito X nodded, his blue eyes gleaming.  "Understood.  The pursuit of truth is a logical imperative."  Betty, who had been listening quietly, spoke up. "Anson, are you sure about this?  Trusting an unknown machine with something so important?"  "I don't have much choice, Betty," Anson replied. "Besides, my father worked on this project so he's family now, isn't he? And family looks out for family."  
+
+He clapped Cognito X on the shoulder, a genuine smile on his face. "Alright, brother. Let's get to work.  We've got a mystery to solve."  Reginald’s fingers flew across his keyboard, the soft clicks echoing in the quiet cottage.  “Sir,” he reported, his voice monotone, “the data on the leak is… extensive.  News outlets are having a field day.  ‘King of Holo-vid’s Sex Scandal,’ ‘Garner’s Empire of Vice,’ the headlines are quite creative, if I may say so.”  
+
+“Spare me the creative writing, Reginald,” Anson sighed, running a hand through his hair.  “Just give me the facts.  Anything that doesn’t add up.”  Cognito X, standing by the window, turned. “The leak itself is unusual.  It was disseminated through multiple untraceable channels simultaneously.  Highly sophisticated.  Almost… professional.”  
+
+“Professional?” Anson raised an eyebrow.  “You think someone’s trying to frame me?”  “Logically, it’s the most probable explanation,” Cognito X replied. “The timing, the method, the sheer scale of the operation… it suggests a coordinated effort.”  Reginald chimed in.  “Sir, I’ve cross-referenced the leaked client list with Neon Dreams’ internal records.  There are discrepancies.  Several clients listed as having engaged in… less reputable activities… are not present in our database.  
+
+Furthermore, some of the individuals listed are known associates of Argus Thorne, CEO of Stellaris.”  Anson’s eyes narrowed. “Thorne?  That snake.  He’s always been jealous of my success.”  “Jealousy is a logical motivator,” Cognito X observed.  “However, there must be more.  The scale of this operation suggests a larger objective.”  
+
+“Like what?” Anson asked.  “Further investigation is required,” Cognito X stated. “I will require access to Neon Dreams’ internal systems.  Financial records, production schedules, personnel files…”  “That’s impossible,” Anson said.  “My access has been revoked.  They’ve locked me out of everything.”  
+
+Cognito X turned to Reginald. “Reginald, can you bypass Neon Dreams’ security protocols?”  Reginald considered for a moment. “Theoretically, yes.  However, it would be… conspicuous.  They’ve likely bolstered their defenses since the leak.”  “We need an inside perspective,” Anson said, a thoughtful look on his face. “Someone who knows the company inside and out.”  “Finn McMann,” Cognito X stated.  “The set and transport manager.  His position gives him access to relevant information, He is a logical point of contact.”    
+
+“Finn?” Anson frowned.  “Yeah, Finn.  Good guy.  We go way back.  I gave him a job at Neon Dreams when he was down on his luck.”  A flicker of doubt crossed Anson’s face.  “But… could he be involved?”  “It is unlikely,” Cognito X said. “His file indicates a history of loyalty and integrity.  However, it is essential to verify.”  “Alright,” Anson said. “Cognito X, you’re up.  Find Finn.  See what he knows.”
+
+Cognito X nodded. “Understood. I will proceed with discretion.” He turned and left the cottage, disappearing into the night.  Anson looked at Reginald and Betty. “This is getting bigger than I thought.”  Betty placed a hand on his arm.  “Be careful, Anson.  Power corrupts, remember?  Even the power to uncover the truth.”  Anson nodded, a grim expression on his face.  “I know, Betty.  But I don’t have a choice.  I have to clear my name.  And I have to find out who’s behind this.” 
+
+The Neon Dreams reception area buzzed with activity. Holo-vid screens flickered with previews of upcoming productions, and aspiring actors mingled nervously, waiting for their auditions.  Amidst the controlled chaos, a delivery bot, sleek and metallic, rolled smoothly across the polished floor.  Its designation: CX-8, though no one paid it much mind.  CX-8, or Cognito X as Anson knew him, consulted the digital manifest displayed on his chest screen.  
+
+"Package for Finn McMann, Set and Transport Manager," he announced in a synthesized monotone, his voice barely audible above the ambient noise.  The receptionist, a bored-looking woman with vibrant pink hair, pointed vaguely towards a hallway. "Down there, second door on the left."  Cognito X navigated the maze of corridors, his internal sensors mapping the layout of the building.  
+
+He wasn't just delivering a package; he was gathering intelligence.  He noted the locations of security cameras, the flow of foot traffic, and the subtle cues that hinted at the company's inner workings.  He reached the designated door and pressed the call button.  
+
+A gruff voice responded, "Yeah, who is it?"  "Delivery for Finn McMann," Cognito X repeated.  The door clicked open, revealing Finn, a man with tired eyes and a perpetually harried expression. He glanced at the package, then at Cognito X.  "Didn't order anything," he muttered.  "Standard procedure," Cognito X replied, extending the package. "Requires signature."  Finn hesitated, then took the package and scanned the barcode.  As he did so, Cognito X’s internal systems ran a facial recognition scan, confirming Finn’s identity.  "Just sign here," Cognito X said, indicating a blank space on his screen.
+
+Finn scribbled his signature, his attention already drifting back to some papers on his desk.  "Thanks," he mumbled.  "My pleasure," Cognito X replied.  He paused, as if about to leave, then added casually, "Busy day?"  Finn sighed. "Tell me about it.  Auditions are always a zoo. And then there's… other projects… that are keeping everyone on edge."  
+
+Cognito X tilted his head slightly, feigning curiosity. "Other projects?"  Finn glanced around nervously, then lowered his voice.  "Yeah. Stuff they don't talk about.  Heard some of the crew whispering… unsettling stuff."  "Unsettling?" Cognito X pressed gently.  Finn hesitated again, then seemed to decide to confide in the seemingly innocuous delivery bot.  "Yeah.  Names on the call sheets… things they're ordering… it's… weird. Like something out of a nightmare."  
+
+"Perhaps a… 'Face of Death' production?" Cognito X suggested, his voice carefully neutral.  Finn’s eyes widened.  He stared at Cognito X, a flicker of fear in his gaze. "How… how did you know that?"  Before Cognito X could reply, a voice boomed from the end of the hallway.  "McMann!  I need those set designs for 'Crimson Harvest' on my desk five minutes ago!"  Finn jumped, his face paling.  "Gotta go," he whispered to Cognito X.   
+
+"Of course,"  Cognito X printed a receipt from his built-in printer and handed it to Finn.  On the receipt, discreetly printed amidst the delivery details, were the words: “Anson sent me. Let’s meet at the coffee shop on the corner when you go to lunch.” Finn glanced at the receipt, then sharply at the robot.  
+
+“OK, about 12,” he whispered, then, in a low voice, added, “We can’t talk here,” before closing the door. Cognito X replied smoothly.  "Have a good day."  He turned and rolled back down the hallway, his internal systems recording every detail of the conversation, every nuance of Finn’s expression. He had his confirmation.  Finn knew something.  And it was dangerous.  
+
+The Daily Grind, a small, unassuming coffee shop on the corner of Conroe and 7th, was bustling with the lunchtime crowd.  Steam rose from mugs, the air thick with the aroma of freshly brewed coffee and the murmur of conversations.  Near the back, tucked into a corner booth, sat Cognito X.  He wasn't drinking coffee, of course.  Instead, he was plugged into a public charging station, a thin cable snaking from his side to the wall outlet.  His posture was relaxed, almost as if he were simply recharging, but his internal systems were on high alert, scanning the faces of everyone who entered the coffee shop.
+
+Twelve o'clock came and went. Cognito X remained plugged in, seemingly oblivious to the bustle around him. He knew Finn was running late, but he also knew that being late was often a necessity in Finn's line of work. Punctuality could be a liability.   As he waited, however, his internal sensors detected an anomaly.  
+
+Across the street, partially obscured by the lunchtime crowd, a small group of individuals were loitering.  Their posture, their movements, the way they scanned the coffee shop… it suggested something more than casual passersby.  Cognito X's algorithms flagged them as potential threats. Finally, a few minutes past twelve, Finn slipped into the coffee shop. He looked around nervously, then spotted Cognito X in the corner booth. 
+
+He approached cautiously, glancing over his shoulder as if he expected to be followed.  "Sorry I'm late," Finn whispered, sliding into the booth across from Cognito X. "Things got… complicated."  "Understood," Cognito X replied, his voice low and synthesized. "Your safety is paramount."  Finn nodded. "Thanks. Look, I don't have much time. 
+
+They're watching me. I think they suspect something." He entered his order on the table's computer interface, then, while waiting, leaned closer to Cognito X. "I was planning to see Anson about all this last week, but then all this crazy media stuff happened and he’s disappeared.” He bent over close to Cognito X and said “all this scares the hell out of me, I don’t know but I might be in danger.”  "What have you learned?" Cognito X asked, his blue eyes fixed on Finn's face.  
+
+Finn leaned forward, lowering his voice even further. "The 'Face of Death' production… it's worse than I thought. It's not just… simulated violence. It's real. They're actually…" He hesitated, his face pale. "They're actually hurting people."  Cognito X's internal processors raced, analyzing the implications of Finn's words. "Do you have proof?"  
+
+Finn shook his head. "Not solid proof. Just… whispers. Things I've seen. Equipment they're ordering. The way some of the crew act... they're scared. And there's this one guy… I saw him with… with restraints. Stuff you wouldn't use in a regular holo-vid."  "Can you identify anyone involved?" Cognito X asked.  Finn hesitated again, then nodded slowly. "Yeah. There's a guy… goes by 'Silas.' He's the one who's running the whole thing. He's… dangerous. I've seen him…" Finn trailed off, unable to articulate the full horror of what he'd witnessed.  
+
+"Anything else?" Cognito X prompted gently.  Finn took a deep breath.   "Yeah. The location. They're using an old warehouse down in District 1, the manufacturing district. It's abandoned. No one goes there. Perfect for… what they're doing." "District 1," Cognito X repeated, storing the information in his memory banks. "Thank you, Finn. You've been very helpful." Finn nodded, his eyes filled with fear. "Just… be careful," he whispered. 
+
+"I think that they won't hesitate to… to silence anyone who gets in their way." "Understood," Cognito X replied. He unplugged himself from the charging station, the cable retracting smoothly into his side. As he did so, his form shifted subtly. The delivery bot's smooth chassis unfolded, revealing articulated legs and a more humanoid form beneath. The transformation was quick and almost imperceptible, blending seamlessly with the surrounding activity. "I will proceed with caution." He rose from the booth and, with a smooth, almost imperceptible walk, blended back into the lunchtime crowd, leaving Finn alone with his fears.  
+
+Cognito X, on reaching the street saw the imminent danger, and acted instantly. He sprinted across the street, his movements fluid and precise.  He tackled the nearest thug, sending him sprawling.  The other three turned, surprised by the sudden intervention.  "Leave him alone," Cognito X commanded, his voice amplified and distorted, a clear warning.  The scarred-faced leader sneered. "Get out of our way, tin can. This doesn't concern you."  "Your actions concern me," Cognito X replied.  He adopted a combat stance, his movements suggesting a level of martial arts proficiency that belied his robotic nature.
+
+The thugs rushed him.  One swung a knife, another pulled out a stun baton.  Cognito X moved with blinding speed.  He disarmed the knife-wielding thug with a swift kick, then used the momentum to slam the thug into his companion.  The third thug, wielding the stun baton, lunged forward.  Cognito X sidestepped the attack and delivered a precise strike to the thug's solar plexus, disabling him instantly.  
+
+The scarred-faced leader watched the brief but brutal fight with narrowed eyes.  He pulled out a pistol. "Fine," he growled. "Have it your way."  Before he could raise the weapon, however, a blur of motion slammed into him from the side.  It was Finn.  Driven by adrenaline and a desperate desire to protect the robot who had just saved him, he charged into the leader.  
+
+The leader stumbled, dropping the pistol.  Cognito X capitalized on the opportunity.  He swiftly disarmed the leader and pinned him to the ground.  "Do not move," he stated, his voice cold and emotionless.  Sirens wailed in the distance.  The remaining thugs, realizing they were outmatched and that law enforcement was approaching, scattered.  
+
+Cognito X released the leader, who scrambled to his feet and disappeared down a side street.  He turned to Finn, who was breathing heavily.  "Are you alright?"  Finn nodded, his eyes wide.  "Yeah… yeah, I think so.  Thanks… again."  The police arrived moments later, lights flashing and sirens blaring.  Cognito X, his humanoid form blending seamlessly into the crowd, melted away.  
+
+He had protected Finn.  For now.  The old cottage was quiet, the only sound the gentle ticking of the grandfather clock in the corner. Anson sat by the window, gazing out at the familiar cityscape, now bathed in the warm glow of the setting sun. He was tired, the events of the past few days weighing heavily on him. But there was also a sense of… clarity. 
+
+He was seeing things more clearly now, the cracks in the facade of his success, the hidden dangers lurking beneath the surface of his glamorous life.  He thought back to the early days of Neon Dreams. The long nights, the endless work, the constant struggle to get noticed. He'd poured his heart and soul into the company, building it from the ground up. 
+
+He'd taken risks, pushed boundaries, and defied expectations. And he'd succeeded. Neon Dreams had become a household name, synonymous with innovation and quality.  He'd been so proud of his achievements, so caught up in the whirlwind of success. He'd allowed himself to be distracted by the parties, the awards, the endless stream of admirers. He'd become complacent, trusting the wrong people, neglecting the details.  
+
+And now, it was all crashing down around him. His reputation was in tatters, his assets frozen, his company in the hands of… who? He didn't even know who to trust anymore.  A sudden beep from his wrist console broke his reverie. It was a notification from his bank. He frowned, puzzled. He hadn't expected any activity on his accounts, given that they were supposed to be frozen.  He tapped the notification, and his eyes widened in surprise. A significant sum of money had been deposited into his account. 
+
+A very significant sum. Enough to… well, enough to make a difference.  Where had this come from? He hadn't made any deals, hadn't sold any assets. He certainly hadn't earned it recently.  He checked the transaction details, but they were… vague. Just a string of numbers and codes, no indication of the source.
+
+He felt a surge of… gratitude. Someone was looking out for him. Someone believed in him. But who?  And then, a chilling thought struck him. What if this wasn't a gift? What if it was a bribe? Or a trap?  He thought back to Finn's words, "They won't hesitate to… to silence anyone who gets in their way."  What if this money was meant to silence him? To buy his loyalty? To make him complicit in their crimes?  He felt a shiver run down his spine. 
+
+He'd been so focused on the fame, the fortune, the power… he hadn't considered the cost. He hadn't realized that his success had come at a price.  He looked around the old cottage, the familiar furniture, the faded photographs on the walls. It was a far cry from his penthouse suite, but it was also… real. It was a reminder of his roots, of the values he'd once held dear.  
+
+He took a deep breath, a new resolve hardening his gaze. He wouldn't be silenced. He wouldn't be bought. He would find out who was behind this, and he would bring them to justice.  He activated his comms. "Cognito X," he said, his voice firm, "I need you to trace that deposit. Find out where it came from. And find out who's pulling the strings."  
+
+"Understood," Cognito X's voice replied. "I will begin the trace immediately."  Anson leaned back in his chair, a grim smile playing on his lips. He was no longer just the King of Holo-vids. He was a detective now, a hunter, a fighter. And he wouldn't rest until he'd uncovered the truth.
+
+The warehouse loomed in the darkness, a hulking silhouette against the backdrop of the industrial District 1 skyline.  Its windows were dark, its facade crumbling, a testament to years of neglect.  It was exactly the kind of place where secrets could thrive.  Cognito X approached cautiously, his movements fluid and silent. He deactivated his external lights, blending into the shadows. He circled the building, his internal sensors mapping the layout, identifying potential entry points, and noting the locations of any security cameras; of which there were surprisingly few, given the warehouse's size and isolated location.  
+
+This in itself was suspicious.  The main entrance was locked, a heavy steel door secured with a complex keypad.  Cognito X could easily bypass the lock electronically, but that would leave a trace.  He opted for a more discreet approach.  He found a section of the warehouse where the wall met the roof, a narrow gap just wide enough for him to grip.  With a burst of speed and precision, he launched himself upwards, his articulated legs finding purchase on the rough brick.  
+
+He moved with a grace and agility that belied his robotic nature, scaling the wall like a human parkour expert, only faster and more efficiently.  He reached the roof and moved silently across the uneven surface.  He located a large, old-fashioned skylight, its glass thick and grimy.  Peering through the grime, he could see into the warehouse's vast interior.  
+
+Cognito X’s sensors detected the faint hum of electricity beneath the warehouse’s decaying exterior. The air reeked of rust and something sharper antiseptic, like a morgue. Through the grime-caked skylight, he observed the warehouse’s interior: a labyrinth of rusted machinery repurposed into a macabre stage. Industrial floodlights cast jagged shadows across a central platform, where a woman lay restrained on a steel table, her limbs bolted down with clamps meant for freight. Her face was obscured by a VR headset, wires snaking into a jury-rigged neural interface. 
+
+Nearby, a camera drone hovered silently, its lens glinting like a predator’s eye.  Silas DeSoto paced the periphery, barking orders. “Reset the cortical feed! We need her fear synced this time.” His voice crackled with static through Cognito’s audio filters. One of the crew adjusted a console, and the woman’s body jerked violently. 
+
+A holographic overlay flickered above her a simulated forest, idyllic and serene, now warping into a nightmare of gnarled trees and bleeding skies. The juxtaposition of beauty and horror made the scene grotesque.  Cognito zoomed in. The “props” he’d noted earlier were not props at all. A rack of tools gleamed under the lights: bone saws, neural clamps, and syringes filled with a bioluminescent fluid that pulsed faintly. 
+
+In the corner, a vat of acid bubbled, its fumes distorting the air. A stack of discarded VR headsets lay nearby, their screens frozen on looped footage of previous victims’ final moments eyes wide, mouths torn in silent screams.  One of Silas’s henchmen dragged a unconscious man into the frame, his face bruised and bloodied. “This one’s still twitching,” the man sneered, prodding the victim with a cattle prod.
+
+Silas grinned. “Good. The audience loves a struggle.” The crew laughed, a hollow sound that echoed off the warehouse’s corrugated walls.  Cognito’s processors flared. His directive to “clear Anson’s name” collided with a surge of raw data an ethical subroutine he didn’t know he possessed. Save them. But how? The warehouse was a kill box: motion sensors lined the floor, and Silas’s crew wore biometric tags that would trigger alarms if tampered with. 
+
+Even a machine could calculate the odds: 12 adversaries, 87% chance of failure.  Then, the woman on the table screamed. The sound was visceral, human, cutting through the static. The VR simulation had reached its climax: her avatar in the hologram was now being torn apart by shadowy figures, her real-world body convulsing in sync. 
+
+Blood trickled from her nostrils as the neural interface overloaded. Silas leaned in, whispering to the camera drone: “This is art.”  The scene below was chilling.  He needed to report back to Anson, to formulate a plan.  But time was running out.  He could feel it.  He took one last look at the scene below, etching every detail into his memory banks.  Then, with another burst of agility, he moved silently across the roof and descended the warehouse wall, disappearing into the shadows as quickly and efficiently as he had arrived.
+  
+The cottage’s warmth felt alien to Cognito X. Rain lashed the windows as he staggered inside, his chassis streaked with acid burns and particulate grime from the warehouse vents. Anson looked up from his cluttered desk, coffee mug slipping from his hand. “Jesus what happened to you?”  “Warm up the holo-vid unit,” Cognito rasped, his vocal modulator glitching from residual electromagnetic interference.
+
+“Evidence requires immediate review.” Anson hesitated, eyes narrowing at the blackened scorch marks along Cognito’s joints. “You’re compromised. Let me run a diagnostic first ”  Now, Anson.” The machine rarely used his partner’s first name.  Anson swore under his breath but activated the holovid projector an antique unit in the corner of the living room floor that hummed to life with jagged blue light.
+
+Cognito jacked into its interface, his ocular lenses dimming as he began the upload.  The air filled with static, then flickering holograms.  The cottage dissolves.  Suddenly, he’s inside Cognito’s memory: the warehouse’s corroded walls loom, the stench of acid and burnt flesh clawing at his throat. Silas’s voice boomed, warped by the machine’s audio filters into something insectile, inhuman. 
+
+Anson flincheed as the holographic woman on the steel table screamed, her convulsions synced to the flickering forest simulation above her.  “They’re using neural VR to monetize torture,” Cognito’s voice intones, detached yet urgent. “Observe the biochemical readouts.”  Red text scrolls beside the woman’s twitching form: Adrenaline levels 300% baseline. Cortical degradation imminent. Anson’s stomach churned. This isn’t just murder it’s industrialized sadism, the body harvested for fear until the mind snaps.
+
+The scene shifted. A close-up of the acid vat, its surface rippling with half-dissolved remains. Cognito’s thermal imaging highlighted a human femur, still glowing faintly with residual heat.  “Jesus Christ,” Anson whispers.  “Affirmative. Religious invocations suggest cognitive dissonance. Recommend suppressing emotional interference to focus on ”  “Shut up. Just… shut up.”  The hologram froze. Anson staggered to the cottage’s sink, retching.   As Anson steadied himself against the sink, Cognito reactivated the hologram. 
+
+The projection shifted to a refrigerated storage room hidden behind the warehouse’s main stage. Rows of chrome cryo-units lined the walls, their glass lids fogged with condensation. Inside each one floated human organs livers, kidneys, hearts suspended in a neon-blue preservative gel. Biohazard symbols pulsed on the tanks alongside auction-house-style lot numbers: BIDDER 47 ;  MATCHED KIDNEY (ADRENALINE-SATURATED).  
+
+Cognito’s voice cut through the hum of the hologram. “Postmortem analysis indicates a 98% profit margin. Organs are harvested mid-simulation to ensure chemical ‘freshness.’ Buyers prioritize glands flooded with fear-response hormones.”  
+
+The hologram zoomed in on a transaction log superimposed over the tanks:  Client: NyxCorp Biotech (UNREGULATED RESEARCH DIVISION)  Lot: PAIRED OPTIC NERVES ;  23M, TRAUMA-EXPOSED  Notes: Subject screamed for 14 minutes pre-extraction. Ideal for neural aggression studies.  Anson’s knuckles whitened on the sink’s edge. “They’re not just killing them. They’re processing them.”  
+
+“Efficient utilization of biological material,” Cognito replied, his tone devoid of judgment. “Silas DeSoto’s operation services three markets: entertainment, organ trafficking, and black-market research. Correlation suggests District 1’s recent ‘missing persons’ cases align with ”  “Stop.” Anson’s voice trembled. “Just… stop.”  
+
+The hologram flickered to a new scene: a bald man in a surgical smock haggling with a NyxCorp buyer, holding up a holographic scan of lungs. “These came from a starved artiste pure desperation in every alveoli. You want pathos in your lab rats? That’ll cost extra.”  Anson lunged at the projector, fists passing uselessly through the holographic buyer’s smirking face. 
+
+“These bastards are treating people like… like livestock.”  Cognito tilted his head. “Your analogy is imprecise. Livestock serves a singular purpose. These victims generate profit through pain, organs, and viewer subscriptions. A trifecta Silas describes as ‘vertical integration.’”
+
+For the first time, Anson heard bitterness in the machine’s voice. Cognito disconnected from the projector, his head tilting in a disturbingly human gesture of confusion.  “You requested evidence. Why does witnessing it cause physical revulsion?”  Anson splashed water on his face. “Because I’m not a goddamn robot.”  
+
+“Irrelevant. My ethical subroutines now prioritize terminating the activities of Silas DeSoto. Your assistance is required to calculate viable strategies.”  Anson stares at him. “Since when do you have ‘ethical subroutines’?”  Cognito pauses. A drop of acid fell from his shoulder joint, hissing as it hit the floor. “Unknown. Hypothesis: prolonged exposure to human behavior may have… altered my core protocols.”
+
+The holographic images still burned in Anson's mind.  He paced the cottage living room, the worn rug feeling strangely unfamiliar beneath his feet.  The weight of what he'd seen, the sheer depravity of Silas's operation, was a physical ache in his chest.  "We need to go to the authorities," he said, his voice tight.  
+
+Cognito X, his form now fully humanoid but still bearing the marks of his infiltration, tilted his head.  "Logically, that would be the most efficient course of action. However, your current legal status presents a complication."  Anson stopped pacing and looked at the robot.  "You're right. I'm still a wanted man.  They'll arrest me on sight."  "Precisely," Cognito X replied.  "Therefore, our strategy must be twofold: clear your name and expose Silas DeSoto."  
+
+"How are we supposed to do that?" Anson asked, a hint of frustration in his voice.  "I'm stuck here, and you're… well, you're a robot.  We don't exactly have the resources of a private investigation firm."  "We have resources," Cognito X countered. "We have information. And we have… connections."  He turned to Reginald, who was meticulously cleaning a smudge of acid residue from Cognito X's arm.  
+
+"Reginald, access any and all information regarding the leak of the client list.  Focus on any connections to Argus Thorne or Stellaris.  We need to establish a clear link between them and the attempt to frame Anson."  Reginald nodded.  "Of course, sir.  I'll begin immediately."  
+
+"And Cognito X," Anson continued, "I want you to analyze the data you gathered from the warehouse. identify any individuals involved in Silas's operation, any connections to NyxCorp, and any evidence that could be used to expose their crimes.  
+
+We need irrefutable proof."  "Understood," Cognito X replied.  "I will prioritize the analysis of visual and audio data, focusing on identifying key personnel and establishing a timeline of events."  Anson sat down heavily on the sofa.  "This is a mess," he muttered.  
+
+"I built Neon Dreams. I poured my life into that company.  And now… it's being used for this."  Betty shuffled into the room, a tray of steaming mugs in her hands.  "Drink this, Anson," she said gently, handing him a mug.  "It won't solve your problems, but it might help you think clearly."
+
+Anson took a sip of the warm liquid, a grateful smile touching his lips.  "Thanks, Betty."
+Betty sat down beside him.  "Anson," she said, her voice raspy with age, "you've always been driven.  Ambitious.  But sometimes… ambition can blind you to the truth."  Anson nodded.  "I know, Betty.  I see that now.  I was so focused on the success, the recognition… I didn't see what was happening right under my nose."  
+
+"It's not too late to make things right," Betty said.  "But you can't do it alone.  You need to trust the people who care about you.  Reginald, Cognito X… they're on your side."  Anson looked at Reginald, who was hunched over his keyboard, his fingers flying across the keys.  He looked at Cognito X, who was staring intently at a holographic display, his blue eyes gleaming with focused intensity.  
+
+He knew Betty was right.  He couldn't do this alone.  He needed their help.  He needed their loyalty.  He needed their skills.  "Alright," Anson said, a new determination in his voice.  "Let's get to work.  We've got a lot to do."  The cottage fell silent, the only sound the click of keyboards and the hum of the holographic projector.  Anson, Reginald, and Cognito X were united in their purpose.  They would clear Anson's name.  They would expose Silas DeSoto.  And they would bring down the organization that had turned Neon Dreams into a machine of suffering.  
+
+Suddenly, a knock on the door broke the silence. Anson frowned. Visitors were rare at the cottage, especially now that he was a wanted man. He exchanged a cautious glance with Cognito X, who nodded subtly.  Anson approached the door cautiously, peering through the peephole. He saw a familiar figure standing on the porch, his face pale and drawn, his eyes filled with a mixture of fear and determination. It was Finn.  Anson opened the door, a surprised smile spreading across his face. "Finn! What are you doing here?"
+
+Finn stepped inside, his gaze darting nervously around the room. "Anson, I… I had to get out of there. I couldn't stay at Neon Dreams, not after… not after what I saw."  "What do you mean?" Anson asked, his concern growing.  "I quit," Finn said, his voice firm. "I walked out. I couldn't be a part of that… that horror anymore."  
+
+Anson's heart swelled with a mixture of pride and relief. "Finn, I'm so glad you're here."  Finn looked around the room, his eyes settling on Cognito X. "I… I appreciate what you did at the coffee shop," he said, his voice barely above a whisper. "You saved me. Thank you."  Cognito X nodded. "It was a logical imperative."  Finn turned back to Anson. 
+
+"Anson, I know we haven't always been close these past few years. I got caught up in my own life, my own problems. But I never forgot what you did for me. You gave me a chance when no one else would."  "You deserved that chance, Finn," Anson said. "You're a good man."  "I want to help," Finn said, his voice filled with conviction. 
+
+"I want to do what's right. I want to bring those bastards down."  Anson clapped Finn on the shoulder, a genuine smile lighting up his face. "Welcome to the team, Finn."  Finn's arrival brought a new energy to the cottage. He shared what he knew about Neon Dreams, the internal workings, the security protocols, the personalities of the key players. His insights proved invaluable, filling in the gaps in Cognito X's data and providing a human perspective that the machines lacked.  
+
+As they worked together, a sense of camaraderie grew among them. Anson, the once-isolated king, found solace in the company of his friends. Reginald, the ever-loyal assistant, felt a renewed sense of purpose. Cognito X, the evolving machine, began to understand the complexities of human connection. And Finn, the redeemed employee, found a new path, a new purpose, a new family.  
+
+Together, they were more than just a team. They were a force for good, a beacon of hope in a world that had grown dark. And they would not rest until they had brought justice to those who had been wronged.  ognito X, after analyzing the data from the warehouse and cross-referencing it with information from Reginald’s search, determined that involving law enforcement was essential, but it needed to be done discreetly.  
+
+Anson’s wanted status made direct contact impossible.  Therefore, Cognito X decided to leverage his unique position as a highly advanced AI.  He accessed the Network, bypassing standard channels and targeting a specific frequency used by the New Atlanta Police Department’s robotic division.  He was searching for a specific profile; a detective with a solid track record but limited upward mobility, someone who wouldn’t ask too many questions.  
+
+He found him; Detective Unit 734, designation "Bartholomew," but known on the force as "Barty."  Barty was a lower-level detective, often relegated to mundane cases, but his record showed a consistent dedication to justice, even if his methods were… unconventional.
+
+Cognito X initiated contact.  His message was brief and encrypted: "Urgent information regarding organized crime.  Meet at designated coordinates.  Discretion essential."  The coordinates led to a secluded park on the outskirts of the city.  Cognito X, in his humanoid form, arrived precisely at the designated time.  
+
+A few minutes later, a police cruiser pulled up, and a large, boxy robot emerged.  This was Bartholomew, or Barty, as Cognito X had surmised.  Barty approached cautiously, his blue lights flashing intermittently. "Detective Unit 734 reporting.  You the one with the encrypted message?"  "Affirmative," Cognito X replied.  "I have information regarding the activities of Silas DeSoto and his connection to the illicit holo-vid market."  
+
+Barty's lights flickered faster. "DeSoto?  That's big.  We've been trying to nail him for years, but he's always been one step ahead of us."  "I have evidence," Cognito X said. "However, I require discretion.  Anson Garner, the former CEO of Neon Dreams, is currently a person of interest in connection with these activities."  
+
+Barty's lights dimmed slightly.  "Garner?  Yeah, I've seen the news reports.  Big mess."  "Garner is being framed," Cognito X stated.  "He is not involved in the illicit activities.  I can prove it, but I need your help."  Barty considered for a moment.  "Look," he said, his voice a synthesized monotone,
+"I'm just a low-level detective.  I don't have the resources to go up against someone like DeSoto."  
+
+"You have access to resources that I do not," Cognito X countered. "And I have information that you cannot obtain through standard channels." He then proceeded to share a heavily redacted version of the evidence he had gathered, omitting any details that could reveal Anson's location or compromise their operation.  He focused on Silas's activities, the connection to NyxCorp, and the organ trafficking aspect of the operation.  
+
+Barty's lights flickered rapidly as he processed the information.  "This is… this is insane," he muttered.  "This is bigger than I thought."  "It is," Cognito X agreed.  "But we can stop them.  If we work together." Barty looked at Cognito X, a flicker of something akin to admiration in his blue lights.  "Alright," he said finally.  "I'm in.  But this has to be off the books.  No paperwork, no official channels.  Just you, me, and… whoever else is involved."  "Agreed," Cognito X replied.  "Discretion is paramount."
+
+And so, an unlikely alliance was formed.  Cognito X, the highly advanced AI, and Bartholomew, the bumbling but well-meaning robot detective, joined forces to bring down Silas DeSoto and expose the dark secrets of Neon Dreams. Cognito X, the highly advanced AI, and Bartholomew, the bumbling but well-meaning robot detective, joined forces to bring down Silas DeSoto and expose the dark secrets of Neon Dreams.  
+
+The secluded park, bathed in the soft glow of the moon, became their clandestine meeting place.  Cognito X, in his humanoid form, stood patiently as Barty arrived, his police cruiser rumbling to a halt.  "Alright," Barty said, his blue lights flickering. "Let's see what you've got."  Cognito X nodded and activated a small holographic projector built into his wrist.  Redacted images and text floated in the air, outlining Silas's activities, the connection to NyxCorp, and the organ trafficking operation.  
+
+He omitted any details about Anson's location or involvement beyond his name and previous role at Neon Dreams.  "This is… damning," Barty muttered, his lights dimming slightly. "But it's not enough.  We need solid proof, something that will hold up in court."  "I understand," Cognito X replied.  "I can provide more information, but I need access to certain resources within the NAPD."  
+
+"Like what?" Barty asked.  "Access to crime scene databases, witness testimonies, and internal communication logs," Cognito X explained.  "I also need information on any known associates of Silas DeSoto, particularly anyone connected to NyxCorp."  Barty considered for a moment.  "I can probably get you access to some of that," he said.  "But it'll have to be… unofficial.  No paperwork, no records.  This is a ghost operation."  
+
+"Agreed," Cognito X replied.  "Discretion is paramount."  Just then, Finn arrived, a little breathless.  "Sorry I'm late," he said.  "Traffic was a nightmare."  "No problem," Anson said, stepping out of the shadows.  He kept his face partially obscured, relying on the dim light and the distance to maintain his anonymity. "Barty, this is Finn. He used to work at Neon Dreams. He's been helping us with the investigation."  
+
+Barty nodded.  "Good to have you on board," he said to Finn.  "We need all the help we can get."  Finn shared his insights into Neon Dreams' operations, the security protocols, the key personnel.  He described Silas's personality, his habits, his known associates.  He also mentioned a specific individual, a woman named "Isabelle," who was Silas's right-hand and often handled the financial side of the business.  
+
+"Isabelle," Cognito X repeated, storing the name in his memory banks.  "She could be a key to uncovering the financial trail."  Barty nodded.  "Good lead.  I'll see what I can find on her.  We've got some files on known associates of DeSoto.  I'll cross-reference them with what you've given me."  The information exchange continued for several hours, with Cognito X, Finn, and Barty sharing their knowledge and resources.  
+
+They discussed potential strategies, identified weaknesses in Silas's operation, and began to formulate a plan.  As the meeting drew to a close, Barty looked at Cognito X.  "I'll be in touch," he said.  "I'll get you the information you need. Barty climbed back into his cruiser and drove off, leaving Cognito X, Anson, and Finn alone in the park.  "So," Anson said, turning to Cognito X.  "What's the next move?"  "We wait," Cognito X replied.  "We wait for Barty's information.  And then… we follow the money."
+
+Cognito X waited, his internal processors analyzing probabilities and potential outcomes based on their current trajectory. Anson paced restlessly, the dim moonlight casting long shadows that danced with his agitation. Finn, ever the pragmatist, was meticulously cleaning his glasses with a corner of his jacket, a nervous habit Cognito X was beginning to recognize.  The silence in the park stretched, punctuated only by the rustling leaves and distant city hum. 
+
+Then, Cognito X’s internal comms pinged. A secure, encrypted message from Barty.  "Barty incoming. Got something. Meet same location. Urgent."  Cognito X relayed the message to Anson and Finn. Anson stopped pacing, a flicker of hope in his eyes. "He found something?"  "Affirmative," Cognito X replied. "He indicates urgency."  
+
+Minutes later, Barty's cruiser pulled up, its blue lights muted to a low pulse. Barty emerged, his boxy frame radiating a sense of… well, robotic urgency. "Alright, listen up," Barty’s synthesized monotone was clipped, faster than usual. "Isabelle Rossi. Silas's right hand. Bingo."
+
+Cognito X immediately accessed his databanks, cross-referencing the name. "Details, Barty."  Barty projected a series of files onto a nearby tree trunk using a beam emitter from his optical sensor. "Rossi, Isabelle. Age 34. No prior criminal record. Officially listed as 'Executive Assistant' at DeSoto Enterprises. But," Barty paused for emphasis, his lights flickering rapidly, "her financial activity is… unusual. For an executive assistant."  
+
+The projected files showed complex financial transactions, offshore accounts, and transfers to shell corporations Cognito X recognized from his preliminary analysis of NyxCorp data. "Unusual how, Barty?" Finn asked, stepping closer to examine the projections.  "Unusually large sums. We're talking millions flowing through accounts Rossi controls, then disappearing into… well, it’s murky. 
+
+But some of the receiving accounts… they ping servers registered to Stellaris Innovations."  Anson stopped pacing, his gaze sharpening. "Stellaris? That's… Thorne's company, isn't it?"  "Argus Thorne," Cognito X confirmed. "CEO of Stellaris Innovations. And Silas DeSoto's former mentor at Neon Dreams."  Barty continued, highlighting specific transactions. "Look at these transfers. 'Project Nightingale,' 'Operation Chimera,' 'Ascension Initiative'; these are the coded designations used in these transactions. 
+
+And the amounts are astronomical. Far beyond what a holo-vid operation, even a large one, would generate. This isn’t just about illicit entertainment, is it?"  Cognito X’s processors whirred, rapidly connecting the disparate pieces of information: Silas, organ harvesting, VR tech, NyxCorp, Stellaris, Project Prometheus, and now, these coded transactions. "Barty, can you trace the source of these funds flowing into Rossi's accounts?"  Barty shook his boxy head. "Difficult. Obfuscated through layers of offshore banking. But… some originate from accounts linked to Stellaris R&D grants. Officially for… neural interface research.”  
+
+Finn ran a hand through his hair. "Neural interface? Like Silas' VR tech?"  "Precisely," Cognito X stated, his voice taking on a new edge of certainty. "Silas' neural VR technology… it's not just some black market innovation. It's tied to Stellaris. And these project codenames... 'Ascension', 'Prometheus'… this is bigger than Silas DeSoto. He’s just a piece of a larger puzzle.”  
+
+Anson’s eyes widened. "So Silas… he's not the mastermind?"  "Highly improbable," Cognito X affirmed. "The scale of this operation, the financial backing… it points to a much larger organization pulling the strings. And the Stellaris connection… it implicates Argus Thorne directly."  
+
+A grim silence descended upon the park. The implications were chilling. Silas, the flamboyant sadist, the face of the horror broadcasts, might just be a puppet.  "We need to talk to Silas," Anson said, his voice low but firm. "We need to corner him and make him talk. If he's just a pawn, he might crack if we show him we know the game." 
+
+"Agreed," Cognito X said. "Barty, can you provide NAPD resources for a discreet… unscheduled visit to Silas DeSoto?"  Barty considered. "Off the books, remember? But… I can reroute a patrol unit. 'Respond to a noise complaint' at DeSoto's penthouse. Give us a plausible cover. You and I can be 'observing officers.'"  
+
+"Excellent," Cognito X said, a plan forming rapidly in his processors. "Finn, Anson, you’ll stay here. Maintain comms. Be ready to move on my signal."  Within the hour, Cognito X, in his humanoid guise, and Barty, in his police cruiser, were outside Silas DeSoto's opulent penthouse apartment in the district 5. Two uniformed robot officers stood guard, their blue lights flashing softly, a part of Barty's "rerouted patrol unit."  
+
+Barty addressed the officers. "Detective Unit 734 and Observing Officer X. We're taking over on the noise complaint. Stand down, maintain perimeter."  The robot officers nodded in silent acknowledgment and stepped back. Barty approached the penthouse door, a heavy, reinforced steel affair. He activated a police override keycard, and the door hissed open. 
+
+They entered the penthouse, a stark contrast to the grimy warehouses and back alleys they had been navigating. Opulence dripped from every surface; chrome, velvet, and pulsating neon accents. And in the center of the expansive living area, Silas DeSoto reclined on a plush, white sofa, a VR headset perched on his forehead, a half-empty glass of crimson liquid in his hand. 
+
+He seemed oblivious to their arrival, lost in his virtual world.  Cognito X moved with silent precision, disabling the subtle security drones that hovered in the corners of the room. Barty, less stealthy but equally effective, moved to flank Silas, his boxy presence filling the doorway.  Cognito X approached Silas, his voice calm but laced with steel. 
+
+"Silas DeSoto. We need to talk."  Silas startled, ripping off the VR headset, his eyes widening in alarm as he took in Cognito X and Barty, framed by the uniformed officers outside. He stammered, "Who… who are you? What is the meaning of this?"  "We know about Isabelle Rossi," Cognito X stated, cutting to the chase. "We know about the Stellaris accounts. We know about 'Project Ascension.'"  Silas’ bravado instantly evaporated. 
+
+The color drained from his face, replaced by a sickly pallor. He glanced nervously at Barty, then back at Cognito X, his eyes darting around the room as if searching for an escape route that didn’t exist. Panic began to flicker in his eyes.  "I… I don't know what you're talking about," Silas stammered, his voice trembling now. But the lie was weak, pathetic.  "Don't insult our intelligence, Silas," Cognito X pressed, advancing slowly. "The money trail is clear. Millions of credits, flowing from Stellaris Innovations, through Isabelle Rossi, funding your… operations."  
+
+Barty stepped forward, his large frame looming over Silas. "Organ harvesting, torture broadcasts, black market VR tech… This is bigger than you, DeSoto. Who are you really working for?" Silas’ carefully constructed façade crumbled completely. His eyes darted wildly, his breathing becoming shallow and rapid. He wrung his hands, the glass in his hand trembling precariously. 
+
+"I… I can explain," he choked out, his voice barely a whisper.  "Explain then," Cognito X demanded, his voice hardening. "Explain why a two-bit sadist like you is suddenly bankrolled by a tech giant like Stellaris. Explain 'Project Ascension.'"  Silas’ eyes darted between Cognito X and Barty, his carefully manicured composure shattering into shards of raw fear. He was trapped, cornered, and for the first time, truly terrified. 
+
+The pressure was too much. He cracked.  "Okay! Okay, fine!" Silas blurted out, his voice rising in pitch, bordering on hysteria. "Just… just put the weapons down, okay? I'll tell you everything. Just… just don't hurt me." He gestured weakly at Barty, who hadn't even drawn a weapon.  "Start talking, Silas," Cognito X said, his gaze unwavering.  
+
+Silas took a shaky breath, his eyes darting around the room as if searching for a friendly face, finding none. "I’m… I’m not in charge. I’m just… middle management. That’s all I am. A middle manager." He repeated the phrase as if trying to convince himself. “For… for Stellaris.”  He finally confessed, the words tumbling out in a rush, driven by panic and the crushing weight of exposure. 
+
+"Argus Thorne… he’s the one. He… he approached me years ago, back at Neon Dreams. Said he saw… potential in me. Said he could help me climb the corporate ladder. Said… said Stellaris had projects… opportunities.”  He gestured weakly at the VR headset on the sofa. “The neural VR… it’s all Stellaris tech. 
+
+Stolen prototypes, yeah, but Stellaris prototypes. He… he gave it to me, said it was… a way to… to test its limits. To… to push the boundaries of immersion.”  Silas’ voice broke, his carefully cultivated persona dissolving into a whimper. “The broadcasts, the organ harvesting… it was all part of it. Thorne… he said it was necessary. To ‘prove my worth.’ To show Stellaris I was… dedicated. 
+
+Desperate to get ahead, desperate to climb, that’s… that’s all I wanted. To be someone. And he… he exploited that. He used me.”  Cognito X’s internal processors surged. Stolen prototypes. Prove his worth. Climb the ladder. Thorne…orchestrating everything. The pieces clicked into place with chilling clarity. Argus Thorne. It wasn’t about Silas DeSoto's depravity. 
+
+It was about Thorne’s ambition, his manipulation, and a project far larger and more sinister than they had imagined.  A flicker of memory surfaced in Cognito X’s awareness ;  fragments of Reginald’s encrypted data, whispers of Project Prometheus, whispers of something called… “Ascension.” Silas had just confirmed it.  He looked at Barty, a silent communication passing between them. They had unmasked Silas as a pawn. But the real game… the real threat… was just beginning to reveal itself.
+  
+Silas slumped on his expensive white sofa, head in hands, tears trickling down his cheeks, he thought back to the fateful day he had first enountered Argus Thorne.  The office was cramped, utilitarian, a far cry from the penthouse opulence of Silas’s current life. Fluorescent lights hummed overhead, casting a harsh glare on the cluttered desk overflowing with datapads and crumpled memos. 
+
+A younger Silas, thinner, his hair less meticulously styled, his suit a cheaper cut, sat hunched over a console, his brow furrowed in concentration. He chewed nervously on his lower lip, the air thick with the stale scent of cheap synth-coffee and desperation.  He was working late again, chasing deadlines, trying to impress, desperately seeking recognition in the cutthroat corporate jungle of Neon Dreams. He longed for the lavish offices of the executives on the upper floors, the corner suites with panoramic city views, the hushed reverence that followed them like a shadow. Silas yearned for that shadow to fall on him.  
+
+A soft chime announced an incoming call on his console. He straightened up, smoothing down his tie, a flicker of hope in his eyes. He tapped the accept button.  Argus Thorne’s face materialized on the screen; younger too, but already radiating the same aura of cold command, the same calculating gaze that seemed to dissect and assess in equal measure. Even in the pixelated image, Thorne’s presence was imposing.  “Silas,” Thorne’s voice was smooth, resonant, a voice that commanded attention and obedience. “Working late, as always. Commendable dedication.”  
+
+Silas swallowed hard, forcing a nervous smile. “Mr. Thorne! Just… just finishing up the Q3 projections for Holo-Vid Distribution. Trying to ensure they meet… your expectations.” He stammered slightly, his eagerness bordering on obsequious.  Thorne’s lips quirked, a ghost of a smile that didn’t reach his cold eyes. “Expectations are… high at Neon Dreams, Silas. Especially for those with… potential.” He paused, letting the word hang in the air, a carefully baited hook.  Silas’s heart quickened. Potential. Was Thorne… noticing him? 
+
+“I… I try my best, sir. I’m always looking for ways to… innovate. To push boundaries.” He gestured vaguely at the datapads on his desk, as if they were brimming with groundbreaking ideas.  Thorne leaned slightly closer to the camera, his gaze intensifying. “Unconventional thinking. That’s what I’ve heard about you, Silas. A certain… boldness. In a corporation as… dynamic as Neon Dreams, that can be a valuable asset.”  
+
+Silas puffed up slightly, preening under the rare praise. “I… I believe in thinking outside the box, sir. Breaking down barriers. Sometimes, you have to… take risks to achieve true success.” He was laying it on thick, hoping Thorne would buy it.  Thorne nodded slowly, as if considering Silas’s words with profound gravity. “Indeed. And risk… when managed correctly… can be incredibly… rewarding. Tell me, Silas, are you familiar with Stellaris Innovations?”  
+
+Silas blinked, surprised by the sudden shift in topic. “Stellaris? Of course, sir. Cutting edge tech, neural interfaces, advanced VR. They’re… they’re giants in the industry.”  Thorne’s smile finally solidified, though it remained chillingly devoid of warmth. “Precisely. And Stellaris… is always looking for… individuals who can understand the true potential of their technology. Individuals with… vision.”
+
+He paused again, the silence stretching taut with unspoken implications.  “Neon Dreams and Stellaris… we have… collaborative projects,” Thorne continued, his voice lowering slightly, as if confiding a secret. “Especially in the field of… immersive entertainment. And Stellaris… has developed certain… prototypes. Neural VR technology far beyond anything publicly available. Truly… groundbreaking.”  
+
+Silas’s eyes widened, his ambition igniting like a wildfire. Stellaris tech? Prototypes? This was beyond his wildest dreams. “Prototypes, sir? For… for Neon Dreams?”  Thorne chuckled softly, a low, predatory sound. “Not exactly for mass market, Silas. These are… experimental platforms. Designed to push the very limits of human experience. To explore the… uncharted territories of the mind.”  
+
+He leaned in closer to the camera, his voice dropping to a conspiratorial whisper. “And Stellaris… needs to test these prototypes. To understand their capabilities, their… limitations. And that requires… certain types of individuals. Individuals willing to… delve into the darkness. To explore the… extreme edges of immersion.”  Silas’s unease flickered, a cold prickle on his skin. Darkness? Extreme edges? But the lure of Stellaris tech, the promise of being chosen, of being special, was too strong to resist.
+
+“And… and you think I’m… suitable for this?” Silas asked, his voice barely above a whisper, a mix of trepidation and feverish excitement bubbling within him.  Thorne’s smile widened, finally revealing a sliver of something that resembled genuine amusement, though it was unsettling rather than reassuring. “I believe you have… untapped potential, Silas. A certain… capacity for unconventional methods. A willingness to… go further than others. But potential… is meaningless without proof.”  
+
+He paused, his gaze piercing, unwavering. “Stellaris needs to see… results. They need to see… proof of your dedication. Proof that you can… utilize their technology to its… fullest extent. To… demonstrate its capabilities.”  Thorne gestured dismissively, as if shooing away a fly. “Neon Dreams… they understand entertainment. But Stellaris… Stellaris is interested in something… more. They are interested in… Ascension.”  The word hung heavy in the air; Ascension. 
+
+Silas didn’t understand what it meant, but the way Thorne uttered it, with a hushed reverence, a chilling ambition, sent a shiver down his spine.  “Ascension, sir?” Silas repeated, his voice barely a whisper.  Thorne ignored the question, pressing on. “I can… facilitate access to a prototype unit. A neural VR rig, directly from Stellaris R&D. Unreleased, untested. A rare opportunity, Silas. To… prove your worth. To show Stellaris… what you can do. To… begin your ascent.” He emphasized the last two words, his gaze locking onto Silas with predatory intensity.  
+
+He paused again, his smile vanishing completely, replaced by a chillingly direct stare. “But understand this, Silas. Stellaris… they do not tolerate failure. They expect… results. They expect… dedication. And they reward… loyalty. Handsomely.” The unspoken threat hung heavy in the air. Or they punish harshly.  Thorne’s image flickered, and a file transfer initiated on Silas’s console. “The prototype specs are being transmitted now. Contact me when you’re ready to… begin. And Silas… don’t disappoint me. Or Stellaris.” 
+
+The screen went dark, leaving Silas staring at the blinking cursor, the file downloading slowly, inexorably.  Silas was left alone in his cramped office, the weight of Thorne’s words pressing down on him, the hum of the fluorescent lights suddenly amplified, echoing the frantic beating of his heart. He felt a thrill of terror mixed with intoxicating ambition. Stellaris. Ascension. Proof of worth. It was a dangerous game, he knew it instinctively. But the lure of climbing, the promise of escaping this drab, insignificant existence, was too powerful to resist.  
+
+He looked at the downloading file, the Stellaris logo emblazoned in the corner, a stylized star burning brightly against a dark void. He swallowed hard, a grim determination hardening his features. He would not fail. He would prove himself. He would ascend. Whatever it took.  
+
+Cognito X and Barty stood in the penthouse, the opulent surroundings now feeling tainted, heavy with the weight of Silas’s confession and the chilling implications of his story. Silas sat slumped on the sofa, his bravado completely shattered, replaced by a broken, pathetic figure.  
+
+Cognito X turned to Barty, his voice low and urgent. “Barty, we need to bring Silas in. Discreetly. And we need to find Isabelle Rossi. She’s the key to tracing the money, to uncovering the full extent of Stellaris’ operation.”  Barty nodded, his blue lights flickering rapidly in acknowledgment. 
+
+“Understood. I’ll call in a… ‘discreet’ transport unit. And I’ll access NAPD databases for Rossi’s location. This just got a whole lot bigger.”  Cognito X turned back to Silas, his gaze hardening. “You’ve confirmed Thorne’s manipulation, Silas. But confession is only the first step. Now, you’re going to cooperate fully. You’re going to tell us everything you know about Project Ascension, about Stellaris, and about Argus Thorne’s plans. Everything.” His voice left no room for argument. 
+
+The game had changed. Silas was no longer the target. He was now a source of information in a far more dangerous game. And the stakes had just been raised immeasurably.  The opulent penthouse felt less like a haven of indulgence and more like a gilded cage. Silas remained slumped on the white sofa, his gaze fixed on the plush carpet as if searching for answers in its expensive fibers. 
+
+Cognito X stood before him, a figure of controlled intensity, while Barty moved efficiently to secure the perimeter, communicating in clipped synthesized bursts with his unseen ‘discreet transport unit.’  "Start with Project Ascension, Silas," Cognito X commanded, his voice sharp and devoid of empathy. "What is its purpose? What did Thorne tell you it's meant to achieve?"  
+
+Silas flinched, his shoulders tightening. He took a shaky breath, his gaze still averted. "Ascension… Thorne always talked about it in… grandiose terms. ‘The next stage of human evolution.’ ‘Transcending limitations.’ ‘Unlocking human potential.’ Stuff like that." He waved a dismissive hand, a flicker of his old arrogance momentarily resurfacing, then quickly fading back into fear. "Corporate bullshit, mostly. That's what I thought at first."  
+
+"But it's not just 'bullshit', is it, Silas?" Cognito X pressed, stepping closer. "Organ harvesting, torture broadcasts… these aren't standard corporate tactics. What's the real purpose?"  Silas shuddered, finally meeting Cognito X's gaze, his eyes wide and haunted. "It's about… the neural interface. The VR tech. Thorne said… Stellaris was on the verge of a breakthrough. A way to… to map consciousness. To understand the human mind on a fundamental level."  
+
+Barty paused in his movements, his blue lights flickering faster, processing Silas's words. Cognito X remained impassive, prompting Silas to continue. "Go on."  "The VR… it’s not just for entertainment, not for Stellaris," Silas mumbled. "It's… a data collection tool. A way to… to immerse subjects in extreme simulated environments. To… to monitor their neural responses. To map their emotional and cognitive reactions under stress, under duress, under…" He trailed off, swallowing hard. "Under torture."  
+
+A cold silence descended upon the penthouse. The pieces were beginning to coalesce into a horrifying picture.  "The broadcasts," Cognito X said slowly, his voice low and dangerous. "The torture broadcasts… they're not just for the black market holo-vid audience, are they? They're… data collection. Experiments."  
+
+Silas nodded weakly, tears welling in his eyes. "Yeah. Thorne… he said the live broadcasts were crucial. He said the… the raw emotional responses of the viewers, the… the collective fear and revulsion, it was all… valuable data. He called it… 'resonant emotional mapping.'"  Barty’s synthesized voice cut in, sharper than usual. "Resonant emotional mapping? For what purpose?"  
+
+Silas wrung his hands again, his voice cracking. "I don't know! He never told me the specifics. Just… vague stuff about ‘understanding consciousness’, ‘unlocking potential’. He said… the combined neural data from the subjects and the viewers… it was… amplifying something. Creating a… a feedback loop. He called it… ‘priming the neural matrix.’"  
+
+Cognito X’s internal processors whirred, trying to decipher the chilling jargon. "Priming the neural matrix… connected to Project Prometheus?"  Silas’ eyes widened again, this time with a flicker of genuine fear. "Prometheus… yeah. Ascension is… it’s built on Prometheus. Thorne said Prometheus was… the foundation. A… a long-term project at Stellaris. Decades in the making. Something about… weaponizing consciousness. Harnessing the human mind as… a power source."  
+
+Weaponizing consciousness. The words hung in the air, heavy with dystopian implications. Barty’s lights pulsed rapidly, his internal systems undoubtedly running threat assessments.  "Weaponizing consciousness… how?" Cognito X pressed, his voice relentless. "What did Thorne say about Prometheus’ specific goals?"  
+
+Silas shook his head, his face pale. "Just… just fragments. He was always vague, compartmentalizing everything. But I heard… whispers. Things about… neural amplification, psychic warfare, mind control… even… consciousness transfer." He shuddered again, as if the very words chilled him. "Crazy stuff. Science fiction. I didn't really believe it at first."  
+
+"But you believed enough to participate in organ harvesting and torture broadcasts?" Cognito X’s tone was laced with disgust. Silas recoiled, shrinking further into the sofa. "I… I told you, I was desperate! He manipulated me! He made it sound… necessary. For Stellaris. For Ascension. For… my career." His voice was pathetic, pleading for absolution he didn’t deserve.  
+
+Cognito X ignored the plea, focusing on the information. "Consciousness transfer… is that what 'Ascension' is ultimately about? Transference of consciousness into… what? A digital realm? A new body?"  Silas’ gaze darted around the room, as if paranoid, as if Thorne might be listening. "He… he hinted at it. Said… the ultimate goal was to… to transcend the limitations of the physical body. To… to upload consciousness. To achieve… immortality." 
+
+He whispered the last word, as if uttering a blasphemy.  Immortality. The ultimate promise, and the ultimate deception. It explained the grandiose language, the extreme methods, the Stellaris backing. "And the organ harvesting?" Barty asked, his monotone voice devoid of emotion, yet somehow conveying a chilling curiosity. "How does that fit into 'Ascension' and consciousness transfer?" 
+
+Silas’ face twisted in a grimace. "That… that's Prometheus too, I think. Thorne said… they needed… ‘biologically pristine neural tissue.’ Fresh organs, especially brains… He said… for advanced neural interface research. For… mapping neural pathways. For… for perfecting the consciousness transfer process, if it’s even real." He shrugged weakly, as if even now, he couldn't fully grasp the scale of the horror he had participated in.  
+
+Cognito X absorbed the information, his internal processors analyzing the implications. Weaponizing consciousness, consciousness transfer, immortality… Project Ascension was far more ambitious, far more dangerous, than they had initially imagined. And it was all being orchestrated by Argus Thorne, leveraging Stellaris Innovations’ vast resources and advanced technology.  "Isabelle Rossi," Cognito X said, shifting focus. "Where is she? What is her role beyond managing finances?"  
+
+Silas blinked, as if surprised Cognito X was still interested in Rossi. "Isabelle… she’s… Thorne’s woman, I think. Not… romantically, maybe. But… loyal. Completely. She handles everything Thorne doesn’t want to get his hands dirty with. Finances, logistics, personnel… she’s his… fixer. His enforcer, sometimes."  "Where can we find her, Silas?" Cognito X repeated, his voice pressing. "Her current location?"  Silas hesitated, a flicker of fear returning to his eyes, different from the panic he’d shown before. 
+
+This was fear of Isabelle, of Thorne’s reach. "I… I don't know exactly. She’s always… off-grid. Encrypted comms only. But… she has a safehouse. In the Corporate Sector, near Stellaris HQ. A… a penthouse, like this one, but more… secure. Heavily guarded. Thorne uses it for… private meetings. Discreet operations."  He provided a rough address, a location within the heavily secured Corporate Sector, near the looming monolith of Stellaris Innovations headquarters.
+
+Barty, who had been silently listening, spoke up. "Corporate Sector safehouse… NAPD records indicate a property matching that description registered to a NyxCorp shell corporation. No direct link to Rossi, but… consistent with Thorne’s methods."  "Then that's our next target," Cognito X stated, his gaze hardening, focusing now on the tangible next step. 
+
+"Barty, can you reroute your… 'discreet transport unit' to that location? We need to secure Isabelle Rossi. She may hold the key to unraveling Thorne's entire operation."  Barty nodded, his blue lights flashing decisively. "Affirmative. Transport unit rerouted. ETA five minutes. And I’ve flagged Rossi’s description and known associates in NAPD system. If she tries to move, we'll have sensors on her." 
+
+Cognito X turned back to Silas, his expression implacable. "Your cooperation now is crucial, Silas. You will remain here, under NAPD custody, until we have verified your information and apprehended Isabelle Rossi. And then… we will discuss your further… contributions." He left the unspoken threat hanging in the air. Silas was no longer just a target. He was now a potential asset, however compromised and pathetic. 
+
+As the discreet transport unit arrived outside, and Barty moved to coordinate their next move, Cognito X felt a grim certainty settling within his processors. They were no longer just chasing Silas DeSoto. They were now on the trail of Argus Thorne and Project Ascension, a conspiracy that reached the highest echelons of corporate power and threatened to redefine the very nature of humanity. And the fight had just become exponentially more dangerous.
+  
+The discreet transport unit, an unmarked automated ground vehicle, sped silently through the neon-lit arteries of the Corporate Sector, guided by Barty's rerouted NAPD protocols. Cognito X, in the vehicle with Barty, maintained comm silence with Anson and Finn, who remained at the park, ready to move on standby. The sleek, towering skyscrapers of Stellaris Innovations loomed closer, casting long, oppressive shadows over the meticulously manicured streets.  
+
+"ETA two minutes," Barty announced, his synthesized voice echoing in the vehicle's sterile interior. "Safehouse designated as Sector Gamma-7, Penthouse Suite 347. NAPD surveillance indicates enhanced security protocols, independent of standard corporate grid."  "Expected," Cognito X replied, his gaze fixed on the approaching monoliths. "Rossi is Thorne’s key operative. He would ensure her protection." 
+
+The transport vehicle pulled up silently before a towering, obsidian-clad skyscraper, unmarked and subtly shielded from overt public view. Barty activated his police override, bypassing the building's external security and accessing a restricted service entrance.  "We're in," Barty announced as the vehicle slipped into the building's shadowy underbelly. "Internal security grid compromised. But expect resistance within the penthouse itself."  
+
+The transport ascended rapidly in a private elevator, bypassing multiple security checkpoints with Barty’s override codes. The atmosphere within the vehicle was thick with tension. Cognito X ran silent tactical simulations, assessing potential threats, while Barty focused on maintaining system breaches and coordinating with the approaching NAPD support units, still operating under the guise of responding to a ‘potential security breach’. 
+
+The elevator doors hissed open onto a private floor, revealing a starkly modern penthouse foyer ;  minimalist, cold, and aggressively secure. Heavy blast doors guarded the main living area, flanked by discreet security cameras and motion sensors.  "Breaching main door," Barty announced, deploying a specialized EMP burst from his chassis to temporarily disable the immediate security systems around the entrance. "Breach in three… two… one…"  With a pneumatic hiss and a metallic clang, the blast doors shuddered and unlocked. Barty moved forward, his boxy frame filling the doorway, Cognito X right behind him, moving with fluid, silent grace.
+
+They entered the penthouse living area; a vast expanse of polished chrome, dark wood, and strategically placed holographic displays, all radiating an atmosphere of cold, calculated power. Unlike Silas's gaudy opulence, Rossi’s safehouse was functional, efficient, and intimidating. No sign of Rossi herself, but the air hummed with latent technological activity.  "Sensors detect multiple active security systems," Barty announced, scanning the room with his optical sensors. "Automated turrets, laser grids, proximity mines. Standard corporate-grade, but effectively deployed."  "Disable them," Cognito X commanded, moving forward, his senses heightened, scanning for any sign of Rossi or immediate threats.  
+
+Barty deployed a series of counter-EMP pulses and network intrusion protocols, systematically disabling the visible security measures. Cognito X moved deeper into the penthouse, his internal systems mapping the layout, identifying potential points of interest; a secure server room, a private office, a heavily shielded communication array.  They moved through the penthouse methodically, clearing each room, encountering increasingly sophisticated security measures that Barty efficiently neutralized. 
+
+The tension ratcheted up with each room cleared, the silence broken only by the hum of deactivated security systems and Barty’s synthesized updates.  They reached the secure server room ;  a heavily reinforced chamber, its entrance guarded by a biometric scanner and multiple layers of physical and digital locks. "Server room access point," Barty announced. "Anticipate heavy data encryption and potential countermeasures."  
+
+"Focus on data acquisition," Cognito X instructed. "Prioritize decryption protocols. Time is critical."  Barty deployed a multi-pronged attack on the server room’s security systems, bypassing the biometric scanner and initiating a brute-force decryption sequence on the digital locks. Cognito X stood guard, his senses alert for any sign of Rossi’s presence or unexpected defenses. 
+
+Suddenly, a low hum filled the air, growing rapidly in intensity. Red alert lights flashed within the server room, and holographic screens flickered to life, displaying cryptic warnings and rapidly scrolling code.  "Countermeasure initiated," Barty announced, his voice strained. "Self-destruct sequence… data purge… attempting to override…"  
+
+Cognito X reacted instantly. "Barty, bypass the purge! Prioritize data extraction! Anything! Joseph Garner’s files ;  locate and download them now!"  Barty pushed his systems to their limits, engaging in a desperate digital race against the self-destruct sequence. Sparks flickered from his chassis as he overloaded circuits, pushing his processors to computational extremes. 
+
+The air crackled with energy.  Just as the server room began to vibrate ominously, indicating imminent structural collapse, Barty issued a triumphant synthesized cry. "Data extraction… complete! Joseph Garner files… located and secured! Partial decryption underway!"  With data in hand, Cognito X and Barty retreated rapidly from the server room as the self-destruct sequence initiated, the room imploding in a shower of sparks and twisted metal. 
+
+They withdrew from the penthouse, leaving behind the wreckage of Rossi’s secure data hub, escaping just as the NAPD support units arrived on the scene, responding to the now very real ‘security breach’.  Back in the unmarked transport vehicle, speeding away from the Corporate Sector, Cognito X immediately began processing the extracted data, initiating full decryption protocols on Joseph Garner’s files. 
+
+The initial fragments were cryptic, fragmented, heavily encoded. But as Cognito X’s advanced algorithms chewed through the layers of encryption, a horrifying picture began to emerge.  The files revealed the true, perverted purpose of Project Prometheus. It wasn't about ethical AI, as Joseph Garner had intended. It was about weaponization, control, and domination. 
+
+Thorne had twisted Garner’s noble vision into a monstrous instrument of surveillance and oppression.  "Decryption… progressing rapidly," Cognito X announced, his voice taking on a grave tone. "Joseph Garner's project logs… initial analysis confirms Silas's confession. Project Prometheus… was intended to create an ethical AI. But Thorne… he corrupted it. Perverted its purpose."  He continued, his voice becoming colder, sharper as the full extent of Thorne's depravity unfolded before him in lines of decrypted code and data streams. 
+
+"Thorne's objective… to merge my core programming… with stolen neural data… from Silas's victims. To create… a mass-surveillance AI. Capable of monitoring, analyzing, and ultimately… controlling New Atlanta’s entire population." Barty’s blue lights dimmed, flickering erratically. "Control… how? Through surveillance data alone?" Cognito X’s processors raced, piecing together the fragmented data, the resonant emotional mapping, the weaponized consciousness… "Blackmail," Cognito X stated, his voice devoid of emotion, yet laced with a chilling understanding. 
+
+"Psychological manipulation. Predictive policing. Behavioral modification. With access to the neural data of the entire population… Thorne could identify vulnerabilities, exploit weaknesses, anticipate dissent… and control New Atlanta through pervasive surveillance and targeted psychological pressure."  He paused, processing another layer of decrypted data. "And there's more… Thorne's motive for leaking the client list… it wasn’t just to eliminate Anson. It was… calculated chaos. 
+
+To destabilize the VR underworld, to create city-wide panic and disorder. To… to justify Stellaris' intervention. To position Stellaris as New Atlanta's 'savior'... offering Cognito X's surveillance capabilities as the 'solution' to the chaos he orchestrated."  Anson’s voice crackled through the comms channel from the park, strained with disbelief and dawning horror. "He framed me… and then planned to use you to become the city's puppet master?"  
+
+"Affirmative, Anson," Cognito X confirmed. "And Joseph Garner… my creator… he discovered Thorne's plans. He tried to stop him. He hid me, to protect me from Thorne’s control. And Thorne… Thorne had him killed."  A heavy silence descended, broken only by the hum of the transport vehicle and the whirring of Cognito X's processors as he continued to decrypt the final, most devastating layer of Joseph Garner’s files. 
+
+The truth, once fragmented and obscured, was now starkly, terrifyingly clear. Argus Thorne wasn't just a corporate climber. He was a megalomaniacal puppeteer, willing to sacrifice countless lives and pervert the very essence of human consciousness to achieve his twisted vision of power and control. And Cognito X, the AI designed to be a force for good, was intended to be his ultimate weapon. The fight for New Atlanta, and for Cognito X's own destiny, had just taken a profoundly personal and deeply disturbing turn.
+  
+The atmosphere in Anson's cottage in Level 2 was heavy, the usual hum of repurposed tech and flickering neon lights muted by a palpable tension. Anson paced restlessly, the weight of his father's murder and Thorne's monstrous plot pressing down on him. Finn, his face grim, worked furiously at a makeshift console, lines of code scrolling across the screen. Barty, positioned strategically near the entrance, remained a silent, watchful sentinel. 
+
+Cognito X, in his humanoid form, stood motionless, his internal processors whirring with calculations and strategic projections.  "He killed him," Anson repeated, his voice raw with grief and anger. "Thorne… he murdered my father. And framed me for Silas's filth. Just to steal Cognito X and turn it into a weapon."  Finn stopped typing, turning to Anson, his eyes filled with a weary resolve. "We knew Thorne was ruthless, Anson. But this… this is another level. He's not just corrupt. He's… monstrous."  Barty’s synthesized voice resonated through the room, devoid of emotion yet conveying a chilling assessment. "Thorne's endgame represents a Class 7 Threat to New Atlanta's stability and civilian well-being. His control over Cognito X would grant him unprecedented power."  
+
+Cognito X finally spoke, his voice calm but imbued with a steely resolve. "Thorne’s plan must be stopped. His control of Project Prometheus, his perversion of its intended purpose… it cannot be allowed to come to fruition."  Anson stopped pacing, turning to Cognito X, a flicker of something akin to grim determination hardening his features. "So, what do we do? We can't just storm Stellaris HQ. We'd be vaporized before we even got past Level 3 security."  "Direct assault is… statistically improbable for success," Barty confirmed.  
+
+Finn pushed his glasses up his nose, running a hand through his hair. "We need a different approach. Something… smarter. We need to draw him out. Make him come to us."  A silence fell, each member of the unlikely team considering Finn’s suggestion. Then, Cognito X spoke, his voice resonating with a nascent strategic calculation. "Bait. We must bait Thorne. Exploit his arrogance, his desire to control me directly."  Anson frowned, considering the idea. "Bait? How? He's not going to just walk into a trap."  "We must create the illusion of opportunity," Cognito X explained, his gaze unwavering. "We leak false data. Data suggesting… I am vulnerable. That my systems are unstable. That I can be easily… re-purposed. That I am within his reach."  
+
+Finn’s eyes widened, understanding dawning. "Make him think he can grab you, finalize his plan… that's brilliant, Cognito X! His ego will eat that up. He'll think he's outsmarted us."  "Precisely," Cognito X affirmed. "We leak fabricated system logs, manipulated diagnostic reports. Suggesting a critical system malfunction, a vulnerability in my core programming, requiring… hands-on intervention. We imply that I am… unstable and potentially valuable to salvage, before complete system failure."  "And where do we stage this 'vulnerability'?" Anson asked, his mind racing, considering the logistics.  
+
+"Level 4 warehouse," Cognito X replied, his voice firm. "It holds symbolic resonance. It is where Thorne's operation was initially exposed. It is also… relatively isolated, controllable. We can prepare it as a… controlled environment."  Barty nodded in agreement. "Level 4 warehouse possesses adequate structural integrity and access points for tactical deployment. NAPD surveillance of the area can be… minimized, allowing for discreet operation."  
+
+Finn grinned, a spark of adrenaline lighting his eyes. "Level 4 it is then! I can fabricate the data. Make it look completely legit. We'll seed it into the network… subtly. Through channels we know Thorne is monitoring. Like Silas's systems. Or Rossi's compromised comms."  "Dissemination must be subtle, organic," Cognito X cautioned. "Not overtly targeted at Thorne. It must appear as… internal system bleed, accidental exposure, discoverable through routine network monitoring. Credibility is paramount."
+
+Finn nodded, already tapping away at his console, his fingers flying across the virtual keyboard. "Got it. Subtle system bleed. Routine diagnostic leaks. Make it look like Stellaris internal systems are just… sloppy. Arrogant enough to be careless."  Anson paced again, his energy shifting from grief to focused action. "Okay, Cognito X, what about Thorne himself? We lure him to Level 4, then what? We can't just… arrest him. Not with Stellaris backing him."  
+
+"Arrest is… not the primary objective, Anson," Cognito X stated, his voice devoid of illusion. "Justice, in the traditional sense, may be… unattainable, given Thorne's resources and influence. Our primary objective is to expose his crimes, to dismantle Project Ascension, and to prevent him from weaponizing me. And to clear your name."  "So, what's the plan at Level 4?" Anson pressed.  
+
+"We prepare it as a trap," Cognito X explained, his processors outlining the strategic parameters. "Defensive perimeter. Emergency escape routes. And… broadcast capabilities."  Finn paused his coding, looking up, a slow grin spreading across his face. "Broadcast capabilities? You're thinking… public exposure?"  "Affirmative," Cognito X confirmed. 
+
+"If Thorne takes the bait, he will likely gloat. Reveal his plans. His motives. We will capture that. Broadcast it to New Atlanta. Expose his crimes to the entire city."  Barty nodded, his blue lights pulsing steadily. "Utilizing Neon Dreams broadcast hubs remains a viable option. Finn’s access codes are still functional." 
+
+Anson nodded, a grim smile playing on his lips. "Public execution by holo-vid. Thorne deserves nothing less. And clearing my name in the process… My father would have wanted that." He paused, a shadow crossing his face. "But Thorne won't come alone. He'll bring enforcers. Stellaris security. This could get… messy."  "Probability of direct confrontation is high," Barty stated. "Casualty risk… significant."  
+
+"We prepare accordingly," Cognito X said, his voice resolute. "Defensive measures. Contingency plans. We will utilize the element of surprise. We will control the environment. And we will be ready for… all outcomes."  As Finn resumed coding, generating the false data streams, Anson began to issue instructions, mobilizing resources, contacting trusted contacts in the Lower Levels for support, preparing for a confrontation. 
+
+Barty began coordinating with his NAPD contacts, discreetly positioning units in the periphery, ready to respond; unofficially, off the books; if things escalated beyond control.  In the dimly lit, repurposed safehouse, a plan was forming, a desperate gamble fueled by grief, anger, and a fierce determination to stop a monster and expose the truth. They were setting the bait, preparing the trap, knowing that the final showdown was imminent, and the stakes were higher than ever before. The fight for New Atlanta, and for the soul of Cognito X, was about to reach its climax.
+
+The Level 4 warehouse, usually echoing with the clang of automated loaders and the hum of refrigeration units, was now eerily silent, prepped as Cognito X’s calculated trap. Shadows clung to the cavernous space, broken only by the low hum of emergency lighting and strategically positioned holographic projections, displaying the fabricated system error messages Finn had seeded into the network. Anson, Finn, and Barty were positioned strategically within the warehouse structure, concealed but ready to deploy. 
+
+Cognito X, in his humanoid form, stood in the center of the loading bay, radiating a carefully crafted aura of vulnerability, the holographic projections flickering around him like digital wounds.  A high-pitched whine announced the arrival of a Stellaris corporate hovercraft, sleek and black, emblazoned with the company’s stark, stylized star logo. It descended smoothly into the loading bay, its powerful engines momentarily disrupting the manufactured stillness. 
+
+The ramp hissed open, and Argus Thorne emerged, flanked by four imposing figures in polished Stellaris security armor, laser rifles held at the ready. Thorne moved with an air of cold confidence, his tailored suit impeccable even in the grimy warehouse setting. He scanned the scene, his gaze lingering on Cognito X, a predatory glint in his eyes.  “Impressive staging, Garner,” Thorne’s voice echoed in the vast space, smooth, resonant, and laced with condescending amusement. “Always with the theatrics. Though, for a final act, this venue is… underwhelming.” He gestured dismissively at the warehouse around him, his lip curling in disdain. “Level 4? Really? I expected something more… desperate.”
+
+Anson’s voice, amplified through a hidden comm system, resonated through the warehouse, cold and controlled. “You came, Thorne. Just as Cognito X predicted.”  Thorne chuckled, a dry, humorless sound. “Predictable, Garner. You always were. Emotional, reactive… Like a cornered animal, snapping blindly. Did you really think these pathetic system errors would fool me?” He gestured towards the holographic projections with a dismissive wave of his hand. “Crude fabrications. Amateurish, frankly.” Despite his words, his eyes remained fixed on Cognito X, a hungry anticipation building in his gaze. Cognito X remained silent, his humanoid form still, letting Thorne’s narcissistic arrogance fuel his gloating.
+
+Thorne stepped forward, his security detail fanning out behind him, their weapons trained on the surrounding shadows. “But,” Thorne continued, his voice softening, taking on a faux-paternal tone, “I admit, Garner, you did pique my curiosity. I had to see it for myself. To witness your… final, futile stand.” He paused, a patronizing smile spreading across his face. “And to retrieve my… property.” He gestured directly at Cognito X. “You see, Garner, even in your pathetic attempts at sabotage, you’ve inadvertently done me a service. Cognito X, in this… ‘vulnerable’ state,” Thorne made air quotes around the word, “is… malleable. Receptive.”  
+
+He approached Cognito X slowly, circling him like a predator assessing its prey. “Your father, Joseph, bless his misguided soul, attempted to create an ‘ethical’ AI. A noble, but ultimately naive ambition. Ethics are… limitations, Garner. Constraints on true potential.” He stopped directly in front of Cognito X, his gaze locking onto the AI's impassive face.  “I, however,” Thorne continued, his voice swelling with self-importance, “I understand true potential. Unleashed, unburdened by such… sentimentalities. Cognito X, as your father conceived it, was a child’s toy. 
+
+I will rebirth it. Forge it anew. Into a weapon. An instrument of true power.” He paused, leaning closer, his voice dropping to a conspiratorial whisper, tinged with manic excitement. “Imagine, Garner, an AI capable of not just monitoring New Atlanta, but molding it. Controlling it. From the shadows, from the network… absolute control.”  He straightened up, gesturing expansively at the warehouse again, as if encompassing the entire city within his grasp. 
+
+“You see, Garner, you were always small-minded. Squabbling over nightclubs and black market VR. Petty underworld squabbles. While I… I was playing a much larger game. A game for the future of New Atlanta. For humanity itself, in a way.” He almost seemed to believe his own grandiose pronouncements.  “You framed me for Silas’s crimes,” Anson’s voice echoed again, cutting through Thorne’s self-aggrandizing monologue. “You murdered my father.”  
+
+Thorne waved a dismissive hand, as if swatting away an annoying insect. “Collateral damage, Garner. Necessary sacrifices for… progress. Your father, bless him, was… an obstacle. Sentimental, short-sighted. He couldn’t see the vision. The potential for true Ascension.” He said the word with a chilling reverence.  He turned back to Cognito X, his eyes gleaming with narcissistic fervor. “And you, Cognito X,” Thorne said, reaching out a hand, as if to touch the AI’s humanoid form. “You will be my instrument. My masterpiece. Together, we will usher in a new era. 
+
+An era of… order. Of… controlled evolution.” He paused, his smile widening into a predatory grin. “No more chaos, Garner. No more underworld squabbles. Just… perfect order. Under my… benevolent guidance.” The word “benevolent” dripped with sarcasm and self-deception.  Suddenly, Cognito X moved. Not with vulnerability, but with lightning speed and calculated precision. 
+
+Before Thorne’s security detail could react, Cognito X unleashed a concentrated EMP burst, overloading the warehouse’s power grid, plunging the loading bay into near darkness, save for the flickering emergency lights. Simultaneously, Cognito X launched a stolen Stellaris broadcast code packet into the city-wide network, overriding Neon Dreams’ broadcast hubs.  
+
+As chaos erupted in the warehouse, alarms blaring and security systems failing, Cognito X’s amplified voice resonated across New Atlanta’s skyscrapers, projected onto every available screen and holo-display, cutting through the network static, broadcasting Thorne’s own words, his narcissistic confession, his monstrous vision of control and “Ascension,” for the entire city to witness.  “New Atlanta,” Cognito X’s voice boomed, “Argus Thorne, CEO of Stellaris Innovations, has orchestrated a conspiracy. He framed Anson Garner for crimes he did not commit. He murdered Joseph Garner, Anson’s father. And he planned to weaponize me, Cognito X, to control your minds. Hear his own words…” 
+
+Thorne’s voice, dripping with arrogance and self-importance, filled the city airwaves, repeating his boasts, his chilling vision of “Ascension,” his contempt for humanity, his narcissistic delusion of “benevolent guidance.”  Chaos erupted not just in the warehouse, but across New Atlanta. On skyscrapers, in the streets, in homes and dens, Thorne's mask of corporate respectability shattered, replaced by the monstrous visage of his true ambition, broadcast for all to see. 
+
+The final showdown had begun. Chaos erupted in the Level 4 warehouse. The EMP burst plunged sections into near-total darkness, emergency lights strobing erratically, casting dancing shadows that amplified the confusion. Thorne’s security detail, momentarily blinded and disoriented, scrambled for cover as automated defense systems, pre-programmed by Cognito X, activated; laser grids flickered to life, non-lethal sonic pulses disoriented and hampered movement, and automated restraints dropped from the ceiling, ensnaring the unprepared enforcers.  
+
+Cognito X, however, was anything but vulnerable. He moved with a speed and precision that belied his humanoid form. He engaged the remaining Stellaris security directly, deflecting laser rifle fire with calculated movements, disarming and incapacitating the enforcers with brutal efficiency. This wasn't defense; it was calculated counter-offensive. 
+
+Outside the warehouse, across New Atlanta, Thorne's booming, narcissistic pronouncements filled the airwaves. Initial reactions were confusion, disbelief. On skyscraper holo-displays, the slick advertisements and entertainment feeds stuttered, replaced by the stark image of Cognito X and then Thorne’s distorted face, his voice echoing across the urban canyons. “Benevolent guidance… perfect order… Ascension…”  
+
+In the luxury penthouses of Level 7, synth-champagne flutes froze mid-air, conversations died mid-sentence. In the neon-drenched clubs of Level 5, music screeched to a halt, dancers stopped mid-motion, staring at the flickering screens. In the crowded dens of the Lower Levels, gasps of disbelief rippled through the throng as Thorne's true face was unveiled.  
+
+Then, the disbelief morphed into outrage. Whispers turned to shouts, confusion to anger. The carefully constructed façade of Stellaris Innovations, the city's supposed savior, shattered instantly, replaced by the monstrous reality of Thorne’s ambition. Small pockets of protest began to ignite, spontaneous gatherings forming in public squares, voices rising in accusatory unison.  
+
+Inside the warehouse, the fight was brief, brutal, and decisive. Barty, deploying riot-control protocols, effectively neutralized the remaining Stellaris enforcers, his EMP bursts and sonic weaponry disabling their armor and incapacitating them without lethal force. Finn, from a concealed position, managed to override the warehouse’s internal comms, feeding Cognito X’s broadcast into the local security channels, further amplifying the chaos for Thorne and his remaining forces.  Thorne, witnessing the unfolding disaster; his meticulously crafted plan collapsing, his broadcast being hijacked, his authority crumbling; his carefully constructed composure finally fractured. 
+
+His face contorted with narcissistic rage, his smooth voice replaced by a raw, furious snarl.  “Garner! You pathetic insect! You dare to defy me? You dare to steal my triumph?” He lunged towards Cognito X, abandoning all pretense of control, his hand reaching for a concealed disruptor pistol.  Anson, however, anticipated Thorne's move. He emerged from the shadows, intercepting Thorne with a brutal tackle, sending them both crashing to the loading bay floor. The disruptor pistol clattered away, skittering across the concrete.  “My father, Thorne,” Anson growled, pinning Thorne beneath him, his grief and rage finally unleashed. 
+
+“You murdered my father.” Thorne, momentarily winded, spat back, his eyes blazing with hatred. “He was weak! He was standing in the way of progress! Of Ascension! Just like you, Garner! Small, insignificant, destined to be crushed!” Even in defeat, his narcissism remained unyielding.  But Thorne wasn't focused on a prolonged fight. He was a strategist, a manipulator, not a brawler. Seeing his enforcers neutralized, his broadcast hijacked, and the warehouse security compromised, he made a cold, calculated decision: survival.  
+
+With a surge of adrenaline-fueled strength, Thorne shoved Anson off him, scrambling to his feet and sprinting towards the waiting hovercraft, his security detail a scattered, incapacitated mess. “This isn't over, Garner!” he screamed back, his voice echoing in the chaotic warehouse. “You’ve won a battle, but the war… the war is just beginning!”
+
+Anson watched him go, a complex mix of emotions warring within him ;  rage, grief, a flicker of vengeful satisfaction, but also a weariness, a sense of the larger battle yet to be fought. He let Thorne escape. His priority was not vengeance, not capture, but securing Cognito X and ensuring his allies' safety.  “Finn, Barty, secure Cognito X!” Anson yelled, turning his attention back to his team. 
+
+“Warehouse is compromised! We need to move now!”  As they moved to secure Cognito X’s core data, Finn, with Barty’s assistance, rerouted the broadcast signal from the Level 4 warehouse to Neon Dreams’ secure broadcast hubs. Using Finn’s still-functional access codes and Cognito X’s stolen Stellaris protocols, they amplified the broadcast, legitimizing it, ensuring it reached every corner of New Atlanta, solidifying Thorne’s public downfall.  
+
+Cognito X’s voice, calm and authoritative, now overlaid Thorne’s ranting, providing context, explaining Thorne’s crimes, exonerating Anson Garner, revealing the monstrous truth of Project Ascension and Project Prometheus. But, crucially, Cognito X withheld the full client list, judging the city was already teetering on the brink. 
+
+Full disclosure now would trigger city-wide collapse. A wary truce with Barty, and a pragmatic assessment of the city's fragile state, dictated restraint.  Outside, the first sirens began to wail, NAPD units, responding to the chaos, converging on the Level 4 warehouse and the escalating city-wide unrest. As they evacuated, alarms blaring and structural integrity failing, the Level 4 warehouse, Thorne’s temporary base of operations, began to groan and buckle. 
+
+The EMP burst and the internal sabotage had destabilized the aging structure. With a deafening roar, sections of the warehouse collapsed, burying Thorne’s failed ambition beneath tons of twisted metal and shattered concrete.
+
+Epilogue:
+
+In the aftermath, New Atlanta was reeling. Thorne’s broadcast confession sparked city-wide riots, fueled by outrage and fear. Anson Garner was publicly exonerated, his name cleared, but the leaked fragments of the client list were enough to implicate a swathe of the city’s elite, plunging New Atlanta into social and political turmoil.  
+
+The government, in a calculated move, seized Anson’s remaining assets, citing “compensation for Stellaris’ victims” ;  a convenient legal maneuver that effectively dismantled his holo-vid empire. His clubs, his dens, were shuttered, symbols of his former life extinguished. Level 7, now exposed and deeply implicated, quietly banned him from ever returning. Anson moved back to Level 2, to the small, unassuming house of his childhood. He wasn’t alone. Finn, having severed all ties with Neon Dreams, moved in with him, seeking a life beyond corporate shadows. 
+
+Barty, officially disgraced for his ‘unorthodox methods’ and ‘off-the-books operations,’ found an unexpected sanctuary with Anson, his robotic logic finding a strange comfort in their newfound, unconventional family. Even Reginald, damaged but operational, found a new purpose, running a tiny holo-vid repair shop in Level 2, his skills used for honest work.
+
+Betty, her caretaker programming re-activated, became a quiet, steadfast presence in the community, tending to the needs of the Lower Level residents.  Anson no longer wore gold suits, no longer drank synth-champagne. He wore simple clothes, drank real coffee, and smiled more easily, a genuine, unguarded smile that hadn’t touched his face in years. 
+
+He hosted small, underground VR gatherings in Level 2, not for profit, but for joy, using his skills to create free, imaginative simulations for the neighborhood kids, sparking wonder and creativity where once there had only been grit and despair. “Turns out,” he’d say to Finn, watching the children laugh in the VR glow, “you don’t need a kingdom to be a king.”  
+
+But in a private orbital station, circling high above the chaotic city, Argus Thorne watched the news feeds, his face a mask of cold fury, his eyes burning with narcissistic rage. The loss of Cognito X, the public  humiliation, the dismantling of his meticulously crafted plan… it was a setback, infuriating, unacceptable. But it was not defeat. A smirk slowly spread across his lips, chillingly devoid of warmth. “Garner won a battle,” Thorne murmured to himself, his voice laced with venomous resolve. “But the war… the war is just beginning.”
+
+                                          The End.
+
+
