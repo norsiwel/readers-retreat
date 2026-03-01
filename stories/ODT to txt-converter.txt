@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# ODT to TXT Batch Converter for Manjaro Linux
+# Usage: ./convert_odt_to_txt.sh [directory_path]
+
+# Set default directory to current directory if no argument provided
+DIR="${1:-.}"
+
+# Check if directory exists
+if [ ! -d "$DIR" ]; then
+echo "Error: Directory '$DIR' does not exist."
+exit 1
+fi
+
+# Check if libreoffice is installed
+if ! command -v libreoffice &> /dev/null; then
+echo "Error: LibreOffice is not installed. Please install it first:"
+echo "sudo pacman -S libreoffice-fresh"
+exit 1
+fi
+
+# Count total ODT files
+total_files=$(find "$DIR" -maxdepth 1 -name "*.odt" -type f | wc -l)
+
+if [ "$total_files" -eq 0 ]; then
+echo "No .odt files found in '$DIR'"
+exit 0
+fi
+
+echo "Found $total_files .odt file(s) in '$DIR'"
+echo "Starting conversion..."
+
+# Counter for processed files
+processed=0
+failed=0
+
+# Process each ODT file
+find "$DIR" -maxdepth 1 -name "*.odt" -type f | while read -r file; do
+# Get filename without extension
+basename=$(basename "$file" .odt)
+output_file="$DIR/${basename}.txt"
+
+echo "Converting: $(basename "$file")"
+
+# Convert using LibreOffice headless mode
+if libreoffice --headless --convert-to txt --outdir "$DIR" "$file"
+2>/dev/null; then
+echo "✓ Successfully converted to: ${basename}.txt"
+((processed++))
+else
+echo "✗ Failed to convert: $(basename "$file")"
+((failed++))
+fi
+done
+
+echo ""
+echo "Conversion complete!"
+echo "Files processed: $processed"
+echo "Files failed: $failed"

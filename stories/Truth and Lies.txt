@@ -1,0 +1,229 @@
+                                   Truth and Lies
+
+1. **Multiplicity of standards**: Even before anyone lies, there are already 22
+*different* things we might mean by “true,” each with its own criteria and
+failure modes.
+
+2. **Cross-cutting omissions**: As you noticed, a single omission can sabotage
+any of those standards at once, and the omission itself leaves no positive
+trace—only an absence.
+
+3. **Layered deception**: A skilled deceiver can stack methods: start with a
+correspondence lie, reinforce it with coherence lies, omit the decisive
+counter-evidence, and finally wrap it in a performative or post-truth shell.
+Each layer blocks a different avenue of verification.
+
+4. **Epistemic asymmetry**: Creating a falsehood is usually cheaper and faster
+than uncovering the truth; the liar needs only to hide one fact, the inquirer
+must rule out an open-ended set of possibilities.
+
+5. **Standpoint fragmentation**: When different communities recognize different
+truth-kinds as primary, they will also disagree on what even counts as
+*relevant* evidence, making cross-standpoint verification almost impossible.
+
+So discerning the truth is not merely a matter of “checking facts”; it is a
+continual triangulation across multiple kinds of warrant, while staying alert
+to the negative space where something might have been omitted.
+
+The reason is that omission is a *cross-cutting* strategy: it can corrupt
+**any** truth-kind by *withholding* what that kind requires.
+
+- Correspondence truth fails if you omit a key fact.
+- Coherence truth fails if you omit the premise that would have broken the web.
+
+- Performative truth fails if you omit the condition that voids the promise.
+
+1. **Correspondence lie (simple falsehood)**
+Asserting what is not the case.
+
+2. **Coherence lie (fabricated system)**
+A web of mutually supporting but baseless claims (conspiracy theory).
+
+3. **Pragmatic lie (malfunctioning advice)**
+A rule or recipe that fails in practice yet is presented as reliable.
+
+4. **Constructivist lie (rigged procedure)**
+A verdict or peer-reviewed claim produced by a corrupted process.
+
+5. **Deflationary lie (insincere endorsement)**
+Saying “That’s true!” while privately rejecting the statement.
+
+6. **Semantic lie (Tarski-trapped lie)**
+A sentence that *looks* like an innocent truth-claim but generates paradox
+or equivocation.
+
+7. **Performative lie (void speech act)**
+“I promise…” when the speaker has no intention or authority to carry
+it out.
+
+8. **Narrative lie (distorted story)**
+A biography or history that rearranges events for dramatic or ideological
+effect.
+
+9. **Moral lie (false ought)**
+“You must do X” when the speaker secretly believes X is wrong or harmful.
+
+10. **Aesthetic lie (counterfeit feeling)**
+A work that fakes emotion or insight (kitsch, propaganda art).
+
+11. **Religious lie (fabricated revelation)**
+Claiming divine authority for what one knows is human invention.
+
+12. **Phenomenological lie (false report of experience)**
+“I felt no pain” when pain was acute.
+
+13. **Historical lie (forged evidence)**
+Doctored documents, invented quotations.
+
+14. **Probabilistic lie (rigged statistics)**
+Presenting 0.73 when the honest number is 0.07.
+
+15. **Legal lie (perjury / suppressed evidence)**
+False testimony or deliberately withheld exculpatory facts.
+
+16. **Mathematical lie (invalid proof)**
+A derivation that contains hidden fallacies or unstated contradictions.
+
+17. **Algorithmic lie (malware / Trojan result)**
+Code that claims to compute X but secretly computes Y.
+
+18. **Kripkean lie (imposter necessity)**
+Asserting a contingent identity as metaphysically necessary (“Gold is
+necessarily XYZ”).
+
+19. **Virtual lie (in-world deception)**
+Cheating in a game while denying it; presenting simulated data as real.
+
+20. **Perspectival lie (false standpoint)**
+“Speaking as a member of group G…” when the speaker is not.
+
+21. **Paraconsistent lie (doublethink)**
+Deliberately asserting both P and ¬P without acknowledging tension.
+
+22. **Post-truth lie (viral affective falsehood)**
+A meme or slogan repeated until it *feels* true, regardless of evidence.
+
+1. **Correspondence truth**
+“P is true when the world is as P says it is.”
+Typical habitat: empirical science, journalism, everyday factual claims.
+Failure mode: mis-description of reality (false witness, bad data).
+
+2. **Coherence truth**
+“P is true when it fits into a maximally consistent system of beliefs.”
+Typical habitat: mathematics, large-scale theories, detective stories.
+Failure mode: the whole web can be internally consistent yet rest on a false
+axiom.
+
+3. **Pragmatic truth**
+“P is true insofar as acting on P works or pays off.”
+Typical habitat: engineering rules of thumb, medical protocols, business
+strategy.
+Failure mode: short-term success, long-term disaster.
+
+4. **Constructivist truth**
+“P is true when it is the outcome of an agreed, well-run procedure.”
+Typical habitat: courtroom verdicts, peer review, democratic decisions.
+Failure mode: the procedure itself can be corrupt or biased.
+
+5. **Deflationary truth**
+“To call P ‘true’ adds nothing; it is just a convenient linguistic
+device for endorsing P.”
+Typical habitat: everyday meta-talk (“What he said is true”).
+Failure mode: none—by design it has no metaphysical weight to lose.
+
+6. **Semantic truth (Tarski)**
+“‘Snow is white’ is true if and only if snow is white.”
+Typical habitat: formal semantics, logic textbooks.
+Failure mode: breaks down in paradoxical self-reference (“This sentence is
+false”).
+
+7. **Performative truth**
+“By uttering P in the right context I bring it into being.”
+Typical habitat: weddings (“I now pronounce you…”), christenings,
+legislative speech acts.
+Failure mode: speaker lacks authority (“You can’t fire me—I quit!”).
+
+8. **Narrative truth**
+“P is true because it is faithful to the lived meaning of a human
+story.”
+Typical habitat: history, biography, psychotherapy, literature.
+Failure mode: distortion for dramatic effect, myth-making.
+
+9. **Moral truth**
+“P is true when it correctly states what ought to be done.”
+Typical habitat: ethical debate, conscience, rights discourse.
+Failure mode: deep pluralism—competing moral frameworks may not converge.
+
+10. **Aesthetic truth**
+“P is true when the work discloses a genuine insight or feeling.”
+Typical habitat: art criticism, music, poetry.
+Failure mode: kitsch, propaganda, cliché.
+
+11. **Religious / revelatory truth**
+“P is true because it has been revealed by or through the sacred.”
+Typical habitat: scripture, prophecy, mystical experience.
+Failure mode: conflicting revelations, loss of plausibility outside the
+circle of believers.
+
+12. **Phenomenological truth**
+“P is true when it accurately describes how things appear to
+consciousness.”
+Typical habitat: introspection, phenomenology, meditation traditions.
+Failure mode: incommunicability—how can others verify my experience?
+
+13. **Historical truth**
+“P is true when the evidence and best historical method support it.”
+Typical habitat: archives, historiography.
+Failure mode: sparse or biased evidence, victors writing the records.
+
+14. **Probabilistic truth**
+“P has truth-value 0.73.”
+Typical habitat: statistics, machine-learning classifiers, quantum
+mechanics.
+Failure mode: reification—mistaking the number for the underlying fact.
+
+15. **Legal truth**
+“What is proven to the required standard (balance of probabilities,
+beyond reasonable doubt).”
+Typical habitat: courtrooms, tribunals.
+Failure mode: miscarriages of justice, procedural technicalities.
+
+16. **Mathematical truth**
+“P is true when derivable from accepted axioms and rules.”
+Typical habitat: pure mathematics.
+Failure mode: independence from chosen axioms (e.g., Continuum Hypothesis).
+
+17. **Algorithmic truth**
+“Program P terminates and returns the correct output.”
+Typical habitat: computer science.
+Failure mode: undecidability, bugs, specification errors.
+
+18. **Kripkean rigid-designator truth (a posteriori necessities)**
+“Water is H₂O” is necessarily true, but known empirically.
+Typical habitat: analytic metaphysics.
+Failure mode: confusion between epistemic and metaphysical possibility.
+
+19. **Simulation / virtual truth**
+“P is true in the simulated world, though not in the basement reality.”
+
+Typical habitat: video games, virtual environments, Bostrom-style
+simulations.
+Failure mode: ontological downgrade—does virtual truth “count”?
+
+20. **Perspectival / situated truth**
+“P is true relative to standpoint S (gender, class, culture, historical
+epoch).”
+Typical habitat: standpoint epistemology, intersectional analysis.
+Failure mode: relativist paralysis—nothing to say across standpoints.
+
+21. **Paraconsistent truth**
+“P can be both true and false without explosion.”
+Typical habitat: dialetheist logics, paradox resolution.
+Failure mode: unintuitive, breaks classical inference.
+
+22. **Post-truth**
+“P is treated as true when repeated and affectively amplified, regardless
+of evidence.”
+Typical habitat: some political ecosystems, social-media bubbles.
+Failure mode: epistemic collapse, strategic disinformation.
+

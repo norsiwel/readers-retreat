@@ -1,0 +1,335 @@
+﻿What Defines Propaganda?
+Core Definition and Characteristics
+Propaganda is the deliberate, systematic attempt to shape perceptions,
+manipulate cognitions, and direct behavior to achieve a response that furthers
+the desired intent of the propagandist123. This definition distinguishes
+propaganda from casual conversation, education, or persuasion through several
+key characteristics:
+Systematic Nature: Propaganda involves coordinated, organized efforts rather
+than random acts. It requires "the more or less systematic effort to manipulate
+other people's beliefs, attitudes, or actions by means of symbols"1 and
+operates through "consistent, enduring effort to create or shape events"4.
+Manipulative Intent: Unlike education, which presents multiple sides of an
+issue, propaganda deliberately selects facts, arguments, and displays of
+symbols and presents them in ways propagandists think will have the most
+effect1. Propagandists may "omit or distort pertinent facts or simply lie"1 to
+maximize impact.
+Strategic Communication: Propaganda represents "asymmetrical form of
+communication that favors the sponsor, in contrast to persuasion, which seeks a
+symmetrical exchange between parties"3. It prioritizes the propagandist's
+interests over the audience's needs2.
+Digital Age Evolution
+The internet era has fundamentally transformed propaganda operations, making
+them more sophisticated and accessible. Since 2016, organized social media
+manipulation campaigns have proliferated globally, identified in 81 countries
+in 2020, up from 70 countries in 20195.
+Computational Propaganda
+Modern propaganda increasingly relies on "computational propaganda" - "the use
+of algorithms, automation, and human curation to purposefully distribute
+misleading information over social media networks"6. This approach is
+"characterized by automation, scalability, and anonymity"6 and enables
+propagandists to "analyze big data collected from social media and Internet of
+things in order to ensure manipulating public opinion in a targeted way"6.
+State-Sponsored Operations
+Nation-states have embraced social media as "influence operations
+technologies"7 because campaigns are "cheap and easy to execute; they allow
+planners to identify, target, and reach specific audiences; and the campaign's
+anonymity limits the associated political and foreign policy risks"7. A study
+from the University of Oxford documented that some 70 countries around the
+world are engaged in manipulating social media to serve domestic and foreign
+policy ends7.
+Distinguishing Propaganda from Anonymous Trolling
+While propaganda and toxic anonymity often overlap online, they represent
+distinct phenomena with different motivations and structures:
+Toxic Anonymity Characteristics
+Anonymous online behavior is driven by two key motivations: self-expression or
+toxic behavior89. Research shows that individuals seeking online anonymity
+share striking similarities - those with negative and unstable self-perceptions
+are drawn to anonymity10. When people are anonymous, they are often
+unaccountable for their actions which may amplify these antisocial behaviors8.
+The "online disinhibition effect" explains how anonymity enables both positive
+and negative behaviors. Toxic disinhibition makes others more aggressive,
+hostile, or inappropriate. This is the domain of trolling, cyberbullying, and
+anonymous hate speech11.
+Propaganda's Coordinated Structure
+Unlike individual toxic trolling, propaganda involves systematic coordination.
+Troll farms are organized groups of internet users who are paid or directed to
+manipulate online political conversations12. These operations feature:
+• Hierarchical Organization: Troll farms operate with clear command
+structures, dividing themselves into "clusters" with leaders who have direct
+contact with higher-level coordinators1314
+• Strategic Coordination: Professional troll farms take action in a
+planned manner, in accordance with recommendations of the ordering party14
+• Resource Investment: Since 2007, almost US$60 million has been spent
+globally on contracts with disinformation-for-hire firms15
+Network Effects and Amplification
+Propaganda operations exploit "coordinated inauthentic behavior" (CIB) - "a
+manipulative communication tactic that uses a mix of authentic, fake, and
+duplicated social media accounts"16. This coordination enables "artificial
+amplification" through "fake accounts, bots, paid commenters, and orchestrated
+campaigns to generate false enthusiasm"17.
+Individual trolls typically operate for personal gratification or to provoke
+reactions, while propaganda networks aim to "create the image of public
+consensus where there is none"18 through "astroturfing" - "the deceptive
+practice of hiding the sponsors of an orchestrated message or organization to
+make it appear as though it originates from unsolicited grassroots
+participants"18.
+Platform Amplification and Business Models
+Social media platforms inadvertently enable both toxic behavior and propaganda
+through their engagement-driven algorithms. The goal of algorithms is to
+maximize engagement by finding out what people like and ranking it at the top
+of their feeds19. This creates a fundamental problem: algorithms designed for
+engagement inadvertently create echo chambers that reinforce extreme
+ideologies, normalize violence, and increase the risk of radicalization20.
+Algorithmic Manipulation
+Social media algorithms exploit how humans learn from their peers21, but this
+becomes problematic when "the objective of social media algorithms, designed to
+boost user engagement" conflicts with user welfare, leading to "increased
+polarization and misinformation"22. Research shows that "a higher weight
+assigned by the algorithm to online social interactions such as likes and
+shares increases engagement while having a detrimental effect in terms of
+misinformation—crowding-out the truth—and polarization"22.
+Recommendation algorithms can amplify extremist content, with studies finding
+that "YouTube's recommendation algorithms prioritise extreme right-wing
+material after interaction with similar content"2324. However, this effect
+varies by platform - "only one platform—YouTube—does amplify extreme and
+fringe content, while two—Reddit and Gab—do not"24.
+Public Figure Propaganda
+The digital age has enabled a new form of propaganda through "coordinated
+networks of social media influencers, especially small-scale influencers with
+fewer than 10,000 followers" who serve as "powerful assets for political
+campaigns, PACs, and special interest groups"2526. This represents
+"elite-dictated propaganda through trusted social media spokespersons"25.
+Public figures and politicians increasingly use social media for
+"propagandistic artistry" - employing techniques like "glittering generality,"
+"plain folks," and "name-calling" to shape their personal brand and electoral
+strategy27. Research on political figures' social media activity reveals
+"effective use of propagandistic techniques" to influence public opinion27.
+Political influencers are particularly effective because they "are regarded as
+more trustworthy by their followers and therefore better positioned to change
+their behavior"25. Many "influencers don't reveal they've been paid, and
+payments often take place off social media platforms"25, making this form of
+propaganda difficult to detect and regulate.
+Conclusion
+Propaganda in the digital age represents a systematic, coordinated effort to
+manipulate public opinion through strategic information control, distinct from
+individual toxic behavior that may occur anonymously online. While both
+phenomena can cause harm, propaganda's organized nature, resource backing, and
+strategic objectives make it a more significant threat to democratic discourse.
+The business models of social media platforms, which prioritize engagement over
+accuracy, inadvertently amplify both toxic behavior and coordinated propaganda
+campaigns, creating an environment where systematic manipulation can thrive
+alongside individual antisocial conduct.
+Understanding these distinctions is crucial for developing appropriate
+responses - while individual trolling might be addressed through platform
+moderation and digital literacy education, countering organized propaganda
+requires more comprehensive approaches targeting the coordinated networks,
+funding mechanisms, and strategic objectives behind systematic disinformation
+campaigns.
+1. https://www.britannica.com/topic/propaganda
+2.
+https://ecampusontario.pressbooks.pub/comm3p51/chapter/what-is-propaganda/
+3.
+https://uk.sagepub.com/sites/default/files/upm-assets/143119_book_item_143119.pd
+f
+4. https://publish.illinois.edu/mirasotirovic/whatispropaganda
+5.
+https://www.ox.ac.uk/news/2021-01-13-social-media-manipulation-political-actors-
+industrial-scale-problem-oxford-report
+6. https://en.wikipedia.org/wiki/Computational_propaganda
+7.
+https://ndupress.ndu.edu/Media/News/News-Article-View/Article/2404329/7-social-m
+edia-and-influence-operations-technologies-implications-for-great-pow/
+8.
+https://www.uq.edu.au/news/article/2024/01/what-drives-us-be-anonymous-online
+9. https://phys.org/news/2024-01-anonymous-online.html
+10.
+https://www.forbes.com/sites/traversmark/2024/02/03/a-psychologist-explains-why-
+internet-trolls-thrive-on-anonymity/
+11.
+https://www.zmescience.com/tech/the-psychology-of-internet-anonymity-howonline-b
+ehavior-changes-behind-the-screen/
+12. https://www.youtube.com/watch?v=cGPKXOivbD8
+13.
+https://www.reddit.com/r/ukraine/comments/u4tdi4/understanding_troll_farms/
+14.
+https://www.nato.int/nato_static_fl2014/assets/pdf/2020/5/pdf/2005-deepportal2-t
+roll-factories.pdf
+15.
+https://innerself.com/social/culture-wars/24737-how-state-backed-manipulation-is
+-rampant-on-social-media.html
+16. https://pmc.ncbi.nlm.nih.gov/articles/PMC10060790/
+17. https://blog.emb.global/astroturfing-explained/
+18. https://everything.explained.today/Astroturfing/
+19. https://bigthink.com/the-present/social-media-algorithms-manipulate-you/
+20.
+https://www.forbes.com/sites/petersuciu/2024/05/13/extremist-groups-rely-on-soci
+al-media-rooting-them-out-wont-be-easy/
+21.
+https://news.northwestern.edu/stories/2023/08/social-media-algorithms-exploit-ho
+w-humans-learn-from-their-peers/
+22. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4257210
+23.
+https://www.rusi.org/explore-our-research/publications/special-resources/radical
+-filter-bubbles-social-media-personalisation-algorithms-and-extremist-content
+24.
+https://policyreview.info/articles/analysis/recommender-systems-and-amplificatio
+n-extremist-content
+25.
+https://mediaengagement.org/research/social-media-influencers-and-the-2020-elect
+ion/
+26.
+https://mediaengagement.org/wp-content/uploads/2020/10/Social-Media-Influencers-
+and-the-2020-U.S.-Election-1.pdf
+27. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4934976
+28. https://www.communicationtheory.org/propaganda-model/
+29. https://www.youtube.com/watch?v=s6Zo5QiKZA0
+30. https://files.eric.ed.gov/fulltext/EJ1179955.pdf
+31.
+https://www.abacademies.org/articles/Propaganda-as-communication-strategy-histor
+ic-and-contemporary-perspective-1528-2678-24-4-315.pdf
+32. https://www.youtube.com/watch?v=GTLAUPq6rf8
+33.
+https://us.sagepub.com/sites/default/files/upm-assets/102172_book_item_102172.pd
+f
+34. https://libguides.staffs.ac.uk/c.php?g=714324&p=5170628
+35. https://guides.library.jhu.edu/evaluate/propaganda-vs-misinformation
+36. https://self-transcendence.org/the-psychological-theories-of-propaganda
+37. https://guides.lib.wayne.edu/c.php?g=401320&p=2729574
+38. https://en.wikipedia.org/wiki/Propaganda_techniques
+39.
+https://www.linkedin.com/pulse/propaganda-misinformation-disinformation-whats-so
+phie-v%C3%A9riter
+40. https://www.ijnrd.org/papers/IJNRD2209212.pdf
+41. https://opentextbc.ca/mediastudies101/chapter/the-propaganda-model/
+42.
+https://epthinktank.eu/2015/11/17/understanding-propaganda-and-disinformation/
+43. https://en.wikipedia.org/wiki/Propaganda_model
+44.
+https://www.state.gov/wp-content/uploads/2019/05/Weapons-of-Mass-Distraction-For
+eign-State-Sponsored-Disinformation-in-the-Digital-Age.pdf
+45. https://en.wikipedia.org/wiki/Overview_of_21st-century_propaganda
+46.
+https://www.microsoft.com/en-us/security/security-insider/emerging-threats/propa
+ganda-in-the-digital-age
+47.
+https://knightfoundation.org/wp-content/uploads/2020/12/Sam-Wooley__Yale-ISP.pdf
+48. https://perconcordiam.com/modern-propaganda/
+49.
+https://www.numberanalytics.com/blog/propaganda-digital-age-political-sociology
+50.
+https://www.orfonline.org/expert-speak/from-clicks-to-chaos-how-social-media-alg
+orithms-amplify-extremism
+51. https://www.historians.org/resource/what-are-the-tools-of-propaganda/
+52.
+https://www.microsoft.com/en-us/security/security-insider/emerging-threats/propa
+ganda-in-the-digital-age/?msockid=329c5977cde76efb06954f51cc4d6f1b
+53.
+https://spir.aoir.org/ojs/index.php/spir/article/download/10942/9611/70911
+54. https://www.numberanalytics.com/blog/evolution-of-propaganda-techniques
+55.
+https://www.journalofdemocracy.org/articles/digital-propaganda-the-power-of-infl
+uencers/
+56. https://en.wikipedia.org/wiki/Algorithmic_radicalization
+57.
+https://foreignerds.com/7-types-of-propaganda-ads-techniques-used-in-advertising
+-2025/
+58.
+https://meridian.allenpress.com/awg/article-abstract/25/1/51/487719/Digital-era-
+Propaganda-A-Credible-Threat-to?redirectedFrom=fulltext
+59.
+https://demtech.oii.ox.ac.uk/wp-content/uploads/sites/12/2017/06/Executive_Summa
+ry.pdf
+60. https://fourweekmba.com/propaganda-techniques/
+61.
+https://www.bloomsbury.com/us/propaganda-in-the-digital-age-9798881801120/
+62. https://en.wikipedia.org/wiki/Troll_(slang)
+63.
+https://esoftskills.com/the-psychology-of-online-anonymity-and-its-impact-on-beh
+avior/
+64.
+https://znetwork.org/zmagazine/corporate-funded-online-astroturfing-by-george-mo
+nbiot/
+65.
+https://newsliteracy.psu.edu/podcasts/episode-extras/trolling-the-news-in-an-att
+ention-economy
+66. https://www.digitaltrends.com/social-media/ut-san-antonio-astroturfing/
+67.
+https://gijn.org/resource/investigating-digital-threats-trolling-campaigns/
+68. https://pmc.ncbi.nlm.nih.gov/articles/PMC12130607/
+69.
+https://en.trafficcardinal.com/post/lies-in-disguise-the-astroturfing-phenomenon
+-or-the-manufactured-groundswell-of-support
+70.
+https://www.pewresearch.org/internet/2017/03/29/the-future-of-free-speech-trolls
+-anonymity-and-fake-news-online/
+71. https://firstmonday.org/ojs/index.php/fm/article/download/10604/9724
+72.
+https://www.thetrevorproject.org/wp-content/uploads/2021/09/Center-for-Counterin
+g-Digital-Hate-Report.pdf
+73. https://www.nature.com/articles/s41598-022-08404-9
+74. https://pmc.ncbi.nlm.nih.gov/articles/PMC7573649/
+75.
+https://www.psychologicalscience.org/observer/who-is-that-the-study-of-anonymity
+-and-behavior
+76. https://journals.sagepub.com/doi/pdf/10.1177/20563051221150404
+77. https://www.rand.org/pubs/perspectives/PEA1458-2.html
+78.
+https://journals.sagepub.com/doi/10.1177/20563051221150404?icid=int.sj-abstract.
+citing-articles.8
+79.
+https://www.linkedin.com/pulse/unethical-manipulative-algorithms-social-media-pl
+atforms-sharad-gupta-x5gdc
+80.
+https://time.com/7264828/online-extremism-fight-failing/&rut=64107d66069926cf427
+d4d89f8630d84664abac5088d74d7c5c52e0081fc01ac/
+81.
+https://yaledailynews.com/blog/2024/11/08/algorithmic-manipulation-how-social-me
+dia-platforms-exploit-student-vulnerabilities/
+82. https://gnet-research.org/wp-content/uploads/2019/12/8.pdf
+83.
+https://papiro.unizar.es/ojs/index.php/rc51-jos/article/download/10992/9538
+84.
+https://www.internationalaffairs.org.au/australianoutlook/empowering-enabling-an
+d-exacerbating-extremism-the-dark-side-of-digitisation/
+85.
+https://systems.enpress-publisher.com/index.php/jipd/article/download/6632/3711
+86. https://www.science.org/doi/10.1126/sciadv.adk2031
+87. https://iceb.johogo.com/proceedings/2024/ICEB2024_paper_25.pdf
+88.
+https://www.peters.senate.gov/newsroom/press-releases/peters-convenes-hearing-wi
+th-independent-experts-to-examine-amplification-of-domestic-extremist-content-on
+-social-media-platforms
+89. https://theory.stanford.edu/~dfreeman/papers/clustering.pdf
+90. https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
+91.
+http://www.e-bezpeci.cz/index.php/english/4085-troll-farms-what-they-are-and-how
+-they-work
+92. https://www.iftf.org/statesponsoredtrolling
+93. https://www.sciencedirect.com/science/article/abs/pii/S2468696422000271
+94. https://www.youtube.com/watch?v=LhHOdKh0d7A
+95. https://dl.acm.org/doi/10.1145/2808769.2808779
+96. https://fraudblocker.com/articles/troll-farms
+97.
+https://www.microsoft.com/en-in/security/security-insider/emerging-threats/propa
+ganda-in-the-digital-age/
+98. https://arxiv.org/pdf/2008.11308.pdf
+99. https://arxiv.org/pdf/2411.03241.pdf
+100. https://pmc.ncbi.nlm.nih.gov/articles/PMC9913025/
+101. https://openreview.net/forum?id=ml0rnMQCFj
+102. https://journals.sagepub.com/doi/full/10.1177/20563051231224713
+103.
+https://www.euronews.com/next/2024/10/10/report-shows-how-messaging-apps-are-use
+d-to-spread-political-propaganda
+104.
+https://www.aspeninstitute.de/digital-program/digitalization-and-democracy/disin
+formation-and-the-role-of-influencers-in-times-of-conflict/
+105.
+https://www.justsecurity.org/103849/political-propaganda-messaging-apps/
+106.
+https://www.npr.org/2024/02/27/1234114383/cameo-is-being-used-for-political-prop
+aganda-by-tricking-the-stars-involved
+107.
+https://www.coe.int/en/web/campaign-free-to-speak-safe-to-learn/dealing-with-pro
+paganda-misinformation-and-fake-news
+
