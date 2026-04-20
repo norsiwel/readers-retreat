@@ -10,7 +10,7 @@ Fetch any story directly via its raw URL listed below.
 
 Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stories
 
-## Stories (205 total)
+## Stories (206 total)
 
 - 26K mirror
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/26K-mirror.txt
@@ -239,6 +239,9 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - Just in Time
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just_in_Time.txt
+
+- Keepers Legacy
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Keepers Legacy.txt
 
 - Ledger of Souls backup
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls-backup.txt
