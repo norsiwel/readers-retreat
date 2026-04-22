@@ -1,21 +1,25 @@
 #!/bin/bash
 # readers-retreat/publish-new.sh
-# Incremental publish script for new/updated .txt stories
+# Incremental publish script for new/updated .txt and .pdf stories
 
 set -e  # Exit on error
 
 STORIES_DIR="stories"
+GITHUB_USER="norsiwel"
+REPO="readers-retreat"
+BRANCH="main"
+RAW_BASE="https://raw.githubusercontent.com/$GITHUB_USER/$REPO/$BRANCH/$STORIES_DIR"
 
 if [ ! -d "$STORIES_DIR" ]; then
   echo "❌ Error: '$STORIES_DIR' directory not found."
   exit 1
 fi
 
-# Use an array to collect candidate files safely
-mapfile -t CANDIDATE_FILES < <(find "$STORIES_DIR" -name "*.txt" -type f 2>/dev/null | sort)
+# Use an array to collect candidate files safely (.txt and .pdf)
+mapfile -t CANDIDATE_FILES < <(find "$STORIES_DIR" \( -name "*.txt" -o -name "*.pdf" \) -type f 2>/dev/null | sort)
 
 if [ ${#CANDIDATE_FILES[@]} -eq 0 ]; then
-  echo "✅ No .txt files found in '$STORIES_DIR'."
+  echo "✅ No .txt or .pdf files found in '$STORIES_DIR'."
   exit 0
 fi
 
@@ -34,13 +38,13 @@ while IFS= read -r -d '' tracked_file; do
   if [ ! -e "$tracked_file" ]; then
     DELETED_FILES+=("$tracked_file")
   fi
-done < <(git ls-files -z "$STORIES_DIR/*.txt" 2>/dev/null)
+done < <(git ls-files -z -- "$STORIES_DIR/*.txt" "$STORIES_DIR/*.pdf" 2>/dev/null)
 
 # Combine changed + deleted
 ALL_CHANGES=("${CHANGED_FILES[@]}" "${DELETED_FILES[@]}")
 
 if [ ${#ALL_CHANGES[@]} -eq 0 ]; then
-  echo "✅ No new, modified, or deleted .txt files in '$STORIES_DIR'."
+  echo "✅ No new, modified, or deleted .txt or .pdf files in '$STORIES_DIR'."
   exit 0
 fi
 
@@ -68,6 +72,46 @@ for file in "${CHANGED_FILES[@]}"; do
     TITLES+=("$title")
   fi
 done
+
+# ── Regenerate llms.txt from ALL stories currently in the folder ──────────────
+echo
+echo "📝 Regenerating llms.txt..."
+
+mapfile -t ALL_STORY_FILES < <(find "$STORIES_DIR" \( -name "*.txt" -o -name "*.pdf" -o -name "*.md" \) | sort)
+
+{
+  echo "# Norsiwel's Readers Retreat"
+  echo ""
+  echo "> A collection of original stories by Norsiwel, freely available to read."
+  echo "> Last updated: $(date -u '+%Y-%m-%d')"
+  echo ""
+  echo "## How to access stories"
+  echo ""
+  echo "Each story is a plain text file hosted on GitHub."
+  echo "Fetch any story directly via its raw URL listed below."
+  echo ""
+  echo "Full story directory: https://github.com/$GITHUB_USER/$REPO/tree/$BRANCH/$STORIES_DIR"
+  echo ""
+  echo "## Stories (${#ALL_STORY_FILES[@]} total)"
+  echo ""
+
+  for FILE in "${ALL_STORY_FILES[@]}"; do
+    FILENAME=$(basename "$FILE")
+    DISPLAY=$(echo "$FILENAME" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g')
+    echo "- $DISPLAY"
+    echo "  $RAW_BASE/$FILENAME"
+    echo ""
+  done
+
+  echo "## Site"
+  echo ""
+  echo "Interactive reader: https://$GITHUB_USER.github.io/$REPO/"
+  echo "Repository:         https://github.com/$GITHUB_USER/$REPO"
+} > llms.txt
+
+git add llms.txt
+echo "✅ llms.txt updated with ${#ALL_STORY_FILES[@]} stories."
+# ─────────────────────────────────────────────────────────────────────────────
 
 # Build commit message
 COUNT=${#TITLES[@]}

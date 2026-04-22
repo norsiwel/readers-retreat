@@ -5,7 +5,18 @@
 	<script async defer src="https://scripts.simpleanalytics.com/hello.js"></script>	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Norsiwel's Readers Retreat</title>
+    <title>Norsiwel's Readers Retreat — Fiction, Novels & Graphic Stories</title>
+    <meta name="description" content="The complete fiction archive of Norsiwel — over 200 short stories, 15 novels, and graphic stories spanning science fiction, historical fiction, fantasy, post-apocalyptic and more. Free to read.">
+    <meta name="keywords" content="norsiwel, fiction, short stories, novels, graphic stories, science fiction, HFY, post-apocalyptic, historical fiction, free fiction, online archive">
+    <meta name="author" content="Norsiwel">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Norsiwel's Readers Retreat">
+    <meta property="og:description" content="Over 200 stories, 15 novels, and graphic stories — free to read. A complete fiction archive spanning science fiction, historical fiction, fantasy and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://norsiwel.github.io/readers-retreat/">
+    <link rel="canonical" href="https://norsiwel.github.io/readers-retreat/">
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
@@ -252,6 +263,79 @@
             font-style: italic;
         }
 
+        /* Graphic Stories Section */
+        .graphic-stories-section {
+            margin: 40px auto 10px auto;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .graphic-stories-banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .graphic-stories-banner h2 {
+            font-family: 'Merriweather', serif;
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin: 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .banner-rule {
+            flex: 1;
+            height: 1px;
+            background: var(--border-color);
+            max-width: 80px;
+        }
+
+        .graphic-stories-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .graphic-story-card {
+            width: 180px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s ease;
+        }
+
+        .graphic-story-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .graphic-story-card img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .graphic-story-card .card-title {
+            font-family: 'Merriweather', serif;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        .graphic-story-card .card-meta {
+            font-size: 0.75rem;
+            color: var(--meta-color);
+            margin-top: 2px;
+            font-style: italic;
+        }
+
         @media (max-width: 768px) {
             body { flex-direction: column; }
             #sidebar { width: 100%; height: 50vh; border-right: none; border-bottom: 2px solid var(--border-color); padding: 15px; box-sizing: border-box; }
@@ -309,6 +393,35 @@
         </div>
         
         <p>Select a story from the left to begin.</p>
+
+        <!-- GRAPHIC STORIES SECTION -->
+        <div class="graphic-stories-section">
+            <div class="graphic-stories-banner">
+                <div class="banner-rule"></div>
+                <h2>Graphic Stories</h2>
+                <div class="banner-rule"></div>
+            </div>
+            <div class="graphic-stories-grid" id="graphic-stories-grid">
+                <!-- Add new graphic stories here as you create them -->
+                <!-- FORMAT:
+                <a class="graphic-story-card" href=".pdf/filename.pdf" target="_blank">
+                    <img src=".pdf/cover-image.jpg" alt="Story Title">
+                    <div class="card-title">Story Title</div>
+                    <div class="card-meta">Issue 01 · Genre</div>
+                </a>
+                -->
+                <a class="graphic-story-card" href=".pdf/reverse_turing_test_issue_01.pdf" target="_blank">
+                    <img src=".pdf/reverse_turing_test_cover.jpg" alt="The Reverse Turing Test" onerror="this.style.background='#d1c7ad';this.style.minHeight='110px';this.removeAttribute('src')">
+                    <div class="card-title">The Reverse Turing Test</div>
+                    <div class="card-meta">Issue 01 · Post-Apocalyptic</div>
+                </a>
+                <a class="graphic-story-card" href=".pdf/the_two_waters_issue_01.pdf" target="_blank">
+                    <img src=".pdf/the_two_waters_cover.jpg" alt="The Two Waters" onerror="this.style.background='#d1c7ad';this.style.minHeight='110px';this.removeAttribute('src')">
+                    <div class="card-title">The Two Waters</div>
+                    <div class="card-meta">Issue 01 · Historical Fiction</div>
+                </a>
+            </div>
+        </div>
     </div>
 </article>
     </main>
@@ -500,5 +613,20 @@ function updateVisitorCounter() {
 // Run when page loads
 document.addEventListener('DOMContentLoaded', updateVisitorCounter);
     </script>
+
+    <!-- SCRAPER / SEO FALLBACK: Invisible to JS users, readable by search engines -->
+    <noscript>
+        <div id="seo-story-index" style="position:absolute;left:-9999px;">
+            <h2>Norsiwel's Complete Story Archive</h2>
+            <p>Free fiction by Norsiwel — short stories, novels, and graphic stories across science fiction, fantasy, historical fiction, post-apocalyptic, and more.</p>
+            <h3>Graphic Stories</h3>
+            <ul>
+                <li><a href=".pdf/reverse_turing_test_issue_01.pdf">The Reverse Turing Test — Issue 01 (Post-Apocalyptic Graphic Story)</a></li>
+                <li><a href=".pdf/the_two_waters_issue_01.pdf">The Two Waters — Issue 01 (Historical Fiction Graphic Story, Chongqing 1895)</a></li>
+            </ul>
+            <h3>Stories Archive</h3>
+            <p>All stories are available in the GitHub repository. See the full list at <a href="https://github.com/norsiwel/readers-retreat/tree/main/stories">github.com/norsiwel/readers-retreat</a></p>
+        </div>
+    </noscript>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Main site -->
+    <url>
+        <loc>https://norsiwel.github.io/readers-retreat/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Graphic Stories PDFs -->
+    <url>
+        <loc>https://norsiwel.github.io/readers-retreat/.pdf/reverse_turing_test_issue_01.pdf</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://norsiwel.github.io/readers-retreat/.pdf/the_two_waters_issue_01.pdf</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Add new graphic story PDFs here as you publish them -->
+
+</urlset>

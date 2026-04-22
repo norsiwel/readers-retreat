@@ -1,7 +1,7 @@
 # Norsiwel's Readers Retreat
 
 > A collection of original stories by Norsiwel, freely available to read.
-> Last updated: 2026-04-20
+> Last updated: 2026-04-22
 
 ## How to access stories
 
@@ -26,9 +26,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - Architect of Minds extended
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Architect of Minds-extended.txt
-
-- Architect of Minds
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Architect of Minds.txt
 
 - Beyond
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Beyond.txt
@@ -70,16 +67,10 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody's Hope.txt
 
 - Cognito X
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cognito X.txt
-
-- Cognito X
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cognito_X.txt
 
 - Colors
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Colors.txt
-
-- Compound Spark Cosmic Sigh
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound-Spark-Cosmic-Sigh.txt
 
 - Compound Spark Cosmic Sigh
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound_Spark_Cosmic_Sigh.txt
@@ -118,9 +109,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Delusions of a Paranoid Terrorist.txt
 
 - Democracy's Good Work
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Democracy's Good Work.txt
-
-- Democracy's Good Work
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Democracy's_Good_Work.txt
 
 - Descent of the Gods
@@ -133,13 +121,7 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Divide By Zero.txt
 
 - Echos In Time
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Echos In Time.txt
-
-- Echos In Time
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Echos_In_Time.txt
-
-- Electric Heart
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Electric Heart.txt
 
 - Electric Heart
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Electric_Heart.txt
@@ -161,9 +143,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - Exogenesis
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Exogenesis.txt
-
-- Exogenisis
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Exogenisis.txt
 
 - Fifth Planet
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Fifth Planet.txt
@@ -202,9 +181,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Henry's World-ext.txt
 
 - Home Network
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Home Network.txt
-
-- Home Network
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Home_Network.txt
 
 - Hope for Adventure in the Stars
@@ -222,12 +198,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 - Interdiction final
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Interdiction-final.txt
 
-- Interdiction
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Interdiction.txt
-
-- In the Beginning
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/In the Beginning.txt
-
 - In the Beginning
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/In_the_Beginning.txt
 
@@ -235,16 +205,10 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/It's a Dog's Life.txt
 
 - Just in Time
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just in Time.txt
-
-- Just in Time
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just_in_Time.txt
 
 - Keepers Legacy
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Keepers Legacy.txt
-
-- Ledger of Souls backup
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls-backup.txt
 
 - Ledger of Souls
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls.txt
@@ -274,9 +238,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/More Than Burden.txt
 
 - Mythology in America
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Mythology in America.txt
-
-- Mythology in America
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Mythology_in_America.txt
 
 - Neural Lag
@@ -297,20 +258,47 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 - Obsolescence Protocol
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Obsolescence-Protocol.txt
 
-- Once in Many Lifetimes
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Once in Many Lifetimes.txt
+- Architect of Minds
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Architect of Minds.txt
+
+- Cognito X
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cognito X.txt
+
+- Compound Spark Cosmic Sigh
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound-Spark-Cosmic-Sigh.txt
+
+- Democracy's Good Work
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Democracy's Good Work.txt
+
+- Echos In Time
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Echos In Time.txt
+
+- Electric Heart
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Electric Heart.txt
+
+- Exogenisis
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Exogenisis.txt
+
+- Home Network
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Home Network.txt
+
+- Interdiction
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Interdiction.txt
+
+- In the Beginning
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/In the Beginning.txt
+
+- Just in Time
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just in Time.txt
+
+- Ledger of Souls backup
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls-backup.txt
+
+- Mythology in America
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Mythology in America.txt
 
 - One and One
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/One and One.txt
-
-- One and One
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/One_and_One.txt
-
-- On the Shoulders of Giants
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/On the Shoulders of Giants.txt
-
-- Pantopia Perfect  A Star is Rebooted
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Pantopia Perfect_ A Star is Rebooted.txt
 
 - Quantum Plague G3
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Quantum Plague-G3.txt
@@ -320,6 +308,75 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - Quantum Plague
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Quantum-Plague.txt
+
+- Red Sky
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Red-Sky.txt
+
+- River Life
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Life.txt
+
+- River Spirits an alternate history
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Spirits-an alternate history.txt
+
+- Star Truck
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star Truck.txt
+
+- Swift Victory
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Swift Victory.txt
+
+- The Architect of Minds
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Architect_of_Minds.txt
+
+- The Ball
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Ball.txt
+
+- The Convergence of Etheria
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Convergence of Etheria.txt
+
+- The Gap
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The-Gap.txt
+
+- The Last Thought,Thinker
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Thought,Thinker.txt
+
+- The Light Between Worlds
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Light Between Worlds.txt
+
+- The Long Walk Home
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Long Walk Home.txt
+
+- The Lotus Eaters
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lotus Eaters.txt
+
+- The Lunar Frontier
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lunar Frontier.txt
+
+- The Onion Seller
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Onion Seller.txt
+
+- The Reverse Turing Test
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Reverse Turing Test.txt
+
+- The Shattered Choir
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Shattered Choir.txt
+
+- The Xenoaporia Paradox
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Xenoaporia Paradox.txt
+
+- Time Wounds All Heels
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Time Wounds All Heels.txt
+
+- Once in Many Lifetimes
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Once in Many Lifetimes.txt
+
+- One and One
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/One_and_One.txt
+
+- On the Shoulders of Giants
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/On the Shoulders of Giants.txt
+
+- Pantopia Perfect  A Star is Rebooted
+  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Pantopia Perfect_ A Star is Rebooted.txt
 
 - Quantum Plague
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Quantum_Plague.txt
@@ -333,9 +390,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 - Red Sky Sailors Delight
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Red Sky Sailors Delight.txt
 
-- Red Sky
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Red-Sky.txt
-
 - Reincarnation Final
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reincarnation-Final.txt
 
@@ -346,13 +400,7 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ring Bearer.txt
 
 - River Life
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Life.txt
-
-- River Life
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Life.txt
-
-- River Spirits an alternate history
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Spirits-an alternate history.txt
 
 - River Spirits an alternate history
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Spirits_an_alternate_history.txt
@@ -403,9 +451,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star Truck-Episode 3_Nature of the Beast.txt
 
 - Star Truck
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star Truck.txt
-
-- Star Truck
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star_Truck.txt
 
 - survival 2
@@ -413,9 +458,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - Survival
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Survival.txt
-
-- Swift Victory
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Swift Victory.txt
 
 - Swift Victory
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Swift_Victory.txt
@@ -429,14 +471,8 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 - The Architect of Minds
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Architect of Minds.txt
 
-- The Architect of Minds
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Architect_of_Minds.txt
-
 - The Auditor of Nouns
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Auditor_of_Nouns.txt
-
-- The Ball
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Ball.txt
 
 - The Ball
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Ball.txt
@@ -469,9 +505,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Common Solution.txt
 
 - The Convergence of Etheria
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Convergence of Etheria.txt
-
-- The Convergence of Etheria
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Convergence_of_Etheria.txt
 
 - The Corner Cafe
@@ -488,9 +521,6 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 
 - The Fruits of Our Labor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Fruits of Our Labor.txt
-
-- The Gap
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The-Gap.txt
 
 - The Gap
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Gap.txt
@@ -510,17 +540,11 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
 - The Last Sentinels
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Sentinels.txt
 
-- The Last Thought,Thinker
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Thought,Thinker.txt
-
 - The Last Thought
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Thought.txt
 
 - The Last Transfer
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Transfer.txt
-
-- The Light Between Worlds
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Light Between Worlds.txt
 
 - The Light Between Worlds
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Light_Between_Worlds.txt
@@ -532,22 +556,13 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Little President That Could.txt
 
 - The Long Walk Home
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Long Walk Home.txt
-
-- The Long Walk Home
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Long_Walk_Home.txt
 
 - The Lost Benben
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lost Benben.txt
 
 - The Lotus Eaters
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lotus Eaters.txt
-
-- The Lotus Eaters
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lotus_Eaters.txt
-
-- The Lunar Frontier
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lunar Frontier.txt
 
 - The Lunar Frontier
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lunar_Frontier.txt
@@ -556,22 +571,13 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Neurolyx _ The Double-Edged Miracle.txt
 
 - The Onion Seller
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Onion Seller.txt
-
-- The Onion Seller
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Onion_Seller.txt
 
 - There are none so blind
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/There are none so blind.txt
 
 - The Reverse Turing Test
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Reverse Turing Test.txt
-
-- The Reverse Turing Test
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Reverse_Turing_Test.txt
-
-- The Shattered Choir
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Shattered Choir.txt
 
 - The Shattered Choir
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Shattered_Choir.txt
@@ -586,16 +592,10 @@ Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stor
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Weight of Choices.txt
 
 - The Xenoaporia Paradox
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Xenoaporia Paradox.txt
-
-- The Xenoaporia Paradox
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Xenoaporia_Paradox.txt
 
 - Timekeeper
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Timekeeper.txt
-
-- Time Wounds All Heels
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Time Wounds All Heels.txt
 
 - Time Wounds All Heels
   https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Time_Wounds_All_Heels.txt
