@@ -6,14 +6,13 @@
 set -euo pipefail
 
 STORIES_DIR="stories"
-PDF_DIR=".pdf"
+PDF_DIR="pdf"
 GITHUB_USER="norsiwel"
 REPO="readers-retreat"
 BRANCH="main"
 RAW_BASE="https://raw.githubusercontent.com/$GITHUB_USER/$REPO/$BRANCH/$STORIES_DIR"
 SITE_BASE="https://$GITHUB_USER.github.io/$REPO"
 
-# ── Show what git sees as changed ────────────────────────────────────────────
 echo "📋 Current repo status:"
 git status --short
 echo
@@ -25,10 +24,8 @@ if [[ ! ${REPLY:-} =~ ^[Yy]$ ]]; then
   exit 0
 fi
 
-# Stage the whole repo
 git add -A
 
-# ── Build safe file lists ────────────────────────────────────────────────────
 mapfile -d '' -t ALL_STORY_FILES < <(
   find "$STORIES_DIR" -type f \( -name "*.txt" -o -name "*.md" \) -print0 | sort -z
 )
@@ -41,7 +38,6 @@ mapfile -d '' -t PDF_FILES < <(
   find "$PDF_DIR" -type f -name "*.pdf" -print0 2>/dev/null | sort -z || true
 )
 
-# ── Regenerate llms.txt ──────────────────────────────────────────────────────
 echo
 echo "📝 Regenerating llms.txt..."
 
@@ -78,21 +74,17 @@ echo "📝 Regenerating llms.txt..."
 git add llms.txt
 echo "✅ llms.txt updated with ${#ALL_STORY_FILES[@]} stories."
 
-# ── Regenerate sitemap.xml ───────────────────────────────────────────────────
 echo "🗺️  Regenerating sitemap.xml..."
 
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
   echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
   echo ''
-  echo '    <!-- Main site -->'
   echo '    <url>'
   echo "        <loc>$SITE_BASE/</loc>"
   echo '        <changefreq>weekly</changefreq>'
   echo '        <priority>1.0</priority>'
   echo '    </url>'
-  echo ''
-  echo '    <!-- Stories -->'
 
   for FILE in "${ALL_STORY_FILES[@]}"; do
     FILENAME=$(basename "$FILE")
@@ -103,12 +95,10 @@ echo "🗺️  Regenerating sitemap.xml..."
     echo '    </url>'
   done
 
-  echo ''
-  echo '    <!-- PDFs -->'
   for PDF_FILE in "${PDF_FILES[@]}"; do
-    PDFNAME=$(basename "$PDF_FILE")
+    REL_PATH="${PDF_FILE#./}"
     echo '    <url>'
-    echo "        <loc>$SITE_BASE/$PDF_DIR/$PDFNAME</loc>"
+    echo "        <loc>$SITE_BASE/$REL_PATH</loc>"
     echo '        <changefreq>monthly</changefreq>'
     echo '        <priority>0.9</priority>'
     echo '    </url>'
@@ -120,7 +110,6 @@ echo "🗺️  Regenerating sitemap.xml..."
 git add sitemap.xml
 echo "✅ sitemap.xml updated."
 
-# ── Regenerate manifest.json ─────────────────────────────────────────────────
 echo "📋 Regenerating manifest.json..."
 
 echo "[" > manifest.json
@@ -145,7 +134,62 @@ echo "]" >> manifest.json
 git add manifest.json
 echo "✅ manifest.json updated."
 
-# ── Commit message ────────────────────────────────────────────────────────────
+echo "🖼️  Regenerating graphic-stories.json..."
+
+echo "[" > graphic-stories.json
+FIRST=1
+
+if [ -d "$PDF_DIR" ]; then
+  while IFS= read -r -d '' STORY_DIR; do
+    SLUG=$(basename "$STORY_DIR")
+    PDF_PATH="$PDF_DIR/$SLUG/issue.pdf"
+    COVER_JPG="$PDF_DIR/$SLUG/cover.jpg"
+    COVER_PNG="$PDF_DIR/$SLUG/cover.png"
+    META_PATH="$PDF_DIR/$SLUG/meta.json"
+
+    if [ ! -f "$PDF_PATH" ]; then
+      echo "⚠️  Skipping $SLUG (missing issue.pdf)"
+      continue
+    fi
+
+    if [ -f "$COVER_JPG" ]; then
+      COVER_PATH="$COVER_JPG"
+    elif [ -f "$COVER_PNG" ]; then
+      COVER_PATH="$COVER_PNG"
+    else
+      COVER_PATH=""
+    fi
+
+    if [ -f "$META_PATH" ]; then
+      TITLE=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8")).get("title","Untitled"))' "$META_PATH")
+      CARD_META=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8")).get("meta","Graphic Story"))' "$META_PATH")
+    else
+      TITLE=$(echo "$SLUG" | sed 's/[-_]/ /g' | sed 's/\b\(.\)/\u\1/g')
+      CARD_META="Graphic Story"
+    fi
+
+    if [ "$FIRST" -eq 0 ]; then
+      echo "," >> graphic-stories.json
+    fi
+
+    printf '  {"title":"%s","meta":"%s","pdf":"%s","cover":"%s"}' \
+      "$TITLE" "$CARD_META" "$PDF_PATH" "$COVER_PATH" >> graphic-stories.json
+
+    FIRST=0
+  done < <(find "$PDF_DIR" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
+fi
+
+echo "" >> graphic-stories.json
+echo "]" >> graphic-stories.json
+
+git add graphic-stories.json
+echo "✅ graphic-stories.json updated."
+
+if [ ! -f ".nojekyll" ]; then
+  touch .nojekyll
+fi
+git add .nojekyll
+
 DEFAULT_MSG="Full sync: update index and all content $(date -u '+%Y-%m-%d')"
 echo
 echo "Default commit message: $DEFAULT_MSG"
