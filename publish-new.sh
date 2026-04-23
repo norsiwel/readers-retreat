@@ -111,6 +111,66 @@ mapfile -t ALL_STORY_FILES < <(find "$STORIES_DIR" \( -name "*.txt" -o -name "*.
 
 git add llms.txt
 echo "✅ llms.txt updated with ${#ALL_STORY_FILES[@]} stories."
+
+# ── Regenerate sitemap.xml ────────────────────────────────────────────────────
+echo "🗺️  Regenerating sitemap.xml..."
+
+{
+  echo '<?xml version="1.0" encoding="UTF-8"?>'
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+  echo ''
+  echo '    <!-- Main site -->'
+  echo '    <url>'
+  echo "        <loc>https://$GITHUB_USER.github.io/$REPO/</loc>"
+  echo '        <changefreq>weekly</changefreq>'
+  echo '        <priority>1.0</priority>'
+  echo '    </url>'
+  echo ''
+  echo '    <!-- Stories -->'
+
+  for FILE in "${ALL_STORY_FILES[@]}"; do
+    FILENAME=$(basename "$FILE")
+    echo '    <url>'
+    echo "        <loc>$RAW_BASE/$FILENAME</loc>"
+    echo '        <changefreq>monthly</changefreq>'
+    echo '        <priority>0.8</priority>'
+    echo '    </url>'
+  done
+
+  # Keep any PDFs already in the .pdf folder
+  while IFS= read -r -d '' pdffile; do
+    PDFNAME=$(basename "$pdffile")
+    echo '    <url>'
+    echo "        <loc>https://$GITHUB_USER.github.io/$REPO/.pdf/$PDFNAME</loc>"
+    echo '        <changefreq>monthly</changefreq>'
+    echo '        <priority>0.9</priority>'
+    echo '    </url>'
+  done < <(find ".pdf" -name "*.pdf" -type f -print0 2>/dev/null)
+
+  echo '</urlset>'
+} > sitemap.xml
+
+git add sitemap.xml
+echo "✅ sitemap.xml updated."
+
+# ── Regenerate manifest.json ──────────────────────────────────────────────────
+echo "📋 Regenerating manifest.json..."
+
+echo "[" > manifest.json
+FIRST=1
+for FILE in $(find "$STORIES_DIR" -maxdepth 1 \( -name "*.txt" -o -name "*.md" \) -type f | sort); do
+  FILENAME=$(basename "$FILE")
+  TIMESTAMP=$(stat -c "%Y" "$FILE")
+  SIZE=$(stat -c "%s" "$FILE")
+  if [ $FIRST -eq 0 ]; then echo "," >> manifest.json; fi
+  printf '  {"name":"%s","timestamp":%s,"size":%s}' "$FILENAME" "$TIMESTAMP" "$SIZE" >> manifest.json
+  FIRST=0
+done
+echo "" >> manifest.json
+echo "]" >> manifest.json
+
+git add manifest.json
+echo "✅ manifest.json updated."
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Build commit message

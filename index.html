@@ -350,6 +350,7 @@
         <div id="sidebar-header">
             <h1>Norsiwel's<br>Readers Retreat</h1>
             <p>The Complete Archives</p>
+            <p style="font-size:0.75rem; color:var(--meta-color); margin:0 0 5px 0;">Includes 15 full novels — sort by <em>Longest First</em> to find them</p>
         </div>
 
         <div class="controls">
@@ -465,7 +466,7 @@
                     sorted.sort((a, b) => a.cleanName.localeCompare(b.cleanName));
                     break;
                 case 'newest':
-                    sorted.reverse();
+                    sorted.sort((a, b) => b.timestamp - a.timestamp);
                     break;
                 case 'longest':
                     sorted.sort((a, b) => b.size - a.size);
@@ -524,9 +525,17 @@
         });
 
         async function fetchStoryList() {
+            const manifestUrl = `https://raw.githubusercontent.com/${CONFIG.username}/${CONFIG.repo}/${CONFIG.branch}/manifest.json`;
             const apiUrl = `https://api.github.com/repos/${CONFIG.username}/${CONFIG.repo}/contents/${CONFIG.folder}`;
             
             try {
+                // Try manifest first for accurate timestamps
+                let manifestData = null;
+                try {
+                    const mRes = await fetch(manifestUrl);
+                    if (mRes.ok) manifestData = await mRes.json();
+                } catch(e) { /* fall through to API */ }
+
                 const response = await fetch(apiUrl);
                 if (!response.ok) throw new Error('Repository not found or private');
                 const data = await response.json();
@@ -539,10 +548,17 @@
                     return;
                 }
 
+                // Build a timestamp lookup from manifest if available
+                const tsMap = {};
+                if (manifestData) {
+                    manifestData.forEach(m => { tsMap[m.name] = m.timestamp; });
+                }
+
                 allStories = files.map(file => ({
                     ...file,
                     cleanName: cleanFileName(file.name),
-                    readTime: estimateTime(file.size)
+                    readTime: estimateTime(file.size),
+                    timestamp: tsMap[file.name] || 0
                 }));
 
                 filterAndSort();
