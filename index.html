@@ -780,19 +780,31 @@
             return verifiedStories;
         }
 
-        async function loadGraphicStories() {
-            const grid = document.getElementById('graphic-stories-grid');
-            if (!grid) return;
+        
+            function loadGraphicStories() {
+    const grid = document.getElementById('graphic-stories-grid');
+    if (!grid) return;
 
-            grid.innerHTML = '<p class="no-results">Checking the illustrated shelves...</p>';
+    grid.innerHTML = `
+        <div class="graphic-list">
 
-            try {
-                const stories = await getGraphicStories();
+            <a class="graphic-list-item"
+               href="pdf/reverse_turing_issue_01.pdf"
+               target="_blank">
+                <div class="title">The Reverse Turing Test</div>
+                <div class="meta">Issue 01 · Post-Apocalyptic · Opens PDF ↗</div>
+            </a>
 
-                if (!stories.length) {
-                    grid.innerHTML = '<p class="no-results">No graphic stories yet.</p>';
-                    return;
-                }
+            <a class="graphic-list-item"
+               href="pdf/Ring%20Bearer-Illustrated.pdf"
+               target="_blank">
+                <div class="title">The Ring Bearer</div>
+                <div class="meta">Issue 01 · Science Fiction · Opens PDF ↗</div>
+            </a>
+
+        </div>
+    `;
+}
 
                 grid.innerHTML = stories.map(story => `
                     <a class="graphic-story-card" href="${story.pdf}" target="_blank">
