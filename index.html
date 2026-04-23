@@ -365,46 +365,43 @@
         }
 
         .graphic-stories-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 24px;
-            justify-content: center;
-        }
-
-        .graphic-story-card {
-            width: 190px;
-            text-decoration: none;
-            color: var(--reader-text);
-            transition: transform 0.2s ease;
-        }
-
-        .graphic-story-card:hover {
-            transform: translateY(-3px);
-        }
-
-        .graphic-story-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 4px;
-            border: 1px solid rgba(234, 216, 182, 0.35);
-            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-            background: rgba(255,255,255,0.08);
             display: block;
+            max-width: 520px;
+            margin: 0 auto;
         }
 
-        .graphic-story-card .card-title {
+        .graphic-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .graphic-list-item {
+            display: block;
+            padding: 14px 18px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .graphic-list-item:hover {
+            background: rgba(255,255,255,0.10);
+            border-color: rgba(255,255,255,0.16);
+        }
+
+        .graphic-list-item .title {
             font-family: 'Merriweather', serif;
-            font-size: 0.95rem;
-            margin-top: 10px;
+            font-size: 1.02rem;
             color: var(--gold-text);
+            margin-bottom: 4px;
             font-weight: 700;
         }
 
-        .graphic-story-card .card-meta {
-            font-size: 0.78rem;
+        .graphic-list-item .meta {
+            font-size: 0.82rem;
             color: var(--soft-gold);
-            margin-top: 4px;
             font-style: italic;
         }
 
@@ -447,14 +444,6 @@
 
             #content-display {
                 font-size: 1.05rem;
-            }
-
-            .graphic-story-card {
-                width: 160px;
-            }
-
-            .graphic-story-card img {
-                height: 220px;
             }
         }
     </style>
@@ -503,21 +492,6 @@
             folder: 'stories',
             branch: 'main'
         };
-
-        const FALLBACK_GRAPHIC_STORIES = [
-            {
-                title: "The Reverse Turing Test",
-                meta: "Issue 01 · Post-Apocalyptic",
-                pdf: "pdf/reverse_turing_issue_01.pdf",
-                cover: "pdf/reverse_turing_cover.jpg"
-            },
-            {
-                title: "The Ring Bearer",
-                meta: "Issue 01 · Science Fiction",
-                pdf: "pdf/Ring Bearer-Illustrated.pdf",
-                cover: "pdf/ring_bearer_cover.jpg"
-            }
-        ];
 
         const storyList = document.getElementById('story-list');
         const contentDisplay = document.getElementById('content-display');
@@ -748,75 +722,27 @@
             }, 300);
         }
 
-        async function fileExists(url) {
-            try {
-                const response = await fetch(url, { method: 'HEAD', cache: 'no-store' });
-                return response.ok;
-            } catch (error) {
-                return false;
-            }
-        }
+        function loadGraphicStories() {
+            const grid = document.getElementById('graphic-stories-grid');
+            if (!grid) return;
 
-        async function getGraphicStories() {
-            try {
-                const response = await fetch('graphic-stories.json', { cache: 'no-store' });
-                if (response.ok) {
-                    const stories = await response.json();
-                    if (Array.isArray(stories) && stories.length > 0) {
-                        return stories;
-                    }
-                }
-            } catch (error) {
-                console.error(error);
-            }
-
-            const verifiedStories = [];
-            for (const story of FALLBACK_GRAPHIC_STORIES) {
-                const exists = await fileExists(story.pdf);
-                if (exists) {
-                    verifiedStories.push(story);
-                }
-            }
-            return verifiedStories;
-        }
-
-        
-            function loadGraphicStories() {
-    const grid = document.getElementById('graphic-stories-grid');
-    if (!grid) return;
-
-    grid.innerHTML = `
-        <div class="graphic-list">
-
-            <a class="graphic-list-item"
-               href="pdf/reverse_turing_issue_01.pdf"
-               target="_blank">
-                <div class="title">The Reverse Turing Test</div>
-                <div class="meta">Issue 01 · Post-Apocalyptic · Opens PDF ↗</div>
-            </a>
-
-            <a class="graphic-list-item"
-               href="pdf/Ring%20Bearer-Illustrated.pdf"
-               target="_blank">
-                <div class="title">The Ring Bearer</div>
-                <div class="meta">Issue 01 · Science Fiction · Opens PDF ↗</div>
-            </a>
-
-        </div>
-    `;
-}
-
-                grid.innerHTML = stories.map(story => `
-                    <a class="graphic-story-card" href="${story.pdf}" target="_blank">
-                        <img src="${story.cover}" alt="${story.title}" onerror="this.style.background='rgba(255,255,255,0.08)'; this.removeAttribute('src');">
-                        <div class="card-title">${story.title}</div>
-                        <div class="card-meta">${story.meta}</div>
+            grid.innerHTML = `
+                <div class="graphic-list">
+                    <a class="graphic-list-item"
+                       href="pdf/reverse_turing_issue_01.pdf"
+                       target="_blank">
+                        <div class="title">The Reverse Turing Test</div>
+                        <div class="meta">Issue 01 · Post-Apocalyptic · Opens PDF ↗</div>
                     </a>
-                `).join('');
-            } catch (error) {
-                grid.innerHTML = '<p class="no-results">Graphic stories unavailable.</p>';
-                console.error(error);
-            }
+
+                    <a class="graphic-list-item"
+                       href="pdf/Ring%20Bearer-Illustrated.pdf"
+                       target="_blank">
+                        <div class="title">The Ring Bearer</div>
+                        <div class="meta">Issue 01 · Science Fiction · Opens PDF ↗</div>
+                    </a>
+                </div>
+            `;
         }
 
         document.addEventListener('keydown', (e) => {
