@@ -722,49 +722,27 @@
             }, 300);
         }
 
-        async function loadGraphicStories() {
+        function loadGraphicStories() {
             const grid = document.getElementById('graphic-stories-grid');
             if (!grid) return;
 
-            const pdfApiUrl = `https://api.github.com/repos/${CONFIG.username}/${CONFIG.repo}/contents/pdf`;
+            grid.innerHTML = `
+                <div class="graphic-list">
+                    <a class="graphic-list-item"
+                       href="pdf/reverse_turing_issue_01.pdf"
+                       target="_blank">
+                        <div class="title">The Reverse Turing Test</div>
+                        <div class="meta">Issue 01 · Post-Apocalyptic · Opens PDF ↗</div>
+                    </a>
 
-            try {
-                const response = await fetch(pdfApiUrl, { cache: 'no-store' });
-                if (!response.ok) throw new Error('PDF folder not found');
-
-                const data = await response.json();
-                const pdfs = data.filter(file => file.name.toLowerCase().endsWith('.pdf'));
-
-                if (pdfs.length === 0) {
-                    grid.innerHTML = '<p style="color:#ead8b6;">No graphic stories found.</p>';
-                    return;
-                }
-
-                pdfs.sort((a, b) => a.name.localeCompare(b.name));
-
-                let html = '<div class="graphic-list">';
-
-                pdfs.forEach(pdf => {
-                    const title = cleanFileName(pdf.name);
-                    const pdfPath = `/readers-retreat/pdf/${encodeURIComponent(pdf.name)}`;
-
-                    html += `
-                        <a class="graphic-list-item"
-                           href="${pdfPath}"
-                           target="_blank">
-                            <div class="title">${title}</div>
-                            <div class="meta">Graphic Story · Opens PDF ↗</div>
-                        </a>
-                    `;
-                });
-
-                html += '</div>';
-                grid.innerHTML = html;
-
-            } catch (error) {
-                grid.innerHTML = '<p style="color:#ead8b6;">Unable to load graphic stories.</p>';
-                console.error(error);
-            }
+                    <a class="graphic-list-item"
+                       href="pdf/Ring%20Bearer-Illustrated.pdf"
+                       target="_blank">
+                        <div class="title">The Ring Bearer</div>
+                        <div class="meta">Issue 01 · Science Fiction · Opens PDF ↗</div>
+                    </a>
+                </div>
+            `;
         }
 
         document.addEventListener('keydown', (e) => {
