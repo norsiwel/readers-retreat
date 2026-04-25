@@ -523,7 +523,10 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Wizards Reward
   https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## PDFs (6 total)
+## PDFs (7 total)
+
+- readers retreat issue 01
+  https://norsiwel.github.io/readers-retreat/pdf/readers_retreat_issue_01.pdf
 
 - reverse turing issue 01
   https://norsiwel.github.io/readers-retreat/pdf/reverse_turing_issue_01.pdf
