@@ -1,889 +1,1078 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/26K-mirror.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Accidental Hero.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Adventure in the Stars.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ancient Aliens.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Architect of Minds-extended.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Beyond.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/blackveil-fantasy adventure.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Blackwood Manor.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Brew.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Bronze Heart.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Brothers Of Pea Ridge-Final.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Captains Pleasure.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Childhood.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Clockwork Heart.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody_Durham_manuscript.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody Durham-Trader to the Stars.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody_Durham.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody's Hope.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cognito_X.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Colors.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound_Spark_Cosmic_Sigh.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound Spark.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cosmic Witness.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cost of Living.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Crete’s Bronze Heart.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dance of the Sailing Soul.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 2.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 3.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 4.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dectective-story-ongoing.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Delusions of a Paranoid Terrorist.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Democracy's_Good_Work.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Descent of the Gods.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Digital Personality Cults.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Divide By Zero.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Echos_In_Time.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Electric_Heart.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Elephant Ball.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Endless Sky.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Entanglment.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Estate-Planning.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Everybody is a Writer.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Exogenesis.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Fifth Planet.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/First-Contact.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Flint's Gift.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Fortunate Encounter.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/FroggyTales.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Full Circle.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ghost Chain.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Gilded Mirror.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Government-Backed Social-Media.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Greetings from the Ice.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Harmony's Web.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Henry's World-ext.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Home_Network.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Hope for Adventure in the Stars.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Hope & Heavy Debt (Cody Durham's Log).txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Illumination.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Intelligence Agency.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Interdiction-final.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/In_the_Beginning.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/It's a Dog's Life.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just_in_Time.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Keepers Legacy.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Life Goes On.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Lost-Benben.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Made Human.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Manna From the Streets.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Martian Incident.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Memories.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Message.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/More Than Burden.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Mythology_in_America.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Neural Lag.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Neurolyx _ The Double-Edged Miracle.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Night Sky.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Nine to Rule.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Not The First Great Flood.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Obsolescence-Protocol.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Once in Many Lifetimes.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/One_and_One.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/On the Shoulders of Giants.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Pantopia Perfect_ A Star is Rebooted.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Quantum_Plague.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Real_Magic.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reasoning.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Red Sky Sailors Delight.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reincarnation-Final.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reverse Turing.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ring Bearer.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Life.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Spirits_an_alternate_history.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Spirits.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket-Episode-1.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket-Episode-2.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Silence of the Spire.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-Chapter-1.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-main-text.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-Odessey To Mars.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Some Assembly Required.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Spark.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/spirits.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/starseed-first-draft-prologue.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Starseed.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star Truck-Episode 3_Nature of the Beast.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star_Truck.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/survival-2.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Survival.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Swift_Victory.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Synergy.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Adventures of Burnie.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Architect of Minds.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Auditor_of_Nouns.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Ball.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Bard and The Rogue.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Canvas of Rebellion.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Cat's Meow.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Cazique.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Celestial Jaguar.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Circles of Life and Death.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Clown.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Color Between.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Common Solution.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Convergence_of_Etheria.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Corner Cafe.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Domino Effect.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Echo Protocol.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Fifth Planet.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Fruits of Our Labor.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Gap.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Genesis Code.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Gray Equilibrium.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Great Flood.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Editor.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Sentinels.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Thought.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Transfer.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Light_Between_Worlds.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lighthouse Keeper.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Little President That Could.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Long_Walk_Home.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lost Benben.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lotus_Eaters.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lunar_Frontier.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Neurolyx _ The Double-Edged Miracle.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Onion_Seller.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/There are none so blind.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Reverse_Turing_Test.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Shattered_Choir.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Two_Waters.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Underneath.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Weight of Choices.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Xenoaporia_Paradox.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Timekeeper.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Time_Wounds_All_Heels.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Tomato,Tomahto.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Truth and Lies.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Unbreakable-Chapter-10.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Unbreakable.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Uncommon-Sense-Main.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Uncommon Sense.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Upgrade Status.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/What Defines Propaganda_.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Whats a (Con) Man to Do.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Wizards Reward.txt</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/reverse_turing_issue_01.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/Ring Bearer-Illustrated.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/Ring_Bearer.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/Survival.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/archive.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/llms.txt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/26K-mirror.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Accidental Hero.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Adventure in the Stars.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Ancient Aliens.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Architect of Minds-extended.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Beyond.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/blackveil-fantasy adventure.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Blackwood Manor.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Brew.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Bronze Heart.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Brothers Of Pea Ridge-Final.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Captains Pleasure.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Childhood.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Clockwork Heart.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cody_Durham_manuscript.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cody Durham-Trader to the Stars.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cody_Durham.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cody's Hope.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cognito_X.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Colors.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Compound_Spark_Cosmic_Sigh.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Compound Spark.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cosmic Witness.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Cost of Living.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Crete’s Bronze Heart.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dance of the Sailing Soul.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 2.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 3.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 4.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dawn of Man.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Dectective-story-ongoing.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Delusions of a Paranoid Terrorist.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Democracy's_Good_Work.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Descent of the Gods.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Digital Personality Cults.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Divide By Zero.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Echos_In_Time.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Electric_Heart.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Elephant Ball.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Endless Sky.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Entanglment.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Estate-Planning.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Everybody is a Writer.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Exogenesis.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Fifth Planet.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/First-Contact.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Flint's Gift.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Fortunate Encounter.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/FroggyTales.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Full Circle.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Ghost Chain.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Gilded Mirror.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Government-Backed Social-Media.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Greetings from the Ice.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Harmony's Web.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Henry's World-ext.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Home_Network.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Hope for Adventure in the Stars.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Hope & Heavy Debt (Cody Durham's Log).txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Illumination.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Intelligence Agency.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Interdiction-final.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/In_the_Beginning.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/It's a Dog's Life.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Just_in_Time.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Keepers Legacy.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Ledger of Souls.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Life Goes On.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Lost-Benben.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Made Human.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Manna From the Streets.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Martian Incident.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Memories.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Message.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/More Than Burden.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Mythology_in_America.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Neural Lag.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Neurolyx _ The Double-Edged Miracle.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Night Sky.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Nine to Rule.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Not The First Great Flood.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Obsolescence-Protocol.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Once in Many Lifetimes.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/One_and_One.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/On the Shoulders of Giants.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Pantopia Perfect_ A Star is Rebooted.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Quantum_Plague.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Real_Magic.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Reasoning.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Red Sky Sailors Delight.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Reincarnation-Final.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Reverse Turing.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Ring Bearer.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/River_Life.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/River_Spirits_an_alternate_history.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/River Spirits.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-1.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-2.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Rustbucket.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Silence of the Spire.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-Chapter-1.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-main-text.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-Odessey To Mars.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Some Assembly Required.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Spark.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/spirits.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/starseed-first-draft-prologue.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Starseed.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Star Truck-Episode 3_Nature of the Beast.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Star_Truck.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/survival-2.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Survival.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Swift_Victory.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Synergy.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Adventures of Burnie.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Architect of Minds.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Auditor_of_Nouns.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Ball.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Bard and The Rogue.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Canvas of Rebellion.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Cat's Meow.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Cazique.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Celestial Jaguar.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Circles of Life and Death.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Clown.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Color Between.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Common Solution.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Convergence_of_Etheria.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Corner Cafe.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Domino Effect.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Echo Protocol.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Fifth Planet.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Fruits of Our Labor.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Gap.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Genesis Code.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Gray Equilibrium.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Great Flood.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Last Editor.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Last Sentinels.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Last Thought.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Last Transfer.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Light_Between_Worlds.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Lighthouse Keeper.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Little President That Could.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Long_Walk_Home.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Lost Benben.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Lotus_Eaters.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Lunar_Frontier.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Neurolyx _ The Double-Edged Miracle.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Onion_Seller.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/There are none so blind.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Reverse_Turing_Test.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Shattered_Choir.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Two_Waters.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Underneath.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The Weight of Choices.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/The_Xenoaporia_Paradox.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Timekeeper.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Time_Wounds_All_Heels.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Tomato,Tomahto.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Truth and Lies.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Unbreakable-Chapter-10.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Unbreakable.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Uncommon-Sense-Main.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Uncommon Sense.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Upgrade Status.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/What Defines Propaganda_.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Whats a (Con) Man to Do.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/reverse_turing_issue_01.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/Ring Bearer-Illustrated.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/Ring_Bearer.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/Survival.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

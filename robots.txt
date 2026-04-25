@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
 Sitemap: https://norsiwel.github.io/readers-retreat/sitemap.xml
-
-# LLM / AI crawler index
-# llms.txt: https://norsiwel.github.io/readers-retreat/llms.txt

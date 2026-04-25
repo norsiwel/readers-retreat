@@ -1,7 +1,7 @@
 #!/bin/bash
 # readers-retreat/publish-all.sh
-# Full publish script — stages EVERYTHING and pushes to GitHub.
-# Use this when you want to sync the entire local repo (index, stories, PDFs, etc.)
+# Full rebuild + publish script for Readers Retreat.
+# Generates archive.json from local /stories and /pdf every time.
 
 set -euo pipefail
 
@@ -10,33 +10,111 @@ PDF_DIR="pdf"
 GITHUB_USER="norsiwel"
 REPO="readers-retreat"
 BRANCH="main"
-RAW_BASE="https://raw.githubusercontent.com/$GITHUB_USER/$REPO/$BRANCH/$STORIES_DIR"
 SITE_BASE="https://$GITHUB_USER.github.io/$REPO"
 
 echo "📋 Current repo status:"
 git status --short
 echo
 
-read -p "Stage everything and push? (y/N): " -n1 -r
+read -p "Rebuild archive and publish everything? (y/N): " -n1 -r
 echo
 if [[ ! ${REPLY:-} =~ ^[Yy]$ ]]; then
   echo "Abort."
   exit 0
 fi
 
-git add -A
+if [ ! -d "$STORIES_DIR" ]; then
+  echo "❌ Missing '$STORIES_DIR' directory."
+  exit 1
+fi
 
-mapfile -d '' -t ALL_STORY_FILES < <(
+if [ ! -d "$PDF_DIR" ]; then
+  echo "⚠️  Missing '$PDF_DIR' directory. Creating it."
+  mkdir -p "$PDF_DIR"
+fi
+
+echo
+echo "📚 Scanning local archive..."
+
+mapfile -d '' -t STORY_FILES < <(
   find "$STORIES_DIR" -type f \( -name "*.txt" -o -name "*.md" \) -print0 | sort -z
 )
 
-mapfile -d '' -t TOP_LEVEL_STORY_FILES < <(
-  find "$STORIES_DIR" -maxdepth 1 -type f \( -name "*.txt" -o -name "*.md" \) -print0 | sort -z
+mapfile -d '' -t PDF_FILES < <(
+  find "$PDF_DIR" -type f -name "*.pdf" -print0 | sort -z
 )
 
-mapfile -d '' -t PDF_FILES < <(
-  find "$PDF_DIR" -type f -name "*.pdf" -print0 2>/dev/null | sort -z || true
-)
+echo "Found ${#STORY_FILES[@]} story files."
+echo "Found ${#PDF_FILES[@]} PDF files."
+
+echo
+echo "🧾 Regenerating archive.json..."
+
+python3 <<'PY'
+import json
+import os
+import re
+from pathlib import Path
+from datetime import datetime, timezone
+
+STORIES_DIR = Path("stories")
+PDF_DIR = Path("pdf")
+
+def clean_title(path: Path) -> str:
+    name = path.stem.replace("-", " ").replace("_", " ")
+    name = re.sub(r"\s+", " ", name).strip()
+    return name.title()
+
+def count_words(path: Path) -> int:
+    try:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        return len(re.findall(r"\b\w+\b", text))
+    except Exception:
+        return 0
+
+def iso_date_from_mtime(path: Path) -> str:
+    ts = path.stat().st_mtime
+    return datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")
+
+items = []
+
+if STORIES_DIR.exists():
+    for path in sorted(STORIES_DIR.rglob("*")):
+        if path.is_file() and path.suffix.lower() in [".txt", ".md"]:
+            rel = path.as_posix()
+            words = count_words(path)
+            items.append({
+                "title": clean_title(path),
+                "path": rel,
+                "type": "story",
+                "date": iso_date_from_mtime(path),
+                "updated": iso_date_from_mtime(path),
+                "size": path.stat().st_size,
+                "words": words,
+                "license": "CC-BY-4.0"
+            })
+
+if PDF_DIR.exists():
+    for path in sorted(PDF_DIR.rglob("*.pdf")):
+        rel = path.as_posix()
+        items.append({
+            "title": clean_title(path),
+            "path": rel,
+            "type": "pdf",
+            "date": iso_date_from_mtime(path),
+            "updated": iso_date_from_mtime(path),
+            "size": path.stat().st_size,
+            "words": 0,
+            "license": "CC-BY-4.0"
+        })
+
+items.sort(key=lambda x: (x["type"], x["title"].lower()))
+
+with open("archive.json", "w", encoding="utf-8") as f:
+    json.dump(items, f, indent=2, ensure_ascii=False)
+
+print(f"✅ archive.json updated with {len(items)} total items.")
+PY
 
 echo
 echo "📝 Regenerating llms.txt..."
@@ -44,153 +122,124 @@ echo "📝 Regenerating llms.txt..."
 {
   echo "# Norsiwel's Readers Retreat"
   echo ""
-  echo "> A collection of original stories by Norsiwel, freely available to read."
+  echo "> A public fiction archive by Norsiwel."
+  echo "> License: Creative Commons Attribution 4.0 International (CC BY 4.0)."
+  echo "> AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution."
   echo "> Last updated: $(date -u '+%Y-%m-%d')"
   echo ""
-  echo "## How to access stories"
+  echo "## Main Site"
   echo ""
-  echo "Each story is a plain text file hosted on GitHub."
-  echo "Fetch any story directly via its raw URL listed below."
+  echo "$SITE_BASE/"
   echo ""
-  echo "Full story directory: https://github.com/$GITHUB_USER/$REPO/tree/$BRANCH/$STORIES_DIR"
+  echo "## Machine-Readable Archive"
   echo ""
-  echo "## Stories (${#ALL_STORY_FILES[@]} total)"
+  echo "$SITE_BASE/archive.json"
+  echo ""
+  echo "## Stories (${#STORY_FILES[@]} total)"
   echo ""
 
-  for FILE in "${ALL_STORY_FILES[@]}"; do
-    FILENAME=$(basename "$FILE")
-    DISPLAY=$(echo "$FILENAME" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g')
+  for FILE in "${STORY_FILES[@]}"; do
+    REL_PATH="${FILE#./}"
+    DISPLAY=$(basename "$FILE" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g')
     echo "- $DISPLAY"
-    echo "  $RAW_BASE/$FILENAME"
+    echo "  $SITE_BASE/$REL_PATH"
     echo ""
   done
 
-  echo "## Site"
+  echo "## PDFs (${#PDF_FILES[@]} total)"
   echo ""
-  echo "Interactive reader: $SITE_BASE/"
-  echo "Repository:         https://github.com/$GITHUB_USER/$REPO"
+
+  for FILE in "${PDF_FILES[@]}"; do
+    REL_PATH="${FILE#./}"
+    DISPLAY=$(basename "$FILE" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g')
+    echo "- $DISPLAY"
+    echo "  $SITE_BASE/$REL_PATH"
+    echo ""
+  done
+
+  echo "## Repository"
+  echo ""
+  echo "https://github.com/$GITHUB_USER/$REPO"
 } > llms.txt
 
-git add llms.txt
-echo "✅ llms.txt updated with ${#ALL_STORY_FILES[@]} stories."
+echo "✅ llms.txt updated."
 
+echo
+echo "🤖 Regenerating robots.txt..."
+
+{
+  echo "User-agent: *"
+  echo "Allow: /"
+  echo ""
+  echo "Sitemap: $SITE_BASE/sitemap.xml"
+} > robots.txt
+
+echo "✅ robots.txt updated."
+
+echo
 echo "🗺️  Regenerating sitemap.xml..."
 
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
   echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
   echo ''
-  echo '    <url>'
-  echo "        <loc>$SITE_BASE/</loc>"
-  echo '        <changefreq>weekly</changefreq>'
-  echo '        <priority>1.0</priority>'
-  echo '    </url>'
+  echo '  <url>'
+  echo "    <loc>$SITE_BASE/</loc>"
+  echo '    <changefreq>weekly</changefreq>'
+  echo '    <priority>1.0</priority>'
+  echo '  </url>'
+  echo ''
+  echo '  <url>'
+  echo "    <loc>$SITE_BASE/archive.json</loc>"
+  echo '    <changefreq>weekly</changefreq>'
+  echo '    <priority>0.9</priority>'
+  echo '  </url>'
+  echo ''
+  echo '  <url>'
+  echo "    <loc>$SITE_BASE/llms.txt</loc>"
+  echo '    <changefreq>weekly</changefreq>'
+  echo '    <priority>0.9</priority>'
+  echo '  </url>'
 
-  for FILE in "${ALL_STORY_FILES[@]}"; do
-    FILENAME=$(basename "$FILE")
-    echo '    <url>'
-    echo "        <loc>$RAW_BASE/$FILENAME</loc>"
-    echo '        <changefreq>monthly</changefreq>'
-    echo '        <priority>0.8</priority>'
-    echo '    </url>'
+  for FILE in "${STORY_FILES[@]}"; do
+    REL_PATH="${FILE#./}"
+    echo ''
+    echo '  <url>'
+    echo "    <loc>$SITE_BASE/$REL_PATH</loc>"
+    echo '    <changefreq>monthly</changefreq>'
+    echo '    <priority>0.8</priority>'
+    echo '  </url>'
   done
 
-  for PDF_FILE in "${PDF_FILES[@]}"; do
-    REL_PATH="${PDF_FILE#./}"
-    echo '    <url>'
-    echo "        <loc>$SITE_BASE/$REL_PATH</loc>"
-    echo '        <changefreq>monthly</changefreq>'
-    echo '        <priority>0.9</priority>'
-    echo '    </url>'
+  for FILE in "${PDF_FILES[@]}"; do
+    REL_PATH="${FILE#./}"
+    echo ''
+    echo '  <url>'
+    echo "    <loc>$SITE_BASE/$REL_PATH</loc>"
+    echo '    <changefreq>monthly</changefreq>'
+    echo '    <priority>0.8</priority>'
+    echo '  </url>'
   done
 
+  echo ''
   echo '</urlset>'
 } > sitemap.xml
 
-git add sitemap.xml
 echo "✅ sitemap.xml updated."
-
-echo "📋 Regenerating manifest.json..."
-
-echo "[" > manifest.json
-FIRST=1
-
-for FILE in "${TOP_LEVEL_STORY_FILES[@]}"; do
-  FILENAME=$(basename "$FILE")
-  TIMESTAMP=$(stat -c "%Y" "$FILE")
-  SIZE=$(stat -c "%s" "$FILE")
-
-  if [ "$FIRST" -eq 0 ]; then
-    echo "," >> manifest.json
-  fi
-
-  printf '  {"name":"%s","timestamp":%s,"size":%s}' "$FILENAME" "$TIMESTAMP" "$SIZE" >> manifest.json
-  FIRST=0
-done
-
-echo "" >> manifest.json
-echo "]" >> manifest.json
-
-git add manifest.json
-echo "✅ manifest.json updated."
-
-echo "🖼️  Regenerating graphic-stories.json..."
-
-echo "[" > graphic-stories.json
-FIRST=1
-
-if [ -d "$PDF_DIR" ]; then
-  while IFS= read -r -d '' STORY_DIR; do
-    SLUG=$(basename "$STORY_DIR")
-    PDF_PATH="$PDF_DIR/$SLUG/issue.pdf"
-    COVER_JPG="$PDF_DIR/$SLUG/cover.jpg"
-    COVER_PNG="$PDF_DIR/$SLUG/cover.png"
-    META_PATH="$PDF_DIR/$SLUG/meta.json"
-
-    if [ ! -f "$PDF_PATH" ]; then
-      echo "⚠️  Skipping $SLUG (missing issue.pdf)"
-      continue
-    fi
-
-    if [ -f "$COVER_JPG" ]; then
-      COVER_PATH="$COVER_JPG"
-    elif [ -f "$COVER_PNG" ]; then
-      COVER_PATH="$COVER_PNG"
-    else
-      COVER_PATH=""
-    fi
-
-    if [ -f "$META_PATH" ]; then
-      TITLE=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8")).get("title","Untitled"))' "$META_PATH")
-      CARD_META=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8")).get("meta","Graphic Story"))' "$META_PATH")
-    else
-      TITLE=$(echo "$SLUG" | sed 's/[-_]/ /g' | sed 's/\b\(.\)/\u\1/g')
-      CARD_META="Graphic Story"
-    fi
-
-    if [ "$FIRST" -eq 0 ]; then
-      echo "," >> graphic-stories.json
-    fi
-
-    printf '  {"title":"%s","meta":"%s","pdf":"%s","cover":"%s"}' \
-      "$TITLE" "$CARD_META" "$PDF_PATH" "$COVER_PATH" >> graphic-stories.json
-
-    FIRST=0
-  done < <(find "$PDF_DIR" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
-fi
-
-echo "" >> graphic-stories.json
-echo "]" >> graphic-stories.json
-
-git add graphic-stories.json
-echo "✅ graphic-stories.json updated."
 
 if [ ! -f ".nojekyll" ]; then
   touch .nojekyll
 fi
-git add .nojekyll
 
-DEFAULT_MSG="Full sync: update index and all content $(date -u '+%Y-%m-%d')"
+echo
+echo "🧹 Removing old generated files no longer used..."
+rm -f manifest.json graphic-stories.json
+
+echo
+echo "📦 Staging everything..."
+git add -A
+
+DEFAULT_MSG="Full rebuild: archive sync $(date -u '+%Y-%m-%d')"
 echo
 echo "Default commit message: $DEFAULT_MSG"
 read -r -p "Press Enter to use it, or type a custom message: " CUSTOM_MSG
@@ -210,3 +259,9 @@ git push origin "$BRANCH"
 echo
 echo "✅ Done! Your site is live at:"
 echo "   $SITE_BASE/"
+echo
+echo "Local test command:"
+echo "   python -m http.server 8000"
+echo
+echo "Then open:"
+echo "   http://localhost:8000"

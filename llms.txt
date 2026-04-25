@@ -1,528 +1,550 @@
 # Norsiwel's Readers Retreat
 
-> A collection of original stories by Norsiwel, freely available to read.
-> Last updated: 2026-04-24
+> A public fiction archive by Norsiwel.
+> License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+> AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
+> Last updated: 2026-04-25
 
-## How to access stories
+## Main Site
 
-Each story is a plain text file hosted on GitHub.
-Fetch any story directly via its raw URL listed below.
+https://norsiwel.github.io/readers-retreat/
 
-Full story directory: https://github.com/norsiwel/readers-retreat/tree/main/stories
+## Machine-Readable Archive
+
+https://norsiwel.github.io/readers-retreat/archive.json
 
 ## Stories (170 total)
 
 - 26K mirror
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/26K-mirror.txt
+  https://norsiwel.github.io/readers-retreat/stories/26K-mirror.txt
 
 - Accidental Hero
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Accidental Hero.txt
+  https://norsiwel.github.io/readers-retreat/stories/Accidental Hero.txt
 
 - Adventure in the Stars
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Adventure in the Stars.txt
+  https://norsiwel.github.io/readers-retreat/stories/Adventure in the Stars.txt
 
 - Ancient Aliens
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ancient Aliens.txt
+  https://norsiwel.github.io/readers-retreat/stories/Ancient Aliens.txt
 
 - Architect of Minds extended
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Architect of Minds-extended.txt
+  https://norsiwel.github.io/readers-retreat/stories/Architect of Minds-extended.txt
 
 - Beyond
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Beyond.txt
+  https://norsiwel.github.io/readers-retreat/stories/Beyond.txt
 
 - blackveil fantasy adventure
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/blackveil-fantasy adventure.txt
+  https://norsiwel.github.io/readers-retreat/stories/blackveil-fantasy adventure.txt
 
 - Blackwood Manor
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Blackwood Manor.txt
+  https://norsiwel.github.io/readers-retreat/stories/Blackwood Manor.txt
 
 - Brew
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Brew.txt
+  https://norsiwel.github.io/readers-retreat/stories/Brew.txt
 
 - Bronze Heart
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Bronze Heart.txt
+  https://norsiwel.github.io/readers-retreat/stories/Bronze Heart.txt
 
 - Brothers Of Pea Ridge Final
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Brothers Of Pea Ridge-Final.txt
+  https://norsiwel.github.io/readers-retreat/stories/Brothers Of Pea Ridge-Final.txt
 
 - Captains Pleasure
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Captains Pleasure.txt
+  https://norsiwel.github.io/readers-retreat/stories/Captains Pleasure.txt
 
 - Childhood
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Childhood.txt
+  https://norsiwel.github.io/readers-retreat/stories/Childhood.txt
 
 - Clockwork Heart
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Clockwork Heart.txt
+  https://norsiwel.github.io/readers-retreat/stories/Clockwork Heart.txt
 
 - Cody Durham manuscript
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody_Durham_manuscript.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cody_Durham_manuscript.txt
 
 - Cody Durham Trader to the Stars
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody Durham-Trader to the Stars.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cody Durham-Trader to the Stars.txt
 
 - Cody Durham
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody_Durham.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cody_Durham.txt
 
 - Cody's Hope
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cody's Hope.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cody's Hope.txt
 
 - Cognito X
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cognito_X.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cognito_X.txt
 
 - Colors
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Colors.txt
+  https://norsiwel.github.io/readers-retreat/stories/Colors.txt
 
 - Compound Spark Cosmic Sigh
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound_Spark_Cosmic_Sigh.txt
+  https://norsiwel.github.io/readers-retreat/stories/Compound_Spark_Cosmic_Sigh.txt
 
 - Compound Spark
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Compound Spark.txt
+  https://norsiwel.github.io/readers-retreat/stories/Compound Spark.txt
 
 - Cosmic Witness
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cosmic Witness.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cosmic Witness.txt
 
 - Cost of Living
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Cost of Living.txt
+  https://norsiwel.github.io/readers-retreat/stories/Cost of Living.txt
 
 - Crete’s Bronze Heart
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Crete’s Bronze Heart.txt
+  https://norsiwel.github.io/readers-retreat/stories/Crete’s Bronze Heart.txt
 
 - Dance of the Sailing Soul
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dance of the Sailing Soul.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dance of the Sailing Soul.txt
 
 - Dawn of Man 2
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 2.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 2.txt
 
 - Dawn of Man 3
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 3.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 3.txt
 
 - Dawn of Man 4
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man 4.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dawn of Man 4.txt
 
 - Dawn of Man
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dawn of Man.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dawn of Man.txt
 
 - Dectective story ongoing
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Dectective-story-ongoing.txt
+  https://norsiwel.github.io/readers-retreat/stories/Dectective-story-ongoing.txt
 
 - Delusions of a Paranoid Terrorist
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Delusions of a Paranoid Terrorist.txt
+  https://norsiwel.github.io/readers-retreat/stories/Delusions of a Paranoid Terrorist.txt
 
 - Democracy's Good Work
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Democracy's_Good_Work.txt
+  https://norsiwel.github.io/readers-retreat/stories/Democracy's_Good_Work.txt
 
 - Descent of the Gods
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Descent of the Gods.txt
+  https://norsiwel.github.io/readers-retreat/stories/Descent of the Gods.txt
 
 - Digital Personality Cults
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Digital Personality Cults.txt
+  https://norsiwel.github.io/readers-retreat/stories/Digital Personality Cults.txt
 
 - Divide By Zero
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Divide By Zero.txt
+  https://norsiwel.github.io/readers-retreat/stories/Divide By Zero.txt
 
 - Echos In Time
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Echos_In_Time.txt
+  https://norsiwel.github.io/readers-retreat/stories/Echos_In_Time.txt
 
 - Electric Heart
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Electric_Heart.txt
+  https://norsiwel.github.io/readers-retreat/stories/Electric_Heart.txt
 
 - Elephant Ball
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Elephant Ball.txt
+  https://norsiwel.github.io/readers-retreat/stories/Elephant Ball.txt
 
 - Endless Sky
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Endless Sky.txt
+  https://norsiwel.github.io/readers-retreat/stories/Endless Sky.txt
 
 - Entanglment
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Entanglment.txt
+  https://norsiwel.github.io/readers-retreat/stories/Entanglment.txt
 
 - Estate Planning
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Estate-Planning.txt
+  https://norsiwel.github.io/readers-retreat/stories/Estate-Planning.txt
 
 - Everybody is a Writer
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Everybody is a Writer.txt
+  https://norsiwel.github.io/readers-retreat/stories/Everybody is a Writer.txt
 
 - Exogenesis
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Exogenesis.txt
+  https://norsiwel.github.io/readers-retreat/stories/Exogenesis.txt
 
 - Fifth Planet
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Fifth Planet.txt
+  https://norsiwel.github.io/readers-retreat/stories/Fifth Planet.txt
 
 - First Contact
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/First-Contact.txt
+  https://norsiwel.github.io/readers-retreat/stories/First-Contact.txt
 
 - Flint's Gift
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Flint's Gift.txt
+  https://norsiwel.github.io/readers-retreat/stories/Flint's Gift.txt
 
 - Fortunate Encounter
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Fortunate Encounter.txt
+  https://norsiwel.github.io/readers-retreat/stories/Fortunate Encounter.txt
 
 - FroggyTales
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/FroggyTales.txt
+  https://norsiwel.github.io/readers-retreat/stories/FroggyTales.txt
 
 - Full Circle
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Full Circle.txt
+  https://norsiwel.github.io/readers-retreat/stories/Full Circle.txt
 
 - Ghost Chain
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ghost Chain.txt
+  https://norsiwel.github.io/readers-retreat/stories/Ghost Chain.txt
 
 - Gilded Mirror
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Gilded Mirror.txt
+  https://norsiwel.github.io/readers-retreat/stories/Gilded Mirror.txt
 
 - Government Backed Social Media
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Government-Backed Social-Media.txt
+  https://norsiwel.github.io/readers-retreat/stories/Government-Backed Social-Media.txt
 
 - Greetings from the Ice
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Greetings from the Ice.txt
+  https://norsiwel.github.io/readers-retreat/stories/Greetings from the Ice.txt
 
 - Harmony's Web
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Harmony's Web.txt
+  https://norsiwel.github.io/readers-retreat/stories/Harmony's Web.txt
 
 - Henry's World ext
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Henry's World-ext.txt
+  https://norsiwel.github.io/readers-retreat/stories/Henry's World-ext.txt
 
 - Home Network
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Home_Network.txt
+  https://norsiwel.github.io/readers-retreat/stories/Home_Network.txt
 
 - Hope for Adventure in the Stars
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Hope for Adventure in the Stars.txt
+  https://norsiwel.github.io/readers-retreat/stories/Hope for Adventure in the Stars.txt
 
 - Hope & Heavy Debt (Cody Durham's Log)
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Hope & Heavy Debt (Cody Durham's Log).txt
+  https://norsiwel.github.io/readers-retreat/stories/Hope & Heavy Debt (Cody Durham's Log).txt
 
 - Illumination
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Illumination.txt
+  https://norsiwel.github.io/readers-retreat/stories/Illumination.txt
 
 - Intelligence Agency
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Intelligence Agency.txt
+  https://norsiwel.github.io/readers-retreat/stories/Intelligence Agency.txt
 
 - Interdiction final
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Interdiction-final.txt
+  https://norsiwel.github.io/readers-retreat/stories/Interdiction-final.txt
 
 - In the Beginning
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/In_the_Beginning.txt
+  https://norsiwel.github.io/readers-retreat/stories/In_the_Beginning.txt
 
 - It's a Dog's Life
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/It's a Dog's Life.txt
+  https://norsiwel.github.io/readers-retreat/stories/It's a Dog's Life.txt
 
 - Just in Time
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Just_in_Time.txt
+  https://norsiwel.github.io/readers-retreat/stories/Just_in_Time.txt
 
 - Keepers Legacy
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Keepers Legacy.txt
+  https://norsiwel.github.io/readers-retreat/stories/Keepers Legacy.txt
 
 - Ledger of Souls
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ledger of Souls.txt
+  https://norsiwel.github.io/readers-retreat/stories/Ledger of Souls.txt
 
 - Life Goes On
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Life Goes On.txt
+  https://norsiwel.github.io/readers-retreat/stories/Life Goes On.txt
 
 - Lost Benben
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Lost-Benben.txt
+  https://norsiwel.github.io/readers-retreat/stories/Lost-Benben.txt
 
 - Made Human
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Made Human.txt
+  https://norsiwel.github.io/readers-retreat/stories/Made Human.txt
 
 - Manna From the Streets
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Manna From the Streets.txt
+  https://norsiwel.github.io/readers-retreat/stories/Manna From the Streets.txt
 
 - Martian Incident
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Martian Incident.txt
+  https://norsiwel.github.io/readers-retreat/stories/Martian Incident.txt
 
 - Memories
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Memories.txt
+  https://norsiwel.github.io/readers-retreat/stories/Memories.txt
 
 - Message
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Message.txt
+  https://norsiwel.github.io/readers-retreat/stories/Message.txt
 
 - More Than Burden
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/More Than Burden.txt
+  https://norsiwel.github.io/readers-retreat/stories/More Than Burden.txt
 
 - Mythology in America
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Mythology_in_America.txt
+  https://norsiwel.github.io/readers-retreat/stories/Mythology_in_America.txt
 
 - Neural Lag
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Neural Lag.txt
+  https://norsiwel.github.io/readers-retreat/stories/Neural Lag.txt
 
 - Neurolyx   The Double Edged Miracle
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Neurolyx _ The Double-Edged Miracle.txt
+  https://norsiwel.github.io/readers-retreat/stories/Neurolyx _ The Double-Edged Miracle.txt
 
 - Night Sky
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Night Sky.txt
+  https://norsiwel.github.io/readers-retreat/stories/Night Sky.txt
 
 - Nine to Rule
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Nine to Rule.txt
+  https://norsiwel.github.io/readers-retreat/stories/Nine to Rule.txt
 
 - Not The First Great Flood
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Not The First Great Flood.txt
+  https://norsiwel.github.io/readers-retreat/stories/Not The First Great Flood.txt
 
 - Obsolescence Protocol
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Obsolescence-Protocol.txt
+  https://norsiwel.github.io/readers-retreat/stories/Obsolescence-Protocol.txt
 
 - Once in Many Lifetimes
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Once in Many Lifetimes.txt
+  https://norsiwel.github.io/readers-retreat/stories/Once in Many Lifetimes.txt
 
 - One and One
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/One_and_One.txt
+  https://norsiwel.github.io/readers-retreat/stories/One_and_One.txt
 
 - On the Shoulders of Giants
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/On the Shoulders of Giants.txt
+  https://norsiwel.github.io/readers-retreat/stories/On the Shoulders of Giants.txt
 
 - Pantopia Perfect  A Star is Rebooted
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Pantopia Perfect_ A Star is Rebooted.txt
+  https://norsiwel.github.io/readers-retreat/stories/Pantopia Perfect_ A Star is Rebooted.txt
 
 - Quantum Plague
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Quantum_Plague.txt
+  https://norsiwel.github.io/readers-retreat/stories/Quantum_Plague.txt
 
 - Real Magic
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Real_Magic.txt
+  https://norsiwel.github.io/readers-retreat/stories/Real_Magic.txt
 
 - Reasoning
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reasoning.txt
+  https://norsiwel.github.io/readers-retreat/stories/Reasoning.txt
 
 - Red Sky Sailors Delight
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Red Sky Sailors Delight.txt
+  https://norsiwel.github.io/readers-retreat/stories/Red Sky Sailors Delight.txt
 
 - Reincarnation Final
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reincarnation-Final.txt
+  https://norsiwel.github.io/readers-retreat/stories/Reincarnation-Final.txt
 
 - Reverse Turing
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Reverse Turing.txt
+  https://norsiwel.github.io/readers-retreat/stories/Reverse Turing.txt
 
 - Ring Bearer
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Ring Bearer.txt
+  https://norsiwel.github.io/readers-retreat/stories/Ring Bearer.txt
 
 - River Life
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Life.txt
+  https://norsiwel.github.io/readers-retreat/stories/River_Life.txt
 
 - River Spirits an alternate history
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River_Spirits_an_alternate_history.txt
+  https://norsiwel.github.io/readers-retreat/stories/River_Spirits_an_alternate_history.txt
 
 - River Spirits
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/River Spirits.txt
+  https://norsiwel.github.io/readers-retreat/stories/River Spirits.txt
 
 - Rustbucket Episode 1
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket-Episode-1.txt
+  https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-1.txt
 
 - Rustbucket Episode 2
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket-Episode-2.txt
+  https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-2.txt
 
 - Rustbucket
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Rustbucket.txt
+  https://norsiwel.github.io/readers-retreat/stories/Rustbucket.txt
 
 - Silence of the Spire
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Silence of the Spire.txt
+  https://norsiwel.github.io/readers-retreat/stories/Silence of the Spire.txt
 
 - Slingshot Chapter 1
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-Chapter-1.txt
+  https://norsiwel.github.io/readers-retreat/stories/Slingshot-Chapter-1.txt
 
 - Slingshot main text
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-main-text.txt
+  https://norsiwel.github.io/readers-retreat/stories/Slingshot-main-text.txt
 
 - Slingshot Odessey To Mars
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot-Odessey To Mars.txt
+  https://norsiwel.github.io/readers-retreat/stories/Slingshot-Odessey To Mars.txt
 
 - Slingshot
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Slingshot.txt
+  https://norsiwel.github.io/readers-retreat/stories/Slingshot.txt
 
 - Some Assembly Required
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Some Assembly Required.txt
+  https://norsiwel.github.io/readers-retreat/stories/Some Assembly Required.txt
 
 - Spark
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Spark.txt
+  https://norsiwel.github.io/readers-retreat/stories/Spark.txt
 
 - spirits
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/spirits.txt
+  https://norsiwel.github.io/readers-retreat/stories/spirits.txt
 
 - starseed first draft prologue
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/starseed-first-draft-prologue.txt
+  https://norsiwel.github.io/readers-retreat/stories/starseed-first-draft-prologue.txt
 
 - Starseed
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Starseed.txt
+  https://norsiwel.github.io/readers-retreat/stories/Starseed.txt
 
 - Star Truck Episode 3 Nature of the Beast
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star Truck-Episode 3_Nature of the Beast.txt
+  https://norsiwel.github.io/readers-retreat/stories/Star Truck-Episode 3_Nature of the Beast.txt
 
 - Star Truck
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Star_Truck.txt
+  https://norsiwel.github.io/readers-retreat/stories/Star_Truck.txt
 
 - survival 2
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/survival-2.txt
+  https://norsiwel.github.io/readers-retreat/stories/survival-2.txt
 
 - Survival
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Survival.txt
+  https://norsiwel.github.io/readers-retreat/stories/Survival.txt
 
 - Swift Victory
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Swift_Victory.txt
+  https://norsiwel.github.io/readers-retreat/stories/Swift_Victory.txt
 
 - Synergy
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Synergy.txt
+  https://norsiwel.github.io/readers-retreat/stories/Synergy.txt
 
 - The Adventures of Burnie
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Adventures of Burnie.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Adventures of Burnie.txt
 
 - The Architect of Minds
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Architect of Minds.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Architect of Minds.txt
 
 - The Auditor of Nouns
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Auditor_of_Nouns.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Auditor_of_Nouns.txt
 
 - The Ball
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Ball.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Ball.txt
 
 - The Bard and The Rogue
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Bard and The Rogue.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Bard and The Rogue.txt
 
 - The Canvas of Rebellion
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Canvas of Rebellion.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Canvas of Rebellion.txt
 
 - The Cat's Meow
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Cat's Meow.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Cat's Meow.txt
 
 - The Cazique
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Cazique.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Cazique.txt
 
 - The Celestial Jaguar
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Celestial Jaguar.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Celestial Jaguar.txt
 
 - The Circles of Life and Death
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Circles of Life and Death.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Circles of Life and Death.txt
 
 - The Clown
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Clown.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Clown.txt
 
 - The Color Between
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Color Between.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Color Between.txt
 
 - The Common Solution
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Common Solution.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Common Solution.txt
 
 - The Convergence of Etheria
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Convergence_of_Etheria.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Convergence_of_Etheria.txt
 
 - The Corner Cafe
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Corner Cafe.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Corner Cafe.txt
 
 - The Domino Effect
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Domino Effect.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Domino Effect.txt
 
 - The Echo Protocol
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Echo Protocol.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Echo Protocol.txt
 
 - The Fifth Planet
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Fifth Planet.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Fifth Planet.txt
 
 - The Fruits of Our Labor
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Fruits of Our Labor.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Fruits of Our Labor.txt
 
 - The Gap
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Gap.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Gap.txt
 
 - The Genesis Code
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Genesis Code.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Genesis Code.txt
 
 - The Gray Equilibrium
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Gray Equilibrium.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Gray Equilibrium.txt
 
 - The Great Flood
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Great Flood.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Great Flood.txt
 
 - The Last Editor
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Editor.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Last Editor.txt
 
 - The Last Sentinels
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Sentinels.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Last Sentinels.txt
 
 - The Last Thought
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Thought.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Last Thought.txt
 
 - The Last Transfer
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Last Transfer.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Last Transfer.txt
 
 - The Light Between Worlds
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Light_Between_Worlds.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Light_Between_Worlds.txt
 
 - The Lighthouse Keeper
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lighthouse Keeper.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Lighthouse Keeper.txt
 
 - The Little President That Could
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Little President That Could.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Little President That Could.txt
 
 - The Long Walk Home
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Long_Walk_Home.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Long_Walk_Home.txt
 
 - The Lost Benben
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Lost Benben.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Lost Benben.txt
 
 - The Lotus Eaters
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lotus_Eaters.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Lotus_Eaters.txt
 
 - The Lunar Frontier
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Lunar_Frontier.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Lunar_Frontier.txt
 
 - The Neurolyx   The Double Edged Miracle
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Neurolyx _ The Double-Edged Miracle.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Neurolyx _ The Double-Edged Miracle.txt
 
 - The Onion Seller
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Onion_Seller.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Onion_Seller.txt
 
 - There are none so blind
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/There are none so blind.txt
+  https://norsiwel.github.io/readers-retreat/stories/There are none so blind.txt
 
 - The Reverse Turing Test
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Reverse_Turing_Test.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Reverse_Turing_Test.txt
 
 - The Shattered Choir
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Shattered_Choir.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Shattered_Choir.txt
 
 - The Two Waters
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Two_Waters.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Two_Waters.txt
 
 - The Underneath
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Underneath.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Underneath.txt
 
 - The Weight of Choices
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The Weight of Choices.txt
+  https://norsiwel.github.io/readers-retreat/stories/The Weight of Choices.txt
 
 - The Xenoaporia Paradox
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/The_Xenoaporia_Paradox.txt
+  https://norsiwel.github.io/readers-retreat/stories/The_Xenoaporia_Paradox.txt
 
 - Timekeeper
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Timekeeper.txt
+  https://norsiwel.github.io/readers-retreat/stories/Timekeeper.txt
 
 - Time Wounds All Heels
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Time_Wounds_All_Heels.txt
+  https://norsiwel.github.io/readers-retreat/stories/Time_Wounds_All_Heels.txt
 
 - Tomato,Tomahto
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Tomato,Tomahto.txt
+  https://norsiwel.github.io/readers-retreat/stories/Tomato,Tomahto.txt
 
 - Truth and Lies
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Truth and Lies.txt
+  https://norsiwel.github.io/readers-retreat/stories/Truth and Lies.txt
 
 - Unbreakable Chapter 10
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Unbreakable-Chapter-10.txt
+  https://norsiwel.github.io/readers-retreat/stories/Unbreakable-Chapter-10.txt
 
 - Unbreakable
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Unbreakable.txt
+  https://norsiwel.github.io/readers-retreat/stories/Unbreakable.txt
 
 - Uncommon Sense Main
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Uncommon-Sense-Main.txt
+  https://norsiwel.github.io/readers-retreat/stories/Uncommon-Sense-Main.txt
 
 - Uncommon Sense
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Uncommon Sense.txt
+  https://norsiwel.github.io/readers-retreat/stories/Uncommon Sense.txt
 
 - Upgrade Status
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Upgrade Status.txt
+  https://norsiwel.github.io/readers-retreat/stories/Upgrade Status.txt
 
 - What Defines Propaganda 
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/What Defines Propaganda_.txt
+  https://norsiwel.github.io/readers-retreat/stories/What Defines Propaganda_.txt
 
 - Whats a (Con) Man to Do
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Whats a (Con) Man to Do.txt
+  https://norsiwel.github.io/readers-retreat/stories/Whats a (Con) Man to Do.txt
 
 - Wizards Reward
-  https://raw.githubusercontent.com/norsiwel/readers-retreat/main/stories/Wizards Reward.txt
+  https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## Site
+## PDFs (6 total)
 
-Interactive reader: https://norsiwel.github.io/readers-retreat/
-Repository:         https://github.com/norsiwel/readers-retreat
+- reverse turing issue 01
+  https://norsiwel.github.io/readers-retreat/pdf/reverse_turing_issue_01.pdf
+
+- Ring Bearer Illustrated
+  https://norsiwel.github.io/readers-retreat/pdf/Ring Bearer-Illustrated.pdf
+
+- Ring Bearer
+  https://norsiwel.github.io/readers-retreat/pdf/Ring_Bearer.pdf
+
+- Survival
+  https://norsiwel.github.io/readers-retreat/pdf/Survival.pdf
+
+- The Feline Conspiracy
+  https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf
+
+- The Two Waters Illustrated
+  https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
+
+## Repository
+
+https://github.com/norsiwel/readers-retreat
