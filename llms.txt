@@ -523,7 +523,10 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Wizards Reward
   https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## PDFs (7 total)
+## PDFs (8 total)
+
+- Bewildering Stories
+  https://norsiwel.github.io/readers-retreat/pdf/Bewildering_Stories.pdf
 
 - readers retreat issue 01
   https://norsiwel.github.io/readers-retreat/pdf/readers_retreat_issue_01.pdf
