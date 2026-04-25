@@ -1,10 +1,11 @@
 [
   {
-    "title": "Reverse Turing Issue 01",
+    "title": "reverse turing issue 01",
     "path": "pdf/reverse_turing_issue_01.pdf",
     "type": "pdf",
     "date": "2026-04-22",
     "updated": "2026-04-22",
+    "timestamp": 1776891591,
     "size": 12142853,
     "words": 0,
     "license": "CC-BY-4.0"
@@ -15,6 +16,7 @@
     "type": "pdf",
     "date": "2026-04-24",
     "updated": "2026-04-24",
+    "timestamp": 1777061734,
     "size": 23619526,
     "words": 0,
     "license": "CC-BY-4.0"
@@ -25,6 +27,7 @@
     "type": "pdf",
     "date": "2026-04-23",
     "updated": "2026-04-23",
+    "timestamp": 1776953109,
     "size": 3761648,
     "words": 0,
     "license": "CC-BY-4.0"
@@ -35,6 +38,7 @@
     "type": "pdf",
     "date": "2026-04-24",
     "updated": "2026-04-24",
+    "timestamp": 1777059289,
     "size": 26305283,
     "words": 0,
     "license": "CC-BY-4.0"
@@ -45,6 +49,7 @@
     "type": "pdf",
     "date": "2026-04-24",
     "updated": "2026-04-24",
+    "timestamp": 1777060354,
     "size": 39766993,
     "words": 0,
     "license": "CC-BY-4.0"
@@ -55,16 +60,18 @@
     "type": "pdf",
     "date": "2026-04-24",
     "updated": "2026-04-24",
+    "timestamp": 1776992896,
     "size": 8147731,
     "words": 0,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "26K Mirror",
+    "title": "26K mirror",
     "path": "stories/26K-mirror.txt",
     "type": "story",
     "date": "2025-09-23",
     "updated": "2025-09-23",
+    "timestamp": 1758589407,
     "size": 17027,
     "words": 2712,
     "license": "CC-BY-4.0"
@@ -75,16 +82,18 @@
     "type": "story",
     "date": "2025-09-23",
     "updated": "2025-09-23",
+    "timestamp": 1758590429,
     "size": 23203,
     "words": 3645,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Adventure In The Stars",
+    "title": "Adventure in the Stars",
     "path": "stories/Adventure in the Stars.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 81477,
     "words": 13623,
     "license": "CC-BY-4.0"
@@ -95,16 +104,18 @@
     "type": "story",
     "date": "2025-11-28",
     "updated": "2025-11-28",
+    "timestamp": 1764348176,
     "size": 7502,
     "words": 1159,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Architect Of Minds Extended",
+    "title": "Architect of Minds extended",
     "path": "stories/Architect of Minds-extended.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 33304,
     "words": 5166,
     "license": "CC-BY-4.0"
@@ -115,16 +126,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 50593,
     "words": 8472,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Blackveil Fantasy Adventure",
+    "title": "blackveil fantasy adventure",
     "path": "stories/blackveil-fantasy adventure.txt",
     "type": "story",
     "date": "2025-09-19",
     "updated": "2025-09-19",
+    "timestamp": 1758311730,
     "size": 44647,
     "words": 7330,
     "license": "CC-BY-4.0"
@@ -135,6 +148,7 @@
     "type": "story",
     "date": "2025-09-16",
     "updated": "2025-09-16",
+    "timestamp": 1758032877,
     "size": 17461,
     "words": 2847,
     "license": "CC-BY-4.0"
@@ -145,6 +159,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 19390,
     "words": 3028,
     "license": "CC-BY-4.0"
@@ -155,6 +170,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 19701,
     "words": 3047,
     "license": "CC-BY-4.0"
@@ -165,6 +181,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 168437,
     "words": 28629,
     "license": "CC-BY-4.0"
@@ -175,6 +192,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 72078,
     "words": 11833,
     "license": "CC-BY-4.0"
@@ -185,6 +203,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 6627,
     "words": 1036,
     "license": "CC-BY-4.0"
@@ -195,6 +214,7 @@
     "type": "story",
     "date": "2025-12-04",
     "updated": "2025-12-04",
+    "timestamp": 1764849286,
     "size": 40530,
     "words": 6794,
     "license": "CC-BY-4.0"
@@ -205,36 +225,40 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 37000,
     "words": 6017,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Cody Durham Manuscript",
+    "title": "Cody Durham manuscript",
     "path": "stories/Cody_Durham_manuscript.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 37266,
     "words": 6056,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Cody Durham Trader To The Stars",
+    "title": "Cody Durham Trader to the Stars",
     "path": "stories/Cody Durham-Trader to the Stars.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 37000,
     "words": 6017,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Cody'S Hope",
+    "title": "Cody's Hope",
     "path": "stories/Cody's Hope.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 18007,
     "words": 2946,
     "license": "CC-BY-4.0"
@@ -245,6 +269,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 147873,
     "words": 23561,
     "license": "CC-BY-4.0"
@@ -255,6 +280,7 @@
     "type": "story",
     "date": "2025-08-01",
     "updated": "2025-08-01",
+    "timestamp": 1754008418,
     "size": 39009,
     "words": 5401,
     "license": "CC-BY-4.0"
@@ -265,6 +291,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 5081,
     "words": 787,
     "license": "CC-BY-4.0"
@@ -275,6 +302,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 35157,
     "words": 5277,
     "license": "CC-BY-4.0"
@@ -285,116 +313,128 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754138262,
     "size": 2854,
     "words": 446,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Cost Of Living",
+    "title": "Cost of Living",
     "path": "stories/Cost of Living.txt",
     "type": "story",
     "date": "2025-08-19",
     "updated": "2025-08-19",
+    "timestamp": 1755647523,
     "size": 12083,
     "words": 1843,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Crete’S Bronze Heart",
+    "title": "Crete’s Bronze Heart",
     "path": "stories/Crete’s Bronze Heart.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 55202,
     "words": 9032,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dance Of The Sailing Soul",
+    "title": "Dance of the Sailing Soul",
     "path": "stories/Dance of the Sailing Soul.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 840,
     "words": 140,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dawn Of Man",
+    "title": "Dawn of Man",
     "path": "stories/Dawn of Man.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 4899,
     "words": 808,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dawn Of Man 2",
+    "title": "Dawn of Man 2",
     "path": "stories/Dawn of Man 2.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 14187,
     "words": 2450,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dawn Of Man 3",
+    "title": "Dawn of Man 3",
     "path": "stories/Dawn of Man 3.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 11202,
     "words": 1853,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dawn Of Man 4",
+    "title": "Dawn of Man 4",
     "path": "stories/Dawn of Man 4.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 25774,
     "words": 4436,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Dectective Story Ongoing",
+    "title": "Dectective story ongoing",
     "path": "stories/Dectective-story-ongoing.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9999,
     "words": 1664,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Delusions Of A Paranoid Terrorist",
+    "title": "Delusions of a Paranoid Terrorist",
     "path": "stories/Delusions of a Paranoid Terrorist.txt",
     "type": "story",
     "date": "2025-10-20",
     "updated": "2025-10-20",
+    "timestamp": 1760979393,
     "size": 12803,
     "words": 1936,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Democracy'S Good Work",
+    "title": "Democracy's Good Work",
     "path": "stories/Democracy's_Good_Work.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 21273,
     "words": 3668,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Descent Of The Gods",
+    "title": "Descent of the Gods",
     "path": "stories/Descent of the Gods.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 26800,
     "words": 4490,
     "license": "CC-BY-4.0"
@@ -405,6 +445,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160027,
     "size": 16292,
     "words": 2295,
     "license": "CC-BY-4.0"
@@ -415,6 +456,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 40563,
     "words": 6058,
     "license": "CC-BY-4.0"
@@ -425,6 +467,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 19388,
     "words": 3329,
     "license": "CC-BY-4.0"
@@ -435,6 +478,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 55984,
     "words": 8863,
     "license": "CC-BY-4.0"
@@ -445,6 +489,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 15782,
     "words": 2432,
     "license": "CC-BY-4.0"
@@ -455,6 +500,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 12987,
     "words": 2012,
     "license": "CC-BY-4.0"
@@ -465,6 +511,7 @@
     "type": "story",
     "date": "2025-08-01",
     "updated": "2025-08-01",
+    "timestamp": 1754008915,
     "size": 30103,
     "words": 4918,
     "license": "CC-BY-4.0"
@@ -475,16 +522,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 6268,
     "words": 926,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Everybody Is A Writer",
+    "title": "Everybody is a Writer",
     "path": "stories/Everybody is a Writer.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 6141,
     "words": 936,
     "license": "CC-BY-4.0"
@@ -495,6 +544,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 290806,
     "words": 45416,
     "license": "CC-BY-4.0"
@@ -505,6 +555,7 @@
     "type": "story",
     "date": "2025-09-22",
     "updated": "2025-09-22",
+    "timestamp": 1758547183,
     "size": 382040,
     "words": 59086,
     "license": "CC-BY-4.0"
@@ -515,16 +566,18 @@
     "type": "story",
     "date": "2025-08-10",
     "updated": "2025-08-10",
+    "timestamp": 1754869844,
     "size": 198746,
     "words": 31141,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Flint'S Gift",
+    "title": "Flint's Gift",
     "path": "stories/Flint's Gift.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 16029,
     "words": 2766,
     "license": "CC-BY-4.0"
@@ -535,16 +588,18 @@
     "type": "story",
     "date": "2025-08-22",
     "updated": "2025-08-22",
+    "timestamp": 1755867272,
     "size": 17476,
     "words": 2966,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Froggytales",
+    "title": "FroggyTales",
     "path": "stories/FroggyTales.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 6422,
     "words": 1184,
     "license": "CC-BY-4.0"
@@ -555,6 +610,7 @@
     "type": "story",
     "date": "2025-09-07",
     "updated": "2025-09-07",
+    "timestamp": 1757281928,
     "size": 28984,
     "words": 4836,
     "license": "CC-BY-4.0"
@@ -565,6 +621,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 4721,
     "words": 740,
     "license": "CC-BY-4.0"
@@ -575,6 +632,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539117,
     "size": 27995,
     "words": 4425,
     "license": "CC-BY-4.0"
@@ -585,36 +643,40 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 8375,
     "words": 1212,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Greetings From The Ice",
+    "title": "Greetings from the Ice",
     "path": "stories/Greetings from the Ice.txt",
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539051,
     "size": 28479,
     "words": 4456,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Harmony'S Web",
+    "title": "Harmony's Web",
     "path": "stories/Harmony's Web.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 100550,
     "words": 16350,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Henry'S World Ext",
+    "title": "Henry's World ext",
     "path": "stories/Henry's World-ext.txt",
     "type": "story",
     "date": "2025-12-20",
     "updated": "2025-12-20",
+    "timestamp": 1766238799,
     "size": 54457,
     "words": 9157,
     "license": "CC-BY-4.0"
@@ -625,26 +687,29 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 65865,
     "words": 9751,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Hope & Heavy Debt (Cody Durham'S Log)",
+    "title": "Hope & Heavy Debt (Cody Durham's Log)",
     "path": "stories/Hope & Heavy Debt (Cody Durham's Log).txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9084,
     "words": 1492,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Hope For Adventure In The Stars",
+    "title": "Hope for Adventure in the Stars",
     "path": "stories/Hope for Adventure in the Stars.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 46857,
     "words": 7755,
     "license": "CC-BY-4.0"
@@ -655,16 +720,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 4633,
     "words": 791,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "In The Beginning",
+    "title": "In the Beginning",
     "path": "stories/In_the_Beginning.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 13816,
     "words": 2384,
     "license": "CC-BY-4.0"
@@ -675,36 +742,40 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 145804,
     "words": 23869,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Interdiction Final",
+    "title": "Interdiction final",
     "path": "stories/Interdiction-final.txt",
     "type": "story",
     "date": "2025-09-22",
     "updated": "2025-09-22",
+    "timestamp": 1758547183,
     "size": 482491,
     "words": 76286,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "It'S A Dog'S Life",
+    "title": "It's a Dog's Life",
     "path": "stories/It's a Dog's Life.txt",
     "type": "story",
     "date": "2025-12-28",
     "updated": "2025-12-28",
+    "timestamp": 1766931782,
     "size": 27848,
     "words": 4520,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Just In Time",
+    "title": "Just in Time",
     "path": "stories/Just_in_Time.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 17838,
     "words": 3076,
     "license": "CC-BY-4.0"
@@ -715,16 +786,18 @@
     "type": "story",
     "date": "2026-04-20",
     "updated": "2026-04-20",
+    "timestamp": 1776698364,
     "size": 59834,
     "words": 10000,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Ledger Of Souls",
+    "title": "Ledger of Souls",
     "path": "stories/Ledger of Souls.txt",
     "type": "story",
     "date": "2025-12-15",
     "updated": "2025-12-15",
+    "timestamp": 1765837780,
     "size": 74356,
     "words": 12528,
     "license": "CC-BY-4.0"
@@ -735,6 +808,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 72787,
     "words": 10779,
     "license": "CC-BY-4.0"
@@ -745,6 +819,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 5264,
     "words": 792,
     "license": "CC-BY-4.0"
@@ -755,16 +830,18 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 13452,
     "words": 2103,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Manna From The Streets",
+    "title": "Manna From the Streets",
     "path": "stories/Manna From the Streets.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 7367,
     "words": 1166,
     "license": "CC-BY-4.0"
@@ -775,6 +852,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 13991,
     "words": 2146,
     "license": "CC-BY-4.0"
@@ -785,6 +863,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 7913,
     "words": 1340,
     "license": "CC-BY-4.0"
@@ -795,6 +874,7 @@
     "type": "story",
     "date": "2025-12-01",
     "updated": "2025-12-01",
+    "timestamp": 1764600183,
     "size": 14650,
     "words": 2401,
     "license": "CC-BY-4.0"
@@ -805,16 +885,18 @@
     "type": "story",
     "date": "2025-09-28",
     "updated": "2025-09-28",
+    "timestamp": 1759076018,
     "size": 32492,
     "words": 5608,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Mythology In America",
+    "title": "Mythology in America",
     "path": "stories/Mythology_in_America.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 6927,
     "words": 1008,
     "license": "CC-BY-4.0"
@@ -825,6 +907,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 7784,
     "words": 1232,
     "license": "CC-BY-4.0"
@@ -835,6 +918,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9168,
     "words": 1373,
     "license": "CC-BY-4.0"
@@ -845,16 +929,18 @@
     "type": "story",
     "date": "2025-08-09",
     "updated": "2025-08-09",
+    "timestamp": 1754768525,
     "size": 44235,
     "words": 6960,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Nine To Rule",
+    "title": "Nine to Rule",
     "path": "stories/Nine to Rule.txt",
     "type": "story",
     "date": "2025-08-17",
     "updated": "2025-08-17",
+    "timestamp": 1755448433,
     "size": 28491,
     "words": 4624,
     "license": "CC-BY-4.0"
@@ -865,6 +951,7 @@
     "type": "story",
     "date": "2025-09-05",
     "updated": "2025-09-05",
+    "timestamp": 1757075370,
     "size": 16827,
     "words": 2842,
     "license": "CC-BY-4.0"
@@ -875,46 +962,51 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755540178,
     "size": 22734,
     "words": 3491,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "On The Shoulders Of Giants",
+    "title": "On the Shoulders of Giants",
     "path": "stories/On the Shoulders of Giants.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 51982,
     "words": 8282,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Once In Many Lifetimes",
+    "title": "Once in Many Lifetimes",
     "path": "stories/Once in Many Lifetimes.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 78097,
     "words": 12144,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "One And One",
+    "title": "One and One",
     "path": "stories/One_and_One.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 10355,
     "words": 1834,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Pantopia Perfect A Star Is Rebooted",
+    "title": "Pantopia Perfect A Star is Rebooted",
     "path": "stories/Pantopia Perfect_ A Star is Rebooted.txt",
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539459,
     "size": 13633,
     "words": 2053,
     "license": "CC-BY-4.0"
@@ -925,6 +1017,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 39861,
     "words": 6514,
     "license": "CC-BY-4.0"
@@ -935,6 +1028,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 44599,
     "words": 7330,
     "license": "CC-BY-4.0"
@@ -945,6 +1039,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539413,
     "size": 15472,
     "words": 2432,
     "license": "CC-BY-4.0"
@@ -955,6 +1050,7 @@
     "type": "story",
     "date": "2025-08-14",
     "updated": "2025-08-14",
+    "timestamp": 1755140514,
     "size": 67111,
     "words": 11067,
     "license": "CC-BY-4.0"
@@ -965,6 +1061,7 @@
     "type": "story",
     "date": "2026-04-20",
     "updated": "2026-04-20",
+    "timestamp": 1776694217,
     "size": 47958,
     "words": 8065,
     "license": "CC-BY-4.0"
@@ -975,6 +1072,7 @@
     "type": "story",
     "date": "2025-08-14",
     "updated": "2025-08-14",
+    "timestamp": 1755139223,
     "size": 5962,
     "words": 1091,
     "license": "CC-BY-4.0"
@@ -985,6 +1083,7 @@
     "type": "story",
     "date": "2025-12-02",
     "updated": "2025-12-02",
+    "timestamp": 1764698989,
     "size": 9515,
     "words": 1568,
     "license": "CC-BY-4.0"
@@ -995,6 +1094,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 7011,
     "words": 1174,
     "license": "CC-BY-4.0"
@@ -1005,16 +1105,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 44607,
     "words": 7294,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "River Spirits An Alternate History",
+    "title": "River Spirits an alternate history",
     "path": "stories/River_Spirits_an_alternate_history.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 386757,
     "words": 62528,
     "license": "CC-BY-4.0"
@@ -1025,6 +1127,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 63189,
     "words": 9997,
     "license": "CC-BY-4.0"
@@ -1035,6 +1138,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 39289,
     "words": 6029,
     "license": "CC-BY-4.0"
@@ -1045,16 +1149,18 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 17657,
     "words": 2715,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Silence Of The Spire",
+    "title": "Silence of the Spire",
     "path": "stories/Silence of the Spire.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 51650,
     "words": 7800,
     "license": "CC-BY-4.0"
@@ -1065,6 +1171,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 49147,
     "words": 7344,
     "license": "CC-BY-4.0"
@@ -1075,16 +1182,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 38354,
     "words": 5545,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Slingshot Main Text",
+    "title": "Slingshot main text",
     "path": "stories/Slingshot-main-text.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 623185,
     "words": 90600,
     "license": "CC-BY-4.0"
@@ -1095,6 +1204,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 623281,
     "words": 90622,
     "license": "CC-BY-4.0"
@@ -1105,6 +1215,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755540079,
     "size": 13969,
     "words": 2152,
     "license": "CC-BY-4.0"
@@ -1115,16 +1226,18 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 14210,
     "words": 2205,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Spirits",
+    "title": "spirits",
     "path": "stories/spirits.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 383326,
     "words": 61990,
     "license": "CC-BY-4.0"
@@ -1135,16 +1248,18 @@
     "type": "story",
     "date": "2025-12-02",
     "updated": "2025-12-02",
+    "timestamp": 1764692838,
     "size": 269283,
     "words": 45810,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Star Truck Episode 3 Nature Of The Beast",
+    "title": "Star Truck Episode 3 Nature of the Beast",
     "path": "stories/Star Truck-Episode 3_Nature of the Beast.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 6465,
     "words": 1064,
     "license": "CC-BY-4.0"
@@ -1155,16 +1270,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 44255,
     "words": 6851,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Starseed First Draft Prologue",
+    "title": "starseed first draft prologue",
     "path": "stories/starseed-first-draft-prologue.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 21049,
     "words": 3302,
     "license": "CC-BY-4.0"
@@ -1175,16 +1292,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 5781,
     "words": 950,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Survival 2",
+    "title": "survival 2",
     "path": "stories/survival-2.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9248,
     "words": 1434,
     "license": "CC-BY-4.0"
@@ -1195,6 +1314,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 332723,
     "words": 54784,
     "license": "CC-BY-4.0"
@@ -1205,36 +1325,40 @@
     "type": "story",
     "date": "2025-12-01",
     "updated": "2025-12-01",
+    "timestamp": 1764600522,
     "size": 382524,
     "words": 61537,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Adventures Of Burnie",
+    "title": "The Adventures of Burnie",
     "path": "stories/The Adventures of Burnie.txt",
     "type": "story",
     "date": "2025-08-10",
     "updated": "2025-08-10",
+    "timestamp": 1754867040,
     "size": 53546,
     "words": 8643,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Architect Of Minds",
+    "title": "The Architect of Minds",
     "path": "stories/The Architect of Minds.txt",
     "type": "story",
     "date": "2025-11-30",
     "updated": "2025-11-30",
+    "timestamp": 1764462317,
     "size": 32149,
     "words": 4988,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Auditor Of Nouns",
+    "title": "The Auditor of Nouns",
     "path": "stories/The_Auditor_of_Nouns.txt",
     "type": "story",
     "date": "2025-12-21",
     "updated": "2025-12-21",
+    "timestamp": 1766340233,
     "size": 10446,
     "words": 1747,
     "license": "CC-BY-4.0"
@@ -1245,36 +1369,40 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 13750,
     "words": 2369,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Bard And The Rogue",
+    "title": "The Bard and The Rogue",
     "path": "stories/The Bard and The Rogue.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 39562,
     "words": 6437,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Canvas Of Rebellion",
+    "title": "The Canvas of Rebellion",
     "path": "stories/The Canvas of Rebellion.txt",
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539963,
     "size": 21509,
     "words": 3416,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Cat'S Meow",
+    "title": "The Cat's Meow",
     "path": "stories/The Cat's Meow.txt",
     "type": "story",
     "date": "2025-09-25",
     "updated": "2025-09-25",
+    "timestamp": 1758823825,
     "size": 22218,
     "words": 3652,
     "license": "CC-BY-4.0"
@@ -1285,6 +1413,7 @@
     "type": "story",
     "date": "2026-01-07",
     "updated": "2026-01-07",
+    "timestamp": 1767754857,
     "size": 39904,
     "words": 6436,
     "license": "CC-BY-4.0"
@@ -1295,16 +1424,18 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 81845,
     "words": 13311,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Circles Of Life And Death",
+    "title": "The Circles of Life and Death",
     "path": "stories/The Circles of Life and Death.txt",
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 24129,
     "words": 4232,
     "license": "CC-BY-4.0"
@@ -1315,6 +1446,7 @@
     "type": "story",
     "date": "2025-08-07",
     "updated": "2025-08-07",
+    "timestamp": 1754598941,
     "size": 16212,
     "words": 2733,
     "license": "CC-BY-4.0"
@@ -1325,6 +1457,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 12224,
     "words": 1942,
     "license": "CC-BY-4.0"
@@ -1335,16 +1468,18 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539905,
     "size": 24876,
     "words": 3857,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Convergence Of Etheria",
+    "title": "The Convergence of Etheria",
     "path": "stories/The_Convergence_of_Etheria.txt",
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 91816,
     "words": 14689,
     "license": "CC-BY-4.0"
@@ -1355,6 +1490,7 @@
     "type": "story",
     "date": "2025-08-06",
     "updated": "2025-08-06",
+    "timestamp": 1754439470,
     "size": 16479,
     "words": 2668,
     "license": "CC-BY-4.0"
@@ -1365,6 +1501,7 @@
     "type": "story",
     "date": "2025-08-15",
     "updated": "2025-08-15",
+    "timestamp": 1755282647,
     "size": 23749,
     "words": 3809,
     "license": "CC-BY-4.0"
@@ -1375,6 +1512,7 @@
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758743808,
     "size": 15135,
     "words": 2385,
     "license": "CC-BY-4.0"
@@ -1385,16 +1523,18 @@
     "type": "story",
     "date": "2025-08-01",
     "updated": "2025-08-01",
+    "timestamp": 1754013365,
     "size": 382027,
     "words": 59085,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Fruits Of Our Labor",
+    "title": "The Fruits of Our Labor",
     "path": "stories/The Fruits of Our Labor.txt",
     "type": "story",
     "date": "2025-08-21",
     "updated": "2025-08-21",
+    "timestamp": 1755797872,
     "size": 21702,
     "words": 3621,
     "license": "CC-BY-4.0"
@@ -1405,6 +1545,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 289605,
     "words": 45549,
     "license": "CC-BY-4.0"
@@ -1415,6 +1556,7 @@
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758742999,
     "size": 21800,
     "words": 3388,
     "license": "CC-BY-4.0"
@@ -1425,6 +1567,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539796,
     "size": 23769,
     "words": 3563,
     "license": "CC-BY-4.0"
@@ -1435,6 +1578,7 @@
     "type": "story",
     "date": "2025-09-05",
     "updated": "2025-09-05",
+    "timestamp": 1757075299,
     "size": 15357,
     "words": 2596,
     "license": "CC-BY-4.0"
@@ -1445,6 +1589,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539750,
     "size": 19060,
     "words": 2974,
     "license": "CC-BY-4.0"
@@ -1455,6 +1600,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 41121,
     "words": 6721,
     "license": "CC-BY-4.0"
@@ -1465,6 +1611,7 @@
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758744048,
     "size": 5987,
     "words": 1034,
     "license": "CC-BY-4.0"
@@ -1475,6 +1622,7 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 18583,
     "words": 2933,
     "license": "CC-BY-4.0"
@@ -1485,6 +1633,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 21575,
     "words": 3469,
     "license": "CC-BY-4.0"
@@ -1495,6 +1644,7 @@
     "type": "story",
     "date": "2025-08-01",
     "updated": "2025-08-01",
+    "timestamp": 1754010196,
     "size": 3580,
     "words": 620,
     "license": "CC-BY-4.0"
@@ -1505,6 +1655,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 8960,
     "words": 1348,
     "license": "CC-BY-4.0"
@@ -1515,6 +1666,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 7372,
     "words": 1152,
     "license": "CC-BY-4.0"
@@ -1525,6 +1677,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 61649,
     "words": 10572,
     "license": "CC-BY-4.0"
@@ -1535,6 +1688,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 5981,
     "words": 936,
     "license": "CC-BY-4.0"
@@ -1545,6 +1699,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 45046,
     "words": 7042,
     "license": "CC-BY-4.0"
@@ -1555,6 +1710,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9170,
     "words": 1373,
     "license": "CC-BY-4.0"
@@ -1565,6 +1721,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 128433,
     "words": 21689,
     "license": "CC-BY-4.0"
@@ -1575,6 +1732,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 4931,
     "words": 841,
     "license": "CC-BY-4.0"
@@ -1585,6 +1743,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 381883,
     "words": 59081,
     "license": "CC-BY-4.0"
@@ -1595,6 +1754,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 51371,
     "words": 9159,
     "license": "CC-BY-4.0"
@@ -1605,16 +1765,18 @@
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758744999,
     "size": 13378,
     "words": 2036,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "The Weight Of Choices",
+    "title": "The Weight of Choices",
     "path": "stories/The Weight of Choices.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 10185,
     "words": 1597,
     "license": "CC-BY-4.0"
@@ -1625,16 +1787,18 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 352518,
     "words": 52053,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "There Are None So Blind",
+    "title": "There are none so blind",
     "path": "stories/There are none so blind.txt",
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758747161,
     "size": 19576,
     "words": 3170,
     "license": "CC-BY-4.0"
@@ -1645,6 +1809,7 @@
     "type": "story",
     "date": "2025-12-05",
     "updated": "2025-12-05",
+    "timestamp": 1764950860,
     "size": 2558,
     "words": 403,
     "license": "CC-BY-4.0"
@@ -1655,6 +1820,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 2943,
     "words": 464,
     "license": "CC-BY-4.0"
@@ -1665,16 +1831,18 @@
     "type": "story",
     "date": "2025-12-01",
     "updated": "2025-12-01",
+    "timestamp": 1764600946,
     "size": 8902,
     "words": 1418,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Truth And Lies",
+    "title": "Truth and Lies",
     "path": "stories/Truth and Lies.txt",
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 9224,
     "words": 1289,
     "license": "CC-BY-4.0"
@@ -1685,6 +1853,7 @@
     "type": "story",
     "date": "2025-12-01",
     "updated": "2025-12-01",
+    "timestamp": 1764600985,
     "size": 66381,
     "words": 9620,
     "license": "CC-BY-4.0"
@@ -1695,6 +1864,7 @@
     "type": "story",
     "date": "2025-12-08",
     "updated": "2025-12-08",
+    "timestamp": 1765209354,
     "size": 5422,
     "words": 832,
     "license": "CC-BY-4.0"
@@ -1705,6 +1875,7 @@
     "type": "story",
     "date": "2025-09-24",
     "updated": "2025-09-24",
+    "timestamp": 1758745516,
     "size": 13742,
     "words": 2372,
     "license": "CC-BY-4.0"
@@ -1715,6 +1886,7 @@
     "type": "story",
     "date": "2025-08-18",
     "updated": "2025-08-18",
+    "timestamp": 1755539618,
     "size": 13636,
     "words": 2374,
     "license": "CC-BY-4.0"
@@ -1725,6 +1897,7 @@
     "type": "story",
     "date": "2025-12-15",
     "updated": "2025-12-15",
+    "timestamp": 1765837780,
     "size": 11886,
     "words": 1928,
     "license": "CC-BY-4.0"
@@ -1735,16 +1908,18 @@
     "type": "story",
     "date": "2025-08-02",
     "updated": "2025-08-02",
+    "timestamp": 1754160028,
     "size": 17545,
     "words": 2510,
     "license": "CC-BY-4.0"
   },
   {
-    "title": "Whats A (Con) Man To Do",
+    "title": "Whats a (Con) Man to Do",
     "path": "stories/Whats a (Con) Man to Do.txt",
     "type": "story",
     "date": "2026-01-02",
     "updated": "2026-01-02",
+    "timestamp": 1767357837,
     "size": 27158,
     "words": 4455,
     "license": "CC-BY-4.0"
@@ -1755,6 +1930,7 @@
     "type": "story",
     "date": "2025-09-22",
     "updated": "2025-09-22",
+    "timestamp": 1758547187,
     "size": 32410,
     "words": 5603,
     "license": "CC-BY-4.0"

@@ -1,16 +1,14 @@
-# Norsiwel's Readers Retreat
+# norsiwel readers retreat
 
-> A public fiction archive by Norsiwel.
+> A public fiction archive by norsiwel.
 > License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 > AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
 > Last updated: 2026-04-25
 
 ## Main Site
-
 https://norsiwel.github.io/readers-retreat/
 
 ## Machine-Readable Archive
-
 https://norsiwel.github.io/readers-retreat/archive.json
 
 ## Stories (170 total)
@@ -546,5 +544,4 @@ https://norsiwel.github.io/readers-retreat/archive.json
   https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
 
 ## Repository
-
 https://github.com/norsiwel/readers-retreat

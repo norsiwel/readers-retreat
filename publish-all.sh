@@ -1,7 +1,6 @@
 #!/bin/bash
 # readers-retreat/publish-all.sh
 # Full rebuild + publish script for Readers Retreat.
-# Generates archive.json from local /stories and /pdf every time.
 
 set -euo pipefail
 
@@ -23,18 +22,8 @@ if [[ ! ${REPLY:-} =~ ^[Yy]$ ]]; then
   exit 0
 fi
 
-if [ ! -d "$STORIES_DIR" ]; then
-  echo "❌ Missing '$STORIES_DIR' directory."
-  exit 1
-fi
-
-if [ ! -d "$PDF_DIR" ]; then
-  echo "⚠️  Missing '$PDF_DIR' directory. Creating it."
-  mkdir -p "$PDF_DIR"
-fi
-
-echo
-echo "📚 Scanning local archive..."
+mkdir -p "$STORIES_DIR"
+mkdir -p "$PDF_DIR"
 
 mapfile -d '' -t STORY_FILES < <(
   find "$STORIES_DIR" -type f \( -name "*.txt" -o -name "*.md" \) -print0 | sort -z
@@ -52,7 +41,6 @@ echo "🧾 Regenerating archive.json..."
 
 python3 <<'PY'
 import json
-import os
 import re
 from pathlib import Path
 from datetime import datetime, timezone
@@ -63,7 +51,7 @@ PDF_DIR = Path("pdf")
 def clean_title(path: Path) -> str:
     name = path.stem.replace("-", " ").replace("_", " ")
     name = re.sub(r"\s+", " ", name).strip()
-    return name.title()
+    return name
 
 def count_words(path: Path) -> int:
     try:
@@ -72,37 +60,37 @@ def count_words(path: Path) -> int:
     except Exception:
         return 0
 
-def iso_date_from_mtime(path: Path) -> str:
-    ts = path.stat().st_mtime
-    return datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")
+def iso_date(path: Path) -> str:
+    return datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).strftime("%Y-%m-%d")
+
+def timestamp(path: Path) -> int:
+    return int(path.stat().st_mtime)
 
 items = []
 
-if STORIES_DIR.exists():
-    for path in sorted(STORIES_DIR.rglob("*")):
-        if path.is_file() and path.suffix.lower() in [".txt", ".md"]:
-            rel = path.as_posix()
-            words = count_words(path)
-            items.append({
-                "title": clean_title(path),
-                "path": rel,
-                "type": "story",
-                "date": iso_date_from_mtime(path),
-                "updated": iso_date_from_mtime(path),
-                "size": path.stat().st_size,
-                "words": words,
-                "license": "CC-BY-4.0"
-            })
-
-if PDF_DIR.exists():
-    for path in sorted(PDF_DIR.rglob("*.pdf")):
-        rel = path.as_posix()
+for path in sorted(STORIES_DIR.rglob("*")):
+    if path.is_file() and path.suffix.lower() in [".txt", ".md"]:
         items.append({
             "title": clean_title(path),
-            "path": rel,
+            "path": path.as_posix(),
+            "type": "story",
+            "date": iso_date(path),
+            "updated": iso_date(path),
+            "timestamp": timestamp(path),
+            "size": path.stat().st_size,
+            "words": count_words(path),
+            "license": "CC-BY-4.0"
+        })
+
+for path in sorted(PDF_DIR.rglob("*.pdf")):
+    if path.is_file():
+        items.append({
+            "title": clean_title(path),
+            "path": path.as_posix(),
             "type": "pdf",
-            "date": iso_date_from_mtime(path),
-            "updated": iso_date_from_mtime(path),
+            "date": iso_date(path),
+            "updated": iso_date(path),
+            "timestamp": timestamp(path),
             "size": path.stat().st_size,
             "words": 0,
             "license": "CC-BY-4.0"
@@ -113,26 +101,24 @@ items.sort(key=lambda x: (x["type"], x["title"].lower()))
 with open("archive.json", "w", encoding="utf-8") as f:
     json.dump(items, f, indent=2, ensure_ascii=False)
 
-print(f"✅ archive.json updated with {len(items)} total items.")
+print(f"✅ archive.json updated with {len(items)} items.")
 PY
 
 echo
 echo "📝 Regenerating llms.txt..."
 
 {
-  echo "# Norsiwel's Readers Retreat"
+  echo "# norsiwel readers retreat"
   echo ""
-  echo "> A public fiction archive by Norsiwel."
+  echo "> A public fiction archive by norsiwel."
   echo "> License: Creative Commons Attribution 4.0 International (CC BY 4.0)."
   echo "> AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution."
   echo "> Last updated: $(date -u '+%Y-%m-%d')"
   echo ""
   echo "## Main Site"
-  echo ""
   echo "$SITE_BASE/"
   echo ""
   echo "## Machine-Readable Archive"
-  echo ""
   echo "$SITE_BASE/archive.json"
   echo ""
   echo "## Stories (${#STORY_FILES[@]} total)"
@@ -158,7 +144,6 @@ echo "📝 Regenerating llms.txt..."
   done
 
   echo "## Repository"
-  echo ""
   echo "https://github.com/$GITHUB_USER/$REPO"
 } > llms.txt
 
@@ -177,7 +162,7 @@ echo "🤖 Regenerating robots.txt..."
 echo "✅ robots.txt updated."
 
 echo
-echo "🗺️  Regenerating sitemap.xml..."
+echo "🗺️ Regenerating sitemap.xml..."
 
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
@@ -227,12 +212,10 @@ echo "🗺️  Regenerating sitemap.xml..."
 
 echo "✅ sitemap.xml updated."
 
-if [ ! -f ".nojekyll" ]; then
-  touch .nojekyll
-fi
+touch .nojekyll
 
 echo
-echo "🧹 Removing old generated files no longer used..."
+echo "🧹 Removing old generated files..."
 rm -f manifest.json graphic-stories.json
 
 echo
@@ -246,7 +229,7 @@ read -r -p "Press Enter to use it, or type a custom message: " CUSTOM_MSG
 COMMIT_MSG="${CUSTOM_MSG:-$DEFAULT_MSG}"
 
 if git diff --cached --quiet; then
-  echo "ℹ️  Nothing staged to commit — repo already up to date."
+  echo "ℹ️ Nothing staged to commit — repo already up to date."
   exit 0
 fi
 
@@ -259,9 +242,3 @@ git push origin "$BRANCH"
 echo
 echo "✅ Done! Your site is live at:"
 echo "   $SITE_BASE/"
-echo
-echo "Local test command:"
-echo "   python -m http.server 8000"
-echo
-echo "Then open:"
-echo "   http://localhost:8000"

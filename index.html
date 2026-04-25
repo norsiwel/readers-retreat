@@ -3,71 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>norsiwel readers retreat</title>
-
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <style>
-body {
-  margin: 0;
-  display: flex;
-  height: 100vh;
-  font-family: sans-serif;
-  background: #efe2c2;
-}
-
-#sidebar {
-  width: 320px;
-  padding: 20px;
-  box-sizing: border-box;
-  background: #eadbb8;
-  border-right: 1px solid #cdbb96;
-  overflow-y: auto;
-}
-
-#reader {
-  flex: 1;
-  padding: 40px;
-  overflow-y: auto;
-  background: #2d2319;
-  color: #f4ead7;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-input, select {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-}
-
-.item {
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid #cdbb96;
-  cursor: pointer;
-}
-
-.item:hover {
-  background: rgba(255,255,255,0.3);
-}
-
-.active {
-  background: rgba(255,255,255,0.5);
-}
-
-.meta {
-  font-size: 0.8em;
-  color: #6f5d49;
-}
+body{margin:0;display:flex;height:100vh;font-family:sans-serif;background:#efe2c2}
+#sidebar{width:320px;padding:20px;box-sizing:border-box;background:#eadbb8;border-right:1px solid #cdbb96;display:flex;flex-direction:column}
+#reader{flex:1;padding:40px;overflow-y:auto;background:#2d2319;color:#f4ead7}
+h1{margin-top:0}
+input,select{width:100%;margin-bottom:10px;padding:8px;box-sizing:border-box}
+#list{overflow-y:auto;flex:1;border-top:1px solid #cdbb96}
+.item{display:block;padding:10px;border-bottom:1px solid #cdbb96;cursor:pointer}
+.item:hover,.active{background:rgba(255,255,255,.35)}
+.meta{font-size:.8em;color:#6f5d49}
+.pdf-list{padding-left:22px;line-height:1.8}
+.pdf-list a{color:#f3d7a0}
+button{padding:6px 12px}
 </style>
 </head>
 
 <body>
-
 <div id="sidebar">
   <h1>norsiwel<br>readers retreat</h1>
 
@@ -76,6 +31,7 @@ input, select {
   <select id="sort">
     <option value="alpha">alphabetical</option>
     <option value="newest">newest</option>
+    <option value="oldest">oldest</option>
     <option value="longest">longest</option>
     <option value="shortest">shortest</option>
     <option value="stories">stories only</option>
@@ -91,121 +47,132 @@ input, select {
 </div>
 
 <script>
-const ARCHIVE = "archive.json";
+const ARCHIVE="archive.json";
+let data=[];
+let active="";
 
-let data = [];
-let active = "";
-
-function cleanTitle(path) {
-  return path.split("/").pop()
-    .replace(/\.[^/.]+$/, "")
-    .replace(/[-_]/g, " ");
+function cleanTitle(path){
+  return path.split("/").pop().replace(/\.[^/.]+$/,"").replace(/[-_]/g," ");
 }
 
-function readTime(item) {
-  if (!item.words) return "?";
-  return Math.max(1, Math.ceil(item.words / 225));
+function readTime(item){
+  if(!item.words)return"?";
+  return Math.max(1,Math.ceil(item.words/225));
 }
 
-function render() {
-  const q = document.getElementById("search").value.toLowerCase();
-  let items = data.filter(i =>
+function itemTime(i){
+  return Number(i.timestamp||0) || Date.parse(i.updated||i.date||"") || 0;
+}
+
+function filteredSorted(){
+  const q=document.getElementById("search").value.toLowerCase();
+  const mode=document.getElementById("sort").value;
+
+  let items=data.filter(i =>
     i.title.toLowerCase().includes(q) ||
-    i.path.toLowerCase().includes(q)
+    i.path.toLowerCase().includes(q) ||
+    i.type.toLowerCase().includes(q)
   );
 
-  const mode = document.getElementById("sort").value;
+  if(mode==="stories")items=items.filter(i=>i.type==="story");
+  if(mode==="pdfs")items=items.filter(i=>i.type==="pdf");
 
-  if (mode === "stories") items = items.filter(i => i.type === "story");
-  if (mode === "pdfs") items = items.filter(i => i.type === "pdf");
+  if(mode==="alpha"||mode==="stories"||mode==="pdfs")items.sort((a,b)=>a.title.localeCompare(b.title));
+  if(mode==="newest")items.sort((a,b)=>itemTime(b)-itemTime(a)||a.title.localeCompare(b.title));
+  if(mode==="oldest")items.sort((a,b)=>itemTime(a)-itemTime(b)||a.title.localeCompare(b.title));
+  if(mode==="longest")items.sort((a,b)=>b.size-a.size||a.title.localeCompare(b.title));
+  if(mode==="shortest")items.sort((a,b)=>a.size-b.size||a.title.localeCompare(b.title));
 
-  if (mode === "alpha") items.sort((a,b)=>a.title.localeCompare(b.title));
-  if (mode === "newest") items.sort((a,b)=>b.timestamp - a.timestamp);
-  if (mode === "longest") items.sort((a,b)=>b.size - a.size);
-  if (mode === "shortest") items.sort((a,b)=>a.size - b.size);
+  return items;
+}
 
-  const list = document.getElementById("list");
-  list.innerHTML = "";
-
-  document.getElementById("count").textContent =
-    items.length + " of " + data.length;
+function render(){
+  const items=filteredSorted();
+  const list=document.getElementById("list");
+  list.innerHTML="";
+  document.getElementById("count").textContent=items.length+" of "+data.length;
 
   items.forEach(i=>{
-    const el = document.createElement("div");
-    el.className = "item" + (i.path===active?" active":"");
-
-    el.innerHTML = `
+    const el=document.createElement("div");
+    el.className="item"+(i.path===active?" active":"");
+    el.innerHTML=`
       <div>${i.title}</div>
       <div class="meta">
-        ${i.type==="pdf" ? "pdf" : readTime(i)+" min"}
-        ${i.date ? " · "+i.date : ""}
-      </div>
-    `;
-
-    el.onclick = ()=>openItem(i);
+        ${i.type==="pdf"?"pdf":readTime(i)+" min"}
+        ${i.date?" · "+i.date:""}
+      </div>`;
+    el.onclick=()=>openItem(i);
     list.appendChild(el);
   });
 }
 
-function home() {
-  active = "";
-  document.getElementById("content").innerHTML = `
+function home(){
+  active="";
+  const pdfs=data.filter(i=>i.type==="pdf").sort((a,b)=>a.title.localeCompare(b.title));
+  document.getElementById("content").innerHTML=`
     <h2>welcome</h2>
     <p>select a story or pdf from the left.</p>
+
+    <h2>graphic stories / pdf files</h2>
+    ${
+      pdfs.length
+      ? `<ul class="pdf-list">${pdfs.map(p=>`<li><a href="${encodeURI(p.path)}" target="_blank">${p.title}</a></li>`).join("")}</ul>`
+      : `<p>no pdf files found.</p>`
+    }
   `;
   render();
 }
 
-async function openItem(item) {
-  active = item.path;
+async function openItem(item){
+  active=item.path;
   render();
 
-  if (item.type === "pdf") {
-    window.open(item.path, "_blank");
+  if(item.type==="pdf"){
+    window.open(encodeURI(item.path),"_blank");
     return;
   }
 
-  const res = await fetch(item.path);
-  const text = await res.text();
+  try{
+    const res=await fetch(encodeURI(item.path),{cache:"no-store"});
+    if(!res.ok)throw new Error(res.status+" "+res.statusText);
+    const text=await res.text();
 
-  document.getElementById("content").innerHTML = `
-    <button onclick="home()">back</button>
-    <h1>${item.title}</h1>
-    <p>${readTime(item)} min</p>
-    ${marked.parse(text)}
-  `;
-}
-
-async function init() {
-  try {
-    const res = await fetch(ARCHIVE, {cache:"no-store"});
-    const raw = await res.json();
-
-    data = raw.map(i=>{
-      return {
-        title: i.title || cleanTitle(i.path),
-        path: i.path,
-        type: i.type,
-        size: i.size || 0,
-        words: i.words || 0,
-        date: i.date || "",
-        timestamp: Date.parse(i.date) || 0
-      };
-    });
-
-    home();
-
-  } catch(e) {
-    document.getElementById("content").innerHTML =
-      "archive.json not found. run publish-all.sh";
+    document.getElementById("content").innerHTML=`
+      <button onclick="home()">back</button>
+      <h1>${item.title}</h1>
+      <p>${readTime(item)} min${item.date?" · "+item.date:""}</p>
+      ${marked.parse(text)}
+    `;
+  }catch(e){
+    document.getElementById("content").innerHTML=`<p>could not load file: ${e.message}</p>`;
   }
 }
 
-document.getElementById("search").oninput = render;
-document.getElementById("sort").onchange = render;
+async function init(){
+  try{
+    const res=await fetch(ARCHIVE,{cache:"no-store"});
+    const raw=await res.json();
 
+    data=raw.map(i=>({
+      title:i.title||cleanTitle(i.path),
+      path:i.path,
+      type:i.type||"story",
+      size:Number(i.size||0),
+      words:Number(i.words||0),
+      date:i.date||"",
+      updated:i.updated||"",
+      timestamp:Number(i.timestamp||0)
+    })).filter(i=>i.path);
+
+    home();
+  }catch(e){
+    document.getElementById("content").innerHTML="archive.json not found. run publish-all.sh";
+  }
+}
+
+document.getElementById("search").oninput=render;
+document.getElementById("sort").onchange=render;
 init();
 </script>
-
 </body>
 </html>
