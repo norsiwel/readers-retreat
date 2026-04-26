@@ -146,12 +146,6 @@
   </url>
 
   <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/Compound Spark.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://norsiwel.github.io/readers-retreat/stories/Cosmic Witness.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -261,12 +255,6 @@
 
   <url>
     <loc>https://norsiwel.github.io/readers-retreat/stories/Entanglment.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/Estate-Planning.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -590,12 +578,6 @@
   </url>
 
   <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/River Spirits.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-1.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -620,25 +602,7 @@
   </url>
 
   <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-Chapter-1.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-main-text.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot-Odessey To Mars.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://norsiwel.github.io/readers-retreat/stories/Slingshot.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

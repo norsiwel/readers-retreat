@@ -11,7 +11,7 @@ https://norsiwel.github.io/readers-retreat/
 ## Machine-Readable Archive
 https://norsiwel.github.io/readers-retreat/archive.json
 
-## Stories (170 total)
+## Stories (164 total)
 
 - 26K mirror
   https://norsiwel.github.io/readers-retreat/stories/26K-mirror.txt
@@ -76,9 +76,6 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Compound Spark Cosmic Sigh
   https://norsiwel.github.io/readers-retreat/stories/Compound_Spark_Cosmic_Sigh.txt
 
-- Compound Spark
-  https://norsiwel.github.io/readers-retreat/stories/Compound Spark.txt
-
 - Cosmic Witness
   https://norsiwel.github.io/readers-retreat/stories/Cosmic Witness.txt
 
@@ -135,9 +132,6 @@ https://norsiwel.github.io/readers-retreat/archive.json
 
 - Entanglment
   https://norsiwel.github.io/readers-retreat/stories/Entanglment.txt
-
-- Estate Planning
-  https://norsiwel.github.io/readers-retreat/stories/Estate-Planning.txt
 
 - Everybody is a Writer
   https://norsiwel.github.io/readers-retreat/stories/Everybody is a Writer.txt
@@ -298,9 +292,6 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - River Spirits an alternate history
   https://norsiwel.github.io/readers-retreat/stories/River_Spirits_an_alternate_history.txt
 
-- River Spirits
-  https://norsiwel.github.io/readers-retreat/stories/River Spirits.txt
-
 - Rustbucket Episode 1
   https://norsiwel.github.io/readers-retreat/stories/Rustbucket-Episode-1.txt
 
@@ -313,17 +304,8 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Silence of the Spire
   https://norsiwel.github.io/readers-retreat/stories/Silence of the Spire.txt
 
-- Slingshot Chapter 1
-  https://norsiwel.github.io/readers-retreat/stories/Slingshot-Chapter-1.txt
-
-- Slingshot main text
-  https://norsiwel.github.io/readers-retreat/stories/Slingshot-main-text.txt
-
 - Slingshot Odessey To Mars
   https://norsiwel.github.io/readers-retreat/stories/Slingshot-Odessey To Mars.txt
-
-- Slingshot
-  https://norsiwel.github.io/readers-retreat/stories/Slingshot.txt
 
 - Some Assembly Required
   https://norsiwel.github.io/readers-retreat/stories/Some Assembly Required.txt
