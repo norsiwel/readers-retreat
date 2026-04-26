@@ -523,7 +523,7 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Wizards Reward
   https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## PDFs (8 total)
+## PDFs (7 total)
 
 - Bewildering Stories
   https://norsiwel.github.io/readers-retreat/pdf/Bewildering_Stories.pdf
@@ -542,9 +542,6 @@ https://norsiwel.github.io/readers-retreat/archive.json
 
 - Survival
   https://norsiwel.github.io/readers-retreat/pdf/Survival.pdf
-
-- The Feline Conspiracy
-  https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf
 
 - The Two Waters Illustrated
   https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
