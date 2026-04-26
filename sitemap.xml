@@ -1076,6 +1076,12 @@
   </url>
 
   <url>
+    <loc>https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
