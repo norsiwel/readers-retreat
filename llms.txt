@@ -505,7 +505,7 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Wizards Reward
   https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## PDFs (8 total)
+## PDFs (9 total)
 
 - Bewildering Stories
   https://norsiwel.github.io/readers-retreat/pdf/Bewildering_Stories.pdf
@@ -527,6 +527,9 @@ https://norsiwel.github.io/readers-retreat/archive.json
 
 - The Feline Conspiracy
   https://norsiwel.github.io/readers-retreat/pdf/The Feline Conspiracy.pdf
+
+- The Ring Bearer Comic
+  https://norsiwel.github.io/readers-retreat/pdf/The_Ring_Bearer_Comic.pdf
 
 - The Two Waters Illustrated
   https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
