@@ -3,7 +3,7 @@
 > A public fiction archive by norsiwel.
 > License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 > AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
-> Last updated: 2026-04-26
+> Last updated: 2026-05-01
 
 ## Main Site
 https://norsiwel.github.io/readers-retreat/
