@@ -505,10 +505,13 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - Wizards Reward
   https://norsiwel.github.io/readers-retreat/stories/Wizards Reward.txt
 
-## PDFs (9 total)
+## PDFs (10 total)
 
 - Bewildering Stories
   https://norsiwel.github.io/readers-retreat/pdf/Bewildering_Stories.pdf
+
+- Burnie Comic
+  https://norsiwel.github.io/readers-retreat/pdf/Burnie_Comic.pdf
 
 - readers retreat issue 01
   https://norsiwel.github.io/readers-retreat/pdf/readers_retreat_issue_01.pdf
