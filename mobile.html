@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Readers Retreat</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8c2f39">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Retreat">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+html,body{
+  height:100%;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:#18110c;
+  color:#f4ead7;
+  -webkit-tap-highlight-color:transparent;
+  user-select:none;
+  -webkit-user-select:none;
+}
+
+.bg{
+  position:fixed;
+  inset:0;
+  background:
+    linear-gradient(rgba(18,10,6,0.78),rgba(18,10,6,0.78)),
+    url('library-bg.png') center/cover no-repeat;
+  z-index:0;
+}
+
+.wrap{
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  min-height:100dvh;
+  padding:
+    max(20px, env(safe-area-inset-top))
+    max(16px, env(safe-area-inset-right))
+    max(14px, env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+}
+
+.hd{
+  text-align:center;
+  padding-bottom:18px;
+  flex-shrink:0;
+}
+
+.hd h1{
+  font-size:clamp(1.3rem,5vw,1.8rem);
+  font-weight:300;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  line-height:1.25;
+  color:#f4ead7;
+}
+
+.hd .by{
+  font-size:0.7rem;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  color:#f3d7a0;
+  opacity:0.7;
+  margin-top:5px;
+}
+
+.btns{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  text-decoration:none;
+  border-radius:14px;
+  border:none;
+  font-weight:700;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:#f4ead7;
+  cursor:pointer;
+  transition:transform 0.1s ease, filter 0.1s ease;
+  -webkit-tap-highlight-color:transparent;
+  min-height:54px;
+}
+
+.btn:active{
+  transform:scale(0.965);
+  filter:brightness(0.85);
+}
+
+.btn-read{
+  flex:2.2;
+  font-size:clamp(1.4rem,5vw,1.9rem);
+  background:linear-gradient(145deg,#8c2f39,#6b242c);
+  border:1px solid rgba(244,234,215,0.12);
+  box-shadow:0 6px 28px rgba(140,47,57,0.45);
+}
+
+.row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  flex:1;
+}
+
+.btn-sec{
+  font-size:clamp(0.85rem,3.5vw,1.05rem);
+  background:rgba(45,35,25,0.72);
+  border:1px solid rgba(205,187,150,0.2);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+
+.btn-new{
+  background:rgba(70,48,20,0.72);
+  border:1px solid rgba(243,215,160,0.28);
+  color:#f3d7a0;
+}
+
+.ico{
+  font-size:1.3em;
+  line-height:1;
+  flex-shrink:0;
+}
+
+.ft{
+  text-align:center;
+  padding-top:10px;
+  flex-shrink:0;
+}
+
+.ft a{
+  color:rgba(244,234,215,0.35);
+  font-size:0.68rem;
+  letter-spacing:0.12em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.ft a:active{
+  color:rgba(244,234,215,0.6);
+}
+
+/* hide install hint until JS shows it */
+#install-hint{
+  display:none;
+  text-align:center;
+  margin-top:10px;
+}
+
+#install-hint button{
+  background:none;
+  border:1px solid rgba(243,215,160,0.4);
+  color:#f3d7a0;
+  font-size:0.75rem;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  padding:8px 18px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+/* Landscape: side-by-side layout */
+@media(orientation:landscape)and(max-height:500px){
+  .wrap{flex-direction:row;align-items:stretch;gap:12px;padding:10px 14px}
+  .hd{writing-mode:vertical-rl;text-orientation:mixed;padding-bottom:0;padding-right:10px;justify-content:center;display:flex;align-items:center}
+  .hd h1{font-size:1rem;letter-spacing:0.2em}
+  .hd .by{display:none}
+  .btns{flex-direction:row}
+  .btn-read{flex:none;width:clamp(100px,22vw,160px)}
+  .row{grid-template-columns:1fr;grid-template-rows:1fr 1fr}
+  .ft{writing-mode:vertical-rl;padding-top:0;padding-left:8px;align-self:center}
+}
+</style>
+</head>
+
+<body>
+<div class="bg"></div>
+
+<div class="wrap">
+  <div class="hd">
+    <h1>Readers<br>Retreat</h1>
+    <div class="by">by Norsiwel</div>
+  </div>
+
+  <div class="btns">
+    <a class="btn btn-read" href="index.html?sort=stories&amp;app=1">
+      <span class="ico">📖</span>
+      <span>Read</span>
+    </a>
+
+    <div class="row">
+      <a class="btn btn-sec" href="index.html?sort=pdfs&amp;app=1">
+        <span class="ico">🖼</span>
+        <span>Comics</span>
+      </a>
+      <a class="btn btn-sec" href="index.html?sort=audio&amp;app=1">
+        <span class="ico">🎧</span>
+        <span>Listen</span>
+      </a>
+    </div>
+
+    <div class="row">
+      <a class="btn btn-sec" href="index.html?app=1">
+        <span class="ico">📚</span>
+        <span>Browse</span>
+      </a>
+      <a class="btn btn-sec btn-new" href="index.html?sort=newest&amp;app=1">
+        <span class="ico">✦</span>
+        <span>New</span>
+      </a>
+    </div>
+  </div>
+
+  <div id="install-hint">
+    <button id="install-btn">Add to Home Screen</button>
+  </div>
+
+  <div class="ft">
+    <a href="index.html?desktop=1">desktop site</a>
+  </div>
+</div>
+
+<script>
+/* Service worker */
+if('serviceWorker'in navigator){
+  navigator.serviceWorker.register('./sw.js');
+}
+
+/* Redirect desktop browsers to full site */
+(function(){
+  var wide=window.innerWidth>=768;
+  var notMobile=!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  if(wide&&notMobile){
+    location.replace('./index.html?desktop=1');
+  }
+})();
+
+/* PWA install prompt */
+var _pwa=null;
+window.addEventListener('beforeinstallprompt',function(e){
+  e.preventDefault();
+  _pwa=e;
+  document.getElementById('install-hint').style.display='block';
+});
+document.getElementById('install-btn').addEventListener('click',function(){
+  if(!_pwa)return;
+  _pwa.prompt();
+  _pwa.userChoice.then(function(){_pwa=null;});
+  document.getElementById('install-hint').style.display='none';
+});
+
+/* iOS install hint */
+(function(){
+  var ios=/iPhone|iPad|iPod/i.test(navigator.userAgent);
+  var standalone=('standalone'in navigator)&&navigator.standalone;
+  if(ios&&!standalone){
+    var el=document.getElementById('install-hint');
+    el.style.display='block';
+    document.getElementById('install-btn').textContent='Tap Share → Add to Home Screen';
+    document.getElementById('install-btn').onclick=null;
+  }
+})();
+</script>
+
+<script data-goatcounter="https://norsiwel.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

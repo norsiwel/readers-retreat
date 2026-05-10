@@ -7,6 +7,25 @@
 
 <meta name="description" content="norsiwel readers retreat: stories, PDFs, and audiobooks by Ron Lewis.">
 
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#8c2f39">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Retreat">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<!-- Mobile redirect: phone/tablet → mobile.html (skip if ?desktop=1 or ?app=1) -->
+<script>
+(function(){
+  var p=new URLSearchParams(location.search);
+  if(!p.has('desktop')&&!p.has('app')){
+    var mob=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||window.innerWidth<768;
+    if(mob) location.replace('./mobile.html');
+  }
+})();
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <style>
@@ -389,6 +408,26 @@ init();
 
 <script data-goatcounter="https://norsiwel.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+<!-- PWA: service worker + sort-param handler for mobile launcher buttons -->
+<script>
+(function(){
+  if('serviceWorker'in navigator) navigator.serviceWorker.register('./sw.js');
+
+  var p=new URLSearchParams(location.search);
+  var sort=p.get('sort');
+  if(sort){
+    var el=document.getElementById('sort');
+    var ok=['alpha','newest','oldest','longest','shortest','stories','pdfs','audio'];
+    if(el&&ok.indexOf(sort)>=0) el.value=sort;
+  }
+
+  window.addEventListener('beforeinstallprompt',function(e){
+    e.preventDefault();
+    window._pwaPrompt=e;
+  });
+})();
+</script>
 
 </body>
 </html>

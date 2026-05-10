@@ -240,7 +240,7 @@ touch .nojekyll
 
 echo
 echo "🧹 Removing old generated files..."
-rm -f manifest.json graphic-stories.json
+rm -f graphic-stories.json
 
 echo
 echo "📦 Staging everything..."
