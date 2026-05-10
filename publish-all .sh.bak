@@ -6,8 +6,6 @@ set -euo pipefail
 
 STORIES_DIR="stories"
 PDF_DIR="pdf"
-AUDIO_DIR="audiobooks"
-
 GITHUB_USER="norsiwel"
 REPO="readers-retreat"
 BRANCH="main"
@@ -26,7 +24,6 @@ fi
 
 mkdir -p "$STORIES_DIR"
 mkdir -p "$PDF_DIR"
-mkdir -p "$AUDIO_DIR"
 
 mapfile -d '' -t STORY_FILES < <(
   find "$STORIES_DIR" -type f \( -name "*.txt" -o -name "*.md" \) -print0 | sort -z
@@ -36,13 +33,8 @@ mapfile -d '' -t PDF_FILES < <(
   find "$PDF_DIR" -type f -name "*.pdf" -print0 | sort -z
 )
 
-mapfile -d '' -t AUDIO_FILES < <(
-  find "$AUDIO_DIR" -type f \( -name "*.mp3" -o -name "*.m4a" -o -name "*.ogg" -o -name "*.wav" \) -print0 | sort -z
-)
-
 echo "Found ${#STORY_FILES[@]} story files."
 echo "Found ${#PDF_FILES[@]} PDF files."
-echo "Found ${#AUDIO_FILES[@]} audiobook files."
 
 echo
 echo "🧾 Regenerating archive.json..."
@@ -55,7 +47,6 @@ from datetime import datetime, timezone
 
 STORIES_DIR = Path("stories")
 PDF_DIR = Path("pdf")
-AUDIO_DIR = Path("audiobooks")
 
 def clean_title(path: Path) -> str:
     name = path.stem.replace("-", " ").replace("_", " ")
@@ -97,20 +88,6 @@ for path in sorted(PDF_DIR.rglob("*.pdf")):
             "title": clean_title(path),
             "path": path.as_posix(),
             "type": "pdf",
-            "date": iso_date(path),
-            "updated": iso_date(path),
-            "timestamp": timestamp(path),
-            "size": path.stat().st_size,
-            "words": 0,
-            "license": "CC-BY-4.0"
-        })
-
-for path in sorted(AUDIO_DIR.rglob("*")):
-    if path.is_file() and path.suffix.lower() in [".mp3", ".m4a", ".ogg", ".wav"]:
-        items.append({
-            "title": clean_title(path),
-            "path": path.as_posix(),
-            "type": "audio",
             "date": iso_date(path),
             "updated": iso_date(path),
             "timestamp": timestamp(path),
@@ -166,17 +143,6 @@ echo "📝 Regenerating llms.txt..."
     echo ""
   done
 
-  echo "## Audiobooks (${#AUDIO_FILES[@]} total)"
-  echo ""
-
-  for FILE in "${AUDIO_FILES[@]}"; do
-    REL_PATH="${FILE#./}"
-    DISPLAY=$(basename "$FILE" | sed 's/\.[^.]*$//' | sed 's/[-_]/ /g')
-    echo "- $DISPLAY"
-    echo "  $SITE_BASE/$REL_PATH"
-    echo ""
-  done
-
   echo "## Repository"
   echo "https://github.com/$GITHUB_USER/$REPO"
 } > llms.txt
@@ -220,7 +186,17 @@ echo "🗺️ Regenerating sitemap.xml..."
   echo '    <priority>0.9</priority>'
   echo '  </url>'
 
-  for FILE in "${STORY_FILES[@]}" "${PDF_FILES[@]}" "${AUDIO_FILES[@]}"; do
+  for FILE in "${STORY_FILES[@]}"; do
+    REL_PATH="${FILE#./}"
+    echo ''
+    echo '  <url>'
+    echo "    <loc>$SITE_BASE/$REL_PATH</loc>"
+    echo '    <changefreq>monthly</changefreq>'
+    echo '    <priority>0.8</priority>'
+    echo '  </url>'
+  done
+
+  for FILE in "${PDF_FILES[@]}"; do
     REL_PATH="${FILE#./}"
     echo ''
     echo '  <url>'

@@ -1,5 +1,16 @@
 [
   {
+    "title": "Ring Bearer",
+    "path": "audiobooks/Ring_Bearer.mp3",
+    "type": "audio",
+    "date": "2026-05-08",
+    "updated": "2026-05-08",
+    "timestamp": 1778248613,
+    "size": 16314089,
+    "words": 0,
+    "license": "CC-BY-4.0"
+  },
+  {
     "title": "Bewildering Stories",
     "path": "pdf/Bewildering_Stories.pdf",
     "type": "pdf",

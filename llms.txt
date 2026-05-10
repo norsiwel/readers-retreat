@@ -537,5 +537,10 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - The Two Waters Illustrated
   https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
 
+## Audiobooks (1 total)
+
+- Ring Bearer
+  https://norsiwel.github.io/readers-retreat/audiobooks/Ring_Bearer.mp3
+
 ## Repository
 https://github.com/norsiwel/readers-retreat
