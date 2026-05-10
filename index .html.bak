@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>norsiwel readers retreat</title>
 
-<meta name="description" content="norsiwel readers retreat: stories, PDFs, and audiobooks by Ron Lewis.">
-
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <style>
@@ -97,7 +95,7 @@ input,select{
   border-radius:10px;
 }
 
-.file-list{
+.pdf-list{
   max-height:300px;
   overflow-y:auto;
   padding-left:18px;
@@ -107,25 +105,19 @@ input,select{
   column-gap:30px;
 }
 
-.file-list li{
+.pdf-list li{
   break-inside:avoid;
   margin-bottom:4px;
 }
 
-.file-list a{
+.pdf-list a{
   color:#f3d7a0;
   text-decoration:none;
   font-size:.9rem;
 }
 
-.file-list a:hover{
+.pdf-list a:hover{
   text-decoration:underline;
-}
-
-.bot-links{
-  margin-top:30px;
-  font-size:.9rem;
-  opacity:.9;
 }
 
 button{
@@ -154,7 +146,6 @@ button{
     <option value="shortest">shortest</option>
     <option value="stories">stories only</option>
     <option value="pdfs">pdfs only</option>
-    <option value="audio">audiobooks only</option>
   </select>
 
   <div id="count">loading...</div>
@@ -162,20 +153,7 @@ button{
 </div>
 
 <div id="reader">
-  <div id="content">
-    <h2>welcome</h2>
-    <p>loading archive...</p>
-
-    <div class="bot-links">
-      <p>For simple crawlers and AI indexers:</p>
-      <ul>
-        <li><a href="archive.json">archive index json</a></li>
-        <li><a href="stories/">stories folder</a></li>
-        <li><a href="pdf/">pdf folder</a></li>
-        <li><a href="audiobooks/">audiobooks folder</a></li>
-      </ul>
-    </div>
-  </div>
+  <div id="content">loading archive...</div>
 </div>
 
 <script>
@@ -227,9 +205,8 @@ function filteredSorted(){
 
   if(mode==="stories")items=items.filter(i=>i.type==="story");
   if(mode==="pdfs")items=items.filter(i=>i.type==="pdf");
-  if(mode==="audio")items=items.filter(i=>i.type==="audio" || i.type==="audiobook");
 
-  if(mode==="alpha"||mode==="stories"||mode==="pdfs"||mode==="audio")
+  if(mode==="alpha"||mode==="stories"||mode==="pdfs")
     items.sort((a,b)=>a.title.localeCompare(b.title));
 
   if(mode==="newest")
@@ -262,11 +239,7 @@ function render(){
     el.innerHTML=`
       <div>${i.title}</div>
       <div class="meta">
-        ${
-          i.type==="pdf" ? "pdf" :
-          i.type==="audio" || i.type==="audiobook" ? "audiobook" :
-          readTime(i)+" min"
-        }
+        ${i.type==="pdf"?"pdf":readTime(i)+" min"}
         ${i.date?" · "+i.date:""}
       </div>
     `;
@@ -283,47 +256,21 @@ function home(){
     .filter(i=>i.type==="pdf")
     .sort((a,b)=>a.title.localeCompare(b.title));
 
-  const audio=data
-    .filter(i=>i.type==="audio" || i.type==="audiobook")
-    .sort((a,b)=>a.title.localeCompare(b.title));
-
   document.getElementById("content").innerHTML=`
     <h2>welcome</h2>
-    <p>select a story, pdf, or audiobook from the left.</p>
+    <p>select a story or pdf from the left.</p>
 
     <h2>graphic stories / pdf files</h2>
 
     ${
       pdfs.length
-      ? `<ul class="file-list">
+      ? `<ul class="pdf-list">
           ${pdfs.map(p=>`
             <li><a href="${encodeURI(p.path)}" target="_blank">${p.title}</a></li>
           `).join("")}
          </ul>`
       : `<p>no pdf files found.</p>`
     }
-
-    <h2>audiobooks</h2>
-
-    ${
-      audio.length
-      ? `<ul class="file-list">
-          ${audio.map(a=>`
-            <li><a href="${encodeURI(a.path)}" target="_blank">${a.title}</a></li>
-          `).join("")}
-         </ul>`
-      : `<p>no audiobook files found.</p>`
-    }
-
-    <div class="bot-links">
-      <p>Archive links for simple crawlers and AI indexers:</p>
-      <ul>
-        <li><a href="archive.json">archive index json</a></li>
-        <li><a href="stories/">stories folder</a></li>
-        <li><a href="pdf/">pdf folder</a></li>
-        <li><a href="audiobooks/">audiobooks folder</a></li>
-      </ul>
-    </div>
   `;
 
   render();
@@ -333,7 +280,7 @@ async function openItem(item){
   active=item.path;
   render();
 
-  if(item.type==="pdf" || item.type==="audio" || item.type==="audiobook"){
+  if(item.type==="pdf"){
     window.open(encodeURI(item.path),"_blank");
     return;
   }
@@ -385,10 +332,9 @@ document.getElementById("search").oninput=render;
 document.getElementById("sort").onchange=render;
 
 init();
-</script>
-
-<script data-goatcounter="https://norsiwel.goatcounter.com/count"
+</script><script data-goatcounter="https://norsiwel.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
 
 </body>
 </html>
