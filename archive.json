@@ -11,6 +11,17 @@
     "license": "CC-BY-4.0"
   },
   {
+    "title": "The Reverse Turing Test",
+    "path": "audiobooks/The_Reverse_Turing_Test.mp3",
+    "type": "audio",
+    "date": "2026-05-10",
+    "updated": "2026-05-10",
+    "timestamp": 1778442855,
+    "size": 9268521,
+    "words": 0,
+    "license": "CC-BY-4.0"
+  },
+  {
     "title": "Bewildering Stories",
     "path": "pdf/Bewildering_Stories.pdf",
     "type": "pdf",
