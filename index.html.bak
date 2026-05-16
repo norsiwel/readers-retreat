@@ -29,7 +29,6 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <style>
-/* ── Desktop layout ── */
 body{
   margin:0;
   display:flex;
@@ -48,61 +47,132 @@ body{
   flex-direction:column;
 }
 
-h1{ margin-top:0; margin-bottom:12px; }
+h1{
+  margin-top:0;
+  margin-bottom:12px;
+}
 
 .clone-btn{
-  width:100%; padding:9px; margin-bottom:12px;
-  background:#8c2f39; color:white; border:none;
-  cursor:pointer; font-weight:bold;
+  width:100%;
+  padding:9px;
+  margin-bottom:12px;
+  background:#8c2f39;
+  color:white;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
 }
-.clone-btn:hover{ background:#6b242c; }
+
+.clone-btn:hover{
+  background:#6b242c;
+}
 
 input,select{
-  width:100%; margin-bottom:10px;
-  padding:8px; box-sizing:border-box;
+  width:100%;
+  margin-bottom:10px;
+  padding:8px;
+  box-sizing:border-box;
 }
 
-#list{ overflow-y:auto; flex:1; border-top:1px solid #cdbb96; }
+#list{
+  overflow-y:auto;
+  flex:1;
+  border-top:1px solid #cdbb96;
+}
 
-.item{ display:block; padding:10px; border-bottom:1px solid #cdbb96; cursor:pointer; }
-.item:hover,.active{ background:rgba(255,255,255,.35); }
-.meta{ font-size:.8em; color:#6f5d49; }
+.item{
+  display:block;
+  padding:10px;
+  border-bottom:1px solid #cdbb96;
+  cursor:pointer;
+}
+
+.item:hover,.active{
+  background:rgba(255,255,255,.35);
+}
+
+.meta{
+  font-size:.8em;
+  color:#6f5d49;
+}
 
 #reader{
-  flex:1; overflow-y:auto; padding:40px;
-  background: linear-gradient(rgba(24,17,12,0.45),rgba(24,17,12,0.45)), url("library-bg.png");
-  background-size:cover; background-position:center; color:#f4ead7;
+  flex:1;
+  overflow-y:auto;
+  padding:40px;
+  background:
+    linear-gradient(rgba(24,17,12,0.45), rgba(24,17,12,0.45)),
+    url("library-bg.png");
+  background-size:cover;
+  background-position:center;
+  color:#f4ead7;
 }
 
 #content{
-  max-width:900px; margin:auto;
-  background:rgba(45,35,25,0.65); padding:30px; border-radius:10px;
+  max-width:900px;
+  margin:auto;
+  background:rgba(45,35,25,0.65);
+  padding:30px;
+  border-radius:10px;
 }
 
 .file-list{
-  max-height:300px; overflow-y:auto; padding-left:18px;
-  line-height:1.4; margin-top:10px; column-count:2; column-gap:30px;
+  max-height:300px;
+  overflow-y:auto;
+  padding-left:18px;
+  line-height:1.4;
+  margin-top:10px;
+  column-count:2;
+  column-gap:30px;
 }
-.file-list li{ break-inside:avoid; margin-bottom:4px; }
-.file-list a{ color:#f3d7a0; text-decoration:none; font-size:.9rem; }
-.file-list a:hover{ text-decoration:underline; }
 
-.bot-links{ margin-top:30px; font-size:.9rem; opacity:.9; }
+.file-list li{
+  break-inside:avoid;
+  margin-bottom:4px;
+}
 
-button{ padding:6px 12px; margin-bottom:10px; }
+.file-list a{
+  color:#f3d7a0;
+  text-decoration:none;
+  font-size:.9rem;
+}
+
+.file-list a:hover{
+  text-decoration:underline;
+}
+
+.bot-links{
+  margin-top:30px;
+  font-size:.9rem;
+  opacity:.9;
+}
+
+button{
+  padding:6px 12px;
+  margin-bottom:10px;
+}
 
 /* ── Mobile app mode: hide desktop layout ── */
-body.app-mode{ background:#18110c; }
 body.app-mode #sidebar,
-body.app-mode #reader{ display:none !important; }
+body.app-mode #reader{
+  display:none;
+}
 
 /* ── Mobile story list ── */
 #mob-list-view{
   display:none;
-  position:fixed; inset:0; z-index:100;
-  background:#18110c; color:#f4ead7;
+  position:fixed;
+  inset:0;
+  z-index:100;
+  background:#18110c;
+  color:#f4ead7;
   font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  display:flex;
   flex-direction:column;
+}
+
+body:not(.app-mode) #mob-list-view{
+  display:none !important;
 }
 
 #mob-list-head{
@@ -117,46 +187,87 @@ body.app-mode #reader{ display:none !important; }
 }
 
 #mob-list-head h1{
-  font-size:1.2rem; font-weight:300; letter-spacing:0.15em;
-  text-transform:uppercase; margin:0 0 10px; color:#f4ead7;
+  font-size:1.2rem;
+  font-weight:300;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+  margin:0 0 10px;
+  color:#f4ead7;
 }
 
 #mob-search{
-  width:100%; box-sizing:border-box; padding:10px 14px;
-  background:rgba(45,35,25,0.8); border:1px solid rgba(244,234,215,0.15);
-  border-radius:10px; color:#f4ead7; font-size:1rem;
-  outline:none; -webkit-appearance:none;
+  width:100%;
+  box-sizing:border-box;
+  padding:10px 14px;
+  background:rgba(45,35,25,0.8);
+  border:1px solid rgba(244,234,215,0.15);
+  border-radius:10px;
+  color:#f4ead7;
+  font-size:1rem;
+  outline:none;
+  -webkit-appearance:none;
 }
-#mob-search::placeholder{ color:rgba(244,234,215,0.35); }
+
+#mob-search::placeholder{color:rgba(244,234,215,0.35);}
 
 #mob-list-scroll{
-  flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch;
-  padding:8px max(0px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(0px,env(safe-area-inset-left));
+  flex:1;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  padding:
+    8px
+    max(0px,env(safe-area-inset-right))
+    max(16px,env(safe-area-inset-bottom))
+    max(0px,env(safe-area-inset-left));
 }
 
 #mob-list-count{
-  font-size:0.75rem; opacity:0.45; padding:8px 16px 4px; letter-spacing:0.08em;
+  font-size:0.75rem;
+  opacity:0.45;
+  padding:8px 16px 4px;
+  letter-spacing:0.08em;
 }
 
 .mob-item{
-  display:flex; flex-direction:column; padding:14px 16px;
+  display:flex;
+  flex-direction:column;
+  padding:14px 16px;
   border-bottom:1px solid rgba(244,234,215,0.08);
-  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
 }
-.mob-item:active{ background:rgba(140,47,57,0.25); }
-.mob-item-title{ font-size:1rem; font-weight:500; margin-bottom:3px; }
-.mob-item-meta{ font-size:0.78rem; opacity:0.5; }
 
-/* ── Mobile reader overlay ── */
+.mob-item:active{
+  background:rgba(140,47,57,0.25);
+}
+
+.mob-item-title{
+  font-size:1rem;
+  font-weight:500;
+  margin-bottom:3px;
+}
+
+.mob-item-meta{
+  font-size:0.78rem;
+  opacity:0.5;
+}
 #mob-reader{
-  display:none; position:fixed; inset:0; z-index:9999;
-  background:#18110c; overflow-y:auto;
-  -webkit-overflow-scrolling:touch; color:#f4ead7;
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  background:#18110c;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  padding:0;
+  color:#f4ead7;
   font-family:Georgia,'Times New Roman',serif;
 }
 
 #mob-reader-bar{
-  display:flex; align-items:center; gap:12px;
+  display:flex;
+  align-items:center;
+  gap:12px;
   padding:
     max(14px,env(safe-area-inset-top))
     max(16px,env(safe-area-inset-right))
@@ -164,20 +275,33 @@ body.app-mode #reader{ display:none !important; }
     max(16px,env(safe-area-inset-left));
   background:rgba(18,10,6,0.97);
   border-bottom:1px solid rgba(244,234,215,0.1);
-  position:sticky; top:0; z-index:1;
+  position:sticky;
+  top:0;
+  z-index:1;
 }
 
 #mob-back-btn{
-  background:#8c2f39; border:none; color:#f4ead7;
-  font-size:1rem; font-weight:700; padding:10px 20px;
-  border-radius:10px; cursor:pointer;
-  -webkit-tap-highlight-color:transparent; flex-shrink:0;
+  background:#8c2f39;
+  border:none;
+  color:#f4ead7;
+  font-size:1rem;
+  font-weight:700;
+  padding:10px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  flex-shrink:0;
   font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 
 #mob-reader-title{
-  font-size:0.8rem; letter-spacing:0.08em; text-transform:uppercase;
-  opacity:0.55; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  font-size:0.8rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  opacity:0.55;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
   font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 
@@ -187,19 +311,43 @@ body.app-mode #reader{ display:none !important; }
     max(20px,env(safe-area-inset-right))
     max(40px,env(safe-area-inset-bottom))
     max(20px,env(safe-area-inset-left));
-  max-width:680px; margin:0 auto; line-height:1.85; font-size:1.15rem;
+  max-width:680px;
+  margin:0 auto;
+  line-height:1.85;
+  font-size:1.15rem;
 }
-#mob-reader-body h1{ color:#f3d7a0; font-size:1.5rem; margin:0 0 0.3em; line-height:1.3; }
-#mob-reader-body h2,
-#mob-reader-body h3{ color:#f3d7a0; margin:1.4em 0 0.5em; }
-#mob-reader-body p{ margin-bottom:1.1em; }
-#mob-reader-body a{ color:#f3d7a0; }
 
+#mob-reader-body h1{
+  color:#f3d7a0;
+  font-size:1.5rem;
+  margin:0 0 0.3em;
+  line-height:1.3;
+}
+
+#mob-reader-body h2,
+#mob-reader-body h3{
+  color:#f3d7a0;
+  margin:1.4em 0 0.5em;
+}
+
+#mob-reader-body p{
+  margin-bottom:1.1em;
+}
+
+#mob-reader-body a{color:#f3d7a0;}
+
+#mob-reader-body .meta{
+  font-size:0.85rem;
+  opacity:0.55;
+  margin-bottom:2em;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
 </style>
 </head>
+
 <body>
 
-<!-- Mobile story list (app mode only) -->
+<!-- Mobile app mode: full-screen story list -->
 <div id="mob-list-view">
   <div id="mob-list-head">
     <h1>Readers Retreat</h1>
@@ -211,7 +359,7 @@ body.app-mode #reader{ display:none !important; }
   </div>
 </div>
 
-<!-- Mobile reader overlay -->
+<!-- Mobile full-screen reader overlay -->
 <div id="mob-reader">
   <div id="mob-reader-bar">
     <button id="mob-back-btn" onclick="closeMobReader()">← Back</button>
@@ -220,11 +368,15 @@ body.app-mode #reader{ display:none !important; }
   <div id="mob-reader-body"></div>
 </div>
 
-<!-- Desktop layout -->
 <div id="sidebar">
   <h1>norsiwel<br>readers retreat</h1>
-  <button onclick="cloneRepo()" class="clone-btn">clone archive</button>
+
+  <button onclick="cloneRepo()" class="clone-btn">
+    clone archive
+  </button>
+
   <input id="search" placeholder="search...">
+
   <select id="sort">
     <option value="alpha">alphabetical</option>
     <option value="newest">newest</option>
@@ -235,6 +387,7 @@ body.app-mode #reader{ display:none !important; }
     <option value="pdfs">pdfs only</option>
     <option value="audio">audiobooks only</option>
   </select>
+
   <div id="count">loading...</div>
   <div id="list"></div>
 </div>
@@ -243,6 +396,7 @@ body.app-mode #reader{ display:none !important; }
   <div id="content">
     <h2>welcome</h2>
     <p>loading archive...</p>
+
     <div class="bot-links">
       <p>For simple crawlers and AI indexers:</p>
       <ul>
@@ -257,71 +411,97 @@ body.app-mode #reader{ display:none !important; }
 
 <script>
 const ARCHIVE="archive.json";
+
 let data=[];
 let active="";
 
-/* Detect app mode immediately, before anything else runs */
-var isAppMode=new URLSearchParams(location.search).has('app');
-if(isAppMode){
-  document.body.classList.add('app-mode');
-  document.getElementById('mob-list-view').style.display='flex';
-}
-
 function cloneRepo(){
   const command="git clone https://github.com/norsiwel/readers-retreat.git";
+
   if(navigator.clipboard){
-    navigator.clipboard.writeText(command)
-      .then(()=>{ alert("clone command copied:\n\n"+command); })
-      .catch(()=>{ alert("clone command:\n\n"+command); });
-  }else{ alert("clone command:\n\n"+command); }
+    navigator.clipboard.writeText(command).then(()=>{
+      alert("clone command copied:\\n\\n"+command);
+    }).catch(()=>{
+      alert("clone command:\\n\\n"+command);
+    });
+  }else{
+    alert("clone command:\\n\\n"+command);
+  }
 }
 
 function cleanTitle(path){
-  return path.split("/").pop().replace(/\.[^/.]+$/,"").replace(/[-_]/g," ");
+  return path.split("/").pop()
+    .replace(/\.[^/.]+$/,"")
+    .replace(/[-_]/g," ");
 }
 
 function readTime(item){
-  if(!item.words) return "?";
+  if(!item.words)return"?";
   return Math.max(1,Math.ceil(item.words/225));
 }
 
 function itemTime(i){
-  return Number(i.timestamp||0)||Date.parse(i.updated||i.date||"")||0;
+  return Number(i.timestamp||0) ||
+         Date.parse(i.updated||i.date||"") ||
+         0;
 }
 
 function filteredSorted(){
   const q=document.getElementById("search").value.toLowerCase();
   const mode=document.getElementById("sort").value;
-  let items=data.filter(i=>
-    i.title.toLowerCase().includes(q)||
-    i.path.toLowerCase().includes(q)||
+
+  let items=data.filter(i =>
+    i.title.toLowerCase().includes(q) ||
+    i.path.toLowerCase().includes(q) ||
     i.type.toLowerCase().includes(q)
   );
-  if(mode==="stories") items=items.filter(i=>i.type==="story");
-  if(mode==="pdfs")    items=items.filter(i=>i.type==="pdf");
-  if(mode==="audio")   items=items.filter(i=>i.type==="audio"||i.type==="audiobook");
+
+  if(mode==="stories")items=items.filter(i=>i.type==="story");
+  if(mode==="pdfs")items=items.filter(i=>i.type==="pdf");
+  if(mode==="audio")items=items.filter(i=>i.type==="audio" || i.type==="audiobook");
+
   if(mode==="alpha"||mode==="stories"||mode==="pdfs"||mode==="audio")
     items.sort((a,b)=>a.title.localeCompare(b.title));
-  if(mode==="newest")  items.sort((a,b)=>itemTime(b)-itemTime(a)||a.title.localeCompare(b.title));
-  if(mode==="oldest")  items.sort((a,b)=>itemTime(a)-itemTime(b)||a.title.localeCompare(b.title));
-  if(mode==="longest") items.sort((a,b)=>b.size-a.size||a.title.localeCompare(b.title));
-  if(mode==="shortest")items.sort((a,b)=>a.size-b.size||a.title.localeCompare(b.title));
+
+  if(mode==="newest")
+    items.sort((a,b)=>itemTime(b)-itemTime(a)||a.title.localeCompare(b.title));
+
+  if(mode==="oldest")
+    items.sort((a,b)=>itemTime(a)-itemTime(b)||a.title.localeCompare(b.title));
+
+  if(mode==="longest")
+    items.sort((a,b)=>b.size-a.size||a.title.localeCompare(b.title));
+
+  if(mode==="shortest")
+    items.sort((a,b)=>a.size-b.size||a.title.localeCompare(b.title));
+
   return items;
 }
 
 function render(){
   const items=filteredSorted();
   const list=document.getElementById("list");
+
   list.innerHTML="";
-  document.getElementById("count").textContent=items.length+" of "+data.length;
+  document.getElementById("count").textContent =
+    items.length+" of "+data.length;
+
   items.forEach(i=>{
     const el=document.createElement("div");
     el.className="item"+(i.path===active?" active":"");
-    el.innerHTML=`<div>${i.title}</div><div class="meta">${
-      i.type==="pdf"?"pdf":
-      i.type==="audio"||i.type==="audiobook"?"audiobook":
-      readTime(i)+" min"
-    }${i.date?" · "+i.date:""}</div>`;
+
+    el.innerHTML=`
+      <div>${i.title}</div>
+      <div class="meta">
+        ${
+          i.type==="pdf" ? "pdf" :
+          i.type==="audio" || i.type==="audiobook" ? "audiobook" :
+          readTime(i)+" min"
+        }
+        ${i.date?" · "+i.date:""}
+      </div>
+    `;
+
     el.onclick=()=>openItem(i);
     list.appendChild(el);
   });
@@ -329,19 +509,43 @@ function render(){
 
 function home(){
   active="";
-  const pdfs=data.filter(i=>i.type==="pdf").sort((a,b)=>a.title.localeCompare(b.title));
-  const audio=data.filter(i=>i.type==="audio"||i.type==="audiobook").sort((a,b)=>a.title.localeCompare(b.title));
+
+  const pdfs=data
+    .filter(i=>i.type==="pdf")
+    .sort((a,b)=>a.title.localeCompare(b.title));
+
+  const audio=data
+    .filter(i=>i.type==="audio" || i.type==="audiobook")
+    .sort((a,b)=>a.title.localeCompare(b.title));
+
   document.getElementById("content").innerHTML=`
     <h2>welcome</h2>
     <p>select a story, pdf, or audiobook from the left.</p>
+
     <h2>graphic stories / pdf files</h2>
-    ${pdfs.length
-      ?`<ul class="file-list">${pdfs.map(p=>`<li><a href="${encodeURI(p.path)}" target="_blank">${p.title}</a></li>`).join("")}</ul>`
-      :`<p>no pdf files found.</p>`}
+
+    ${
+      pdfs.length
+      ? `<ul class="file-list">
+          ${pdfs.map(p=>`
+            <li><a href="${encodeURI(p.path)}" target="_blank">${p.title}</a></li>
+          `).join("")}
+         </ul>`
+      : `<p>no pdf files found.</p>`
+    }
+
     <h2>audiobooks</h2>
-    ${audio.length
-      ?`<ul class="file-list">${audio.map(a=>`<li><a href="${encodeURI(a.path)}" target="_blank">${a.title}</a></li>`).join("")}</ul>`
-      :`<p>no audiobook files found.</p>`}
+
+    ${
+      audio.length
+      ? `<ul class="file-list">
+          ${audio.map(a=>`
+            <li><a href="${encodeURI(a.path)}" target="_blank">${a.title}</a></li>
+          `).join("")}
+         </ul>`
+      : `<p>no audiobook files found.</p>`
+    }
+
     <div class="bot-links">
       <p>Archive links for simple crawlers and AI indexers:</p>
       <ul>
@@ -350,29 +554,35 @@ function home(){
         <li><a href="pdf/">pdf folder</a></li>
         <li><a href="audiobooks/">audiobooks folder</a></li>
       </ul>
-    </div>`;
+    </div>
+  `;
+
   render();
 }
 
 async function openItem(item){
   active=item.path;
-  if(!isAppMode) render();
+  render();
 
-  if(item.type==="pdf"||item.type==="audio"||item.type==="audiobook"){
+  if(item.type==="pdf" || item.type==="audio" || item.type==="audiobook"){
     window.open(encodeURI(item.path),"_blank");
     return;
   }
 
   try{
     const res=await fetch(encodeURI(item.path),{cache:"no-store"});
-    if(!res.ok) throw new Error(res.status+" "+res.statusText);
+    if(!res.ok)throw new Error(res.status+" "+res.statusText);
+
     const text=await res.text();
     const html=`
       <h1 style="color:#f3d7a0;margin-bottom:0.3em;">${item.title}</h1>
       <p style="opacity:0.6;font-size:0.85rem;margin-bottom:1.5em;">${readTime(item)} min${item.date?" · "+item.date:""}</p>
-      ${marked.parse(text)}`;
+      ${marked.parse(text)}
+    `;
 
-    if(isAppMode){
+    /* If in mobile/app mode, open in full-screen reader overlay */
+    var isMobApp=new URLSearchParams(location.search).has('app');
+    if(isMobApp){
       document.getElementById('mob-reader-title').textContent=item.title;
       document.getElementById('mob-reader-body').innerHTML=html;
       var ov=document.getElementById('mob-reader');
@@ -385,16 +595,53 @@ async function openItem(item){
       <button onclick="home()">back</button>
       <h1>${item.title}</h1>
       <p>${readTime(item)} min${item.date?" · "+item.date:""}</p>
-      ${marked.parse(text)}`;
+      ${marked.parse(text)}
+    `;
 
   }catch(e){
-    document.getElementById("content").innerHTML="<p>could not load file</p>";
+    document.getElementById("content").innerHTML =
+      "<p>could not load file</p>";
   }
 }
 
 function closeMobReader(){
   document.getElementById('mob-reader').style.display='none';
   document.getElementById('mob-reader').scrollTop=0;
+}
+
+async function init(){
+  try{
+    const res=await fetch(ARCHIVE,{cache:"no-store"});
+    const raw=await res.json();
+
+    data=raw.map(i=>({
+      title:i.title||cleanTitle(i.path),
+      path:i.path,
+      type:i.type||"story",
+      size:Number(i.size||0),
+      words:Number(i.words||0),
+      date:i.date||"",
+      updated:i.updated||"",
+      timestamp:Number(i.timestamp||0)
+    }));
+
+    home();
+    if(isAppMode) mobRenderList();
+
+  }catch(e){
+    document.getElementById("content").innerHTML =
+      "archive.json not found. run publish-all.sh";
+  }
+}
+
+document.getElementById("search").oninput=render;
+document.getElementById("sort").onchange=render;
+
+/* ── Mobile app mode ── */
+var isAppMode=new URLSearchParams(location.search).has('app');
+if(isAppMode){
+  document.body.classList.add('app-mode');
+  document.getElementById('mob-list-view').style.display='flex';
 }
 
 function mobRenderList(){
@@ -406,12 +653,10 @@ function mobRenderList(){
   if(sort==='stories') items=items.filter(function(i){return i.type==='story';});
   if(sort==='pdfs')    items=items.filter(function(i){return i.type==='pdf';});
   if(sort==='audio')   items=items.filter(function(i){return i.type==='audio'||i.type==='audiobook';});
-  if(sort==='newest')
-    items.sort(function(a,b){return itemTime(b)-itemTime(a)||a.title.localeCompare(b.title);});
-  else
-    items.sort(function(a,b){return a.title.localeCompare(b.title);});
+  if(sort==='newest')  items.sort(function(a,b){return itemTime(b)-itemTime(a)||a.title.localeCompare(b.title);});
+  else                 items.sort(function(a,b){return a.title.localeCompare(b.title);});
 
-  document.getElementById('mob-list-count').textContent=items.length+' titles';
+  document.getElementById('mob-list-count').textContent=items.length+' stories';
   var el=document.getElementById('mob-list-items');
   el.innerHTML='';
   items.forEach(function(i){
@@ -427,31 +672,7 @@ function mobRenderList(){
   });
 }
 
-document.getElementById('mob-search').addEventListener('input', mobRenderList);
-document.getElementById("search").addEventListener('input', render);
-document.getElementById("sort").addEventListener('change', render);
-
-async function init(){
-  try{
-    const res=await fetch(ARCHIVE,{cache:"no-store"});
-    const raw=await res.json();
-    data=raw.map(i=>({
-      title:     i.title||cleanTitle(i.path),
-      path:      i.path,
-      type:      i.type||"story",
-      size:      Number(i.size||0),
-      words:     Number(i.words||0),
-      date:      i.date||"",
-      updated:   i.updated||"",
-      timestamp: Number(i.timestamp||0)
-    }));
-    home();
-    if(isAppMode) mobRenderList();
-  }catch(e){
-    document.getElementById("content").innerHTML=
-      "<p>archive.json not found. run publish-all.sh</p>";
-  }
-}
+document.getElementById('mob-search').oninput=mobRenderList;
 
 init();
 </script>
@@ -459,9 +680,10 @@ init();
 <script data-goatcounter="https://norsiwel.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
+<!-- PWA: service worker + sort-param handler for mobile launcher buttons -->
 <script>
 (function(){
-  if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+  if('serviceWorker'in navigator) navigator.serviceWorker.register('./sw.js');
 
   var p=new URLSearchParams(location.search);
   var sort=p.get('sort');
