@@ -152,85 +152,212 @@ button{
   margin-bottom:10px;
 }
 
-/* ── Mobile full-screen reader overlay ── */
+/* ── Mobile app mode: hide desktop layout ── */
+body.app-mode #sidebar,
+body.app-mode #reader{
+  display:none;
+}
+
+/* ── Mobile story list ── */
+#mob-list-view{
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:100;
+  background:#18110c;
+  color:#f4ead7;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  display:flex;
+  flex-direction:column;
+}
+
+body:not(.app-mode) #mob-list-view{
+  display:none !important;
+}
+
+#mob-list-head{
+  padding:
+    max(16px,env(safe-area-inset-top))
+    max(16px,env(safe-area-inset-right))
+    12px
+    max(16px,env(safe-area-inset-left));
+  background:rgba(18,10,6,0.97);
+  border-bottom:1px solid rgba(244,234,215,0.1);
+  flex-shrink:0;
+}
+
+#mob-list-head h1{
+  font-size:1.2rem;
+  font-weight:300;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+  margin:0 0 10px;
+  color:#f4ead7;
+}
+
+#mob-search{
+  width:100%;
+  box-sizing:border-box;
+  padding:10px 14px;
+  background:rgba(45,35,25,0.8);
+  border:1px solid rgba(244,234,215,0.15);
+  border-radius:10px;
+  color:#f4ead7;
+  font-size:1rem;
+  outline:none;
+  -webkit-appearance:none;
+}
+
+#mob-search::placeholder{color:rgba(244,234,215,0.35);}
+
+#mob-list-scroll{
+  flex:1;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  padding:
+    8px
+    max(0px,env(safe-area-inset-right))
+    max(16px,env(safe-area-inset-bottom))
+    max(0px,env(safe-area-inset-left));
+}
+
+#mob-list-count{
+  font-size:0.75rem;
+  opacity:0.45;
+  padding:8px 16px 4px;
+  letter-spacing:0.08em;
+}
+
+.mob-item{
+  display:flex;
+  flex-direction:column;
+  padding:14px 16px;
+  border-bottom:1px solid rgba(244,234,215,0.08);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+
+.mob-item:active{
+  background:rgba(140,47,57,0.25);
+}
+
+.mob-item-title{
+  font-size:1rem;
+  font-weight:500;
+  margin-bottom:3px;
+}
+
+.mob-item-meta{
+  font-size:0.78rem;
+  opacity:0.5;
+}
 #mob-reader{
   display:none;
   position:fixed;
   inset:0;
   z-index:9999;
-  background:
-    linear-gradient(rgba(24,17,12,0.82),rgba(24,17,12,0.82)),
-    url("library-bg.png") center/cover no-repeat;
+  background:#18110c;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
-  padding:
-    max(16px,env(safe-area-inset-top))
-    max(16px,env(safe-area-inset-right))
-    max(24px,env(safe-area-inset-bottom))
-    max(16px,env(safe-area-inset-left));
+  padding:0;
   color:#f4ead7;
-  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-family:Georgia,'Times New Roman',serif;
 }
-
-#mob-reader.open{display:block;}
 
 #mob-reader-bar{
   display:flex;
   align-items:center;
-  gap:10px;
-  margin-bottom:18px;
+  gap:12px;
+  padding:
+    max(14px,env(safe-area-inset-top))
+    max(16px,env(safe-area-inset-right))
+    14px
+    max(16px,env(safe-area-inset-left));
+  background:rgba(18,10,6,0.97);
+  border-bottom:1px solid rgba(244,234,215,0.1);
   position:sticky;
   top:0;
-  background:rgba(24,17,12,0.92);
-  padding:10px 0;
   z-index:1;
 }
 
 #mob-back-btn{
-  background:rgba(140,47,57,0.85);
+  background:#8c2f39;
   border:none;
   color:#f4ead7;
   font-size:1rem;
   font-weight:700;
-  letter-spacing:0.1em;
-  padding:10px 18px;
+  padding:10px 20px;
   border-radius:10px;
   cursor:pointer;
   -webkit-tap-highlight-color:transparent;
   flex-shrink:0;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 
 #mob-reader-title{
-  font-size:0.85rem;
-  letter-spacing:0.1em;
+  font-size:0.8rem;
+  letter-spacing:0.08em;
   text-transform:uppercase;
-  opacity:0.7;
+  opacity:0.55;
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 
 #mob-reader-body{
-  max-width:720px;
+  padding:
+    28px
+    max(20px,env(safe-area-inset-right))
+    max(40px,env(safe-area-inset-bottom))
+    max(20px,env(safe-area-inset-left));
+  max-width:680px;
   margin:0 auto;
-  line-height:1.7;
-  font-size:1.05rem;
+  line-height:1.85;
+  font-size:1.15rem;
 }
 
-#mob-reader-body h1,
+#mob-reader-body h1{
+  color:#f3d7a0;
+  font-size:1.5rem;
+  margin:0 0 0.3em;
+  line-height:1.3;
+}
+
 #mob-reader-body h2,
 #mob-reader-body h3{
   color:#f3d7a0;
-  margin:1.2em 0 0.5em;
+  margin:1.4em 0 0.5em;
 }
 
-#mob-reader-body p{margin-bottom:1em;}
+#mob-reader-body p{
+  margin-bottom:1.1em;
+}
 
 #mob-reader-body a{color:#f3d7a0;}
+
+#mob-reader-body .meta{
+  font-size:0.85rem;
+  opacity:0.55;
+  margin-bottom:2em;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
 </style>
 </head>
 
 <body>
+
+<!-- Mobile app mode: full-screen story list -->
+<div id="mob-list-view">
+  <div id="mob-list-head">
+    <h1>Readers Retreat</h1>
+    <input id="mob-search" type="search" placeholder="search stories…">
+  </div>
+  <div id="mob-list-scroll">
+    <div id="mob-list-count"></div>
+    <div id="mob-list-items"></div>
+  </div>
+</div>
 
 <!-- Mobile full-screen reader overlay -->
 <div id="mob-reader">
@@ -453,13 +580,14 @@ async function openItem(item){
       ${marked.parse(text)}
     `;
 
-    /* If in mobile/app mode, use the full-screen overlay */
+    /* If in mobile/app mode, open in full-screen reader overlay */
     var isMobApp=new URLSearchParams(location.search).has('app');
     if(isMobApp){
       document.getElementById('mob-reader-title').textContent=item.title;
       document.getElementById('mob-reader-body').innerHTML=html;
-      document.getElementById('mob-reader').classList.add('open');
-      document.getElementById('mob-reader').scrollTop=0;
+      var ov=document.getElementById('mob-reader');
+      ov.style.display='block';
+      ov.scrollTop=0;
       return;
     }
 
@@ -477,7 +605,7 @@ async function openItem(item){
 }
 
 function closeMobReader(){
-  document.getElementById('mob-reader').classList.remove('open');
+  document.getElementById('mob-reader').style.display='none';
   document.getElementById('mob-reader').scrollTop=0;
 }
 
@@ -498,6 +626,7 @@ async function init(){
     }));
 
     home();
+    if(isAppMode) mobRenderList();
 
   }catch(e){
     document.getElementById("content").innerHTML =
@@ -507,6 +636,43 @@ async function init(){
 
 document.getElementById("search").oninput=render;
 document.getElementById("sort").onchange=render;
+
+/* ── Mobile app mode ── */
+var isAppMode=new URLSearchParams(location.search).has('app');
+if(isAppMode){
+  document.body.classList.add('app-mode');
+  document.getElementById('mob-list-view').style.display='flex';
+}
+
+function mobRenderList(){
+  var q=document.getElementById('mob-search').value.toLowerCase();
+  var sort=new URLSearchParams(location.search).get('sort')||'alpha';
+  var items=data.filter(function(i){
+    return i.title.toLowerCase().includes(q)||i.path.toLowerCase().includes(q);
+  });
+  if(sort==='stories') items=items.filter(function(i){return i.type==='story';});
+  if(sort==='pdfs')    items=items.filter(function(i){return i.type==='pdf';});
+  if(sort==='audio')   items=items.filter(function(i){return i.type==='audio'||i.type==='audiobook';});
+  if(sort==='newest')  items.sort(function(a,b){return itemTime(b)-itemTime(a)||a.title.localeCompare(b.title);});
+  else                 items.sort(function(a,b){return a.title.localeCompare(b.title);});
+
+  document.getElementById('mob-list-count').textContent=items.length+' stories';
+  var el=document.getElementById('mob-list-items');
+  el.innerHTML='';
+  items.forEach(function(i){
+    var d=document.createElement('div');
+    d.className='mob-item';
+    d.innerHTML='<div class="mob-item-title">'+i.title+'</div>'
+      +'<div class="mob-item-meta">'
+      +(i.type==='pdf'?'pdf':i.type==='audio'||i.type==='audiobook'?'audiobook':readTime(i)+' min')
+      +(i.date?' · '+i.date:'')
+      +'</div>';
+    d.onclick=function(){openItem(i);};
+    el.appendChild(d);
+  });
+}
+
+document.getElementById('mob-search').oninput=mobRenderList;
 
 init();
 </script>
