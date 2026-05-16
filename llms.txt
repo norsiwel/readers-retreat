@@ -3,7 +3,7 @@
 > A public fiction archive by norsiwel.
 > License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 > AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
-> Last updated: 2026-05-10
+> Last updated: 2026-05-16
 
 ## Main Site
 https://norsiwel.github.io/readers-retreat/
@@ -537,10 +537,13 @@ https://norsiwel.github.io/readers-retreat/archive.json
 - The Two Waters Illustrated
   https://norsiwel.github.io/readers-retreat/pdf/The_Two_Waters-Illustrated.pdf
 
-## Audiobooks (2 total)
+## Audiobooks (3 total)
 
 - Ring Bearer
   https://norsiwel.github.io/readers-retreat/audiobooks/Ring_Bearer.mp3
+
+- The Dawn of Man
+  https://norsiwel.github.io/readers-retreat/audiobooks/The Dawn of Man.mp3
 
 - The Reverse Turing Test
   https://norsiwel.github.io/readers-retreat/audiobooks/The_Reverse_Turing_Test.mp3

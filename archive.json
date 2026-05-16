@@ -11,6 +11,17 @@
     "license": "CC-BY-4.0"
   },
   {
+    "title": "The Dawn of Man",
+    "path": "audiobooks/The Dawn of Man.mp3",
+    "type": "audio",
+    "date": "2026-05-16",
+    "updated": "2026-05-16",
+    "timestamp": 1778954756,
+    "size": 9592009,
+    "words": 0,
+    "license": "CC-BY-4.0"
+  },
+  {
     "title": "The Reverse Turing Test",
     "path": "audiobooks/The_Reverse_Turing_Test.mp3",
     "type": "audio",
