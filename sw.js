@@ -1,5 +1,5 @@
 /* Readers Retreat — Service Worker */
-const CACHE = 'readers-retreat-v1';
+const CACHE = 'readers-retreat-v2';
 
 const PRECACHE = [
   './',
