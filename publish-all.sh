@@ -266,3 +266,18 @@ git push origin "$BRANCH"
 echo
 echo "✅ Done! Your site is live at:"
 echo "   $SITE_BASE/"
+
+# ── WOLD-PM ──────────────────────────────────────────────
+echo
+echo "📻 Publishing WOLD-PM..."
+cd /home/ron/WOLD-PM.com
+git add -A
+if git diff --cached --quiet; then
+  echo "ℹ️  WOLD-PM — nothing to commit."
+else
+  git commit -m "WOLD-PM update $(date -u '+%Y-%m-%d')"
+  git push origin main
+  echo "✅ WOLD-PM live at: https://wold-pm.com"
+fi
+cd /home/ron/readers-retreat
+# ─────────────────────────────────────────────────────────
