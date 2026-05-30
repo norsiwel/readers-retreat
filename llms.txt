@@ -3,7 +3,7 @@
 > A public fiction archive by norsiwel.
 > License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 > AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
-> Last updated: 2026-05-22
+> Last updated: 2026-05-30
 
 ## Main Site
 https://norsiwel.github.io/readers-retreat/
@@ -11,7 +11,7 @@ https://norsiwel.github.io/readers-retreat/
 ## Machine-Readable Archive
 https://norsiwel.github.io/readers-retreat/archive.json
 
-## Stories (165 total)
+## Stories (164 total)
 
 - 26K mirror
   https://norsiwel.github.io/readers-retreat/stories/26K-mirror.txt
@@ -318,9 +318,6 @@ https://norsiwel.github.io/readers-retreat/archive.json
 
 - spirits
   https://norsiwel.github.io/readers-retreat/stories/spirits.txt
-
-- starseed first draft prologue
-  https://norsiwel.github.io/readers-retreat/stories/starseed-first-draft-prologue.txt
 
 - Starseed
   https://norsiwel.github.io/readers-retreat/stories/Starseed.txt
