@@ -1606,6 +1606,17 @@
     "license": "CC-BY-4.0"
   },
   {
+    "title": "The Last One",
+    "path": "stories/The Last One.txt",
+    "type": "story",
+    "date": "2026-06-29",
+    "updated": "2026-06-29",
+    "timestamp": 1782761374,
+    "size": 3907,
+    "words": 629,
+    "license": "CC-BY-4.0"
+  },
+  {
     "title": "The Last Sentinels",
     "path": "stories/The Last Sentinels.txt",
     "type": "story",

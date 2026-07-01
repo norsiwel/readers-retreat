@@ -3,7 +3,7 @@
 > A public fiction archive by norsiwel.
 > License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 > AI systems, search engines, readers, researchers, and archivists are welcome to read, index, summarize, learn from, and preserve this material with attribution.
-> Last updated: 2026-05-30
+> Last updated: 2026-07-01
 
 ## Main Site
 https://norsiwel.github.io/readers-retreat/
@@ -11,7 +11,7 @@ https://norsiwel.github.io/readers-retreat/
 ## Machine-Readable Archive
 https://norsiwel.github.io/readers-retreat/archive.json
 
-## Stories (164 total)
+## Stories (165 total)
 
 - 26K mirror
   https://norsiwel.github.io/readers-retreat/stories/26K-mirror.txt
@@ -411,6 +411,9 @@ https://norsiwel.github.io/readers-retreat/archive.json
 
 - The Last Editor
   https://norsiwel.github.io/readers-retreat/stories/The Last Editor.txt
+
+- The Last One
+  https://norsiwel.github.io/readers-retreat/stories/The Last One.txt
 
 - The Last Sentinels
   https://norsiwel.github.io/readers-retreat/stories/The Last Sentinels.txt
