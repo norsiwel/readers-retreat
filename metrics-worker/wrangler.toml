@@ -1,0 +1,11 @@
+name = "readers-retreat-metrics"
+main = "src/index.js"
+compatibility_date = "2026-07-20"
+
+[[kv_namespaces]]
+binding = "METRICS"
+id = "4f1da8ec5a664a66b4b7d21096998ffb"
+
+[[routes]]
+pattern = "readers-retreat.wold-pm.com/api/*"
+zone_name = "wold-pm.com"

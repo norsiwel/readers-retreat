@@ -269,6 +269,7 @@ if(isAppMode){
 
 function cloneRepo(){
   const command="git clone https://github.com/norsiwel/readers-retreat.git";
+  fetch("https://readers-retreat.wold-pm.com/api/track?path=__clone__",{method:"POST"}).catch(()=>{});
   if(navigator.clipboard){
     navigator.clipboard.writeText(command)
       .then(()=>{ alert("clone command copied:\n\n"+command); })
@@ -357,6 +358,7 @@ function home(){
 async function openItem(item){
   active=item.path;
   if(!isAppMode) render();
+  fetch("https://readers-retreat.wold-pm.com/api/track?path="+encodeURIComponent(item.path),{method:"POST"}).catch(()=>{});
 
   if(item.type==="pdf"||item.type==="audio"||item.type==="audiobook"){
     window.open(encodeURI(item.path),"_blank");
